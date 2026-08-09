@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  9 AUG 2026 22:42
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  9 AUG 2026 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1429,59 +1429,59 @@ Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 
 
 ] (Tesis.toc [11]
+Overfull \hbox (4.01788pt too wide) in paragraph at lines 149--149
+ [][] [][][]\TU/TimesNewRoman(0)/m/n/12 Kesenjangan Kebutuhan dan Implikasi ter
+hadap Perancang- 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 154
+\TU/TimesNewRoman(0)/m/n/12 III.2.3.1 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 155
+\TU/TimesNewRoman(0)/m/n/12 III.2.3.2 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 156
+\TU/TimesNewRoman(0)/m/n/12 III.2.3.3 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 157
+\TU/TimesNewRoman(0)/m/n/12 III.2.3.4 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 160
+\TU/TimesNewRoman(0)/m/n/12 III.2.3.5 
+ []
+
+
 Overfull \hbox (0.58832pt too wide) detected at line 161
-\TU/TimesNewRoman(0)/m/n/12 III.2.4.1 
+\TU/TimesNewRoman(0)/m/n/12 III.2.3.6 
  []
 
 
 Overfull \hbox (0.58832pt too wide) detected at line 162
-\TU/TimesNewRoman(0)/m/n/12 III.2.4.2 
+\TU/TimesNewRoman(0)/m/n/12 III.2.3.7 
  []
 
 
 Overfull \hbox (0.58832pt too wide) detected at line 163
-\TU/TimesNewRoman(0)/m/n/12 III.2.4.3 
- []
-
-
-Overfull \hbox (2.23248pt too wide) in paragraph at lines 163--163
- [][] [][][]\TU/TimesNewRoman(0)/m/n/12 Fase Business Architecture (Organisasi 
-Architectu- 
+\TU/TimesNewRoman(0)/m/n/12 III.2.3.8 
  []
 
 
 Overfull \hbox (0.58832pt too wide) detected at line 164
-\TU/TimesNewRoman(0)/m/n/12 III.2.4.4 
+\TU/TimesNewRoman(0)/m/n/12 III.2.3.9 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 165
-\TU/TimesNewRoman(0)/m/n/12 III.2.4.5 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 166
-\TU/TimesNewRoman(0)/m/n/12 III.2.4.6 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 167
-\TU/TimesNewRoman(0)/m/n/12 III.2.4.7 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 168
-\TU/TimesNewRoman(0)/m/n/12 III.2.4.8 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 169
-\TU/TimesNewRoman(0)/m/n/12 III.2.4.9 
- []
-
-
-Overfull \hbox (6.58832pt too wide) detected at line 170
-\TU/TimesNewRoman(0)/m/n/12 III.2.4.10 
+Overfull \hbox (6.58832pt too wide) detected at line 165
+\TU/TimesNewRoman(0)/m/n/12 III.2.3.10 
  []
 
 )
@@ -1492,16 +1492,19 @@ Overfull \hbox (6.58832pt too wide) detected at line 170
 \tf@lof=\write6
 \openout6 = `Tesis.lof'.
 
-) (8 Daftar Tabel.tex [13
+) (8 Daftar Tabel.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [14
+ [13
 
 ]
-(Tesis.lot)
+[14] (Tesis.lot)
 \tf@lot=\write7
 \openout7 = `Tesis.lot'.
 
-) (12 Daftar Singkatan.tex [15] [16
+) (12 Daftar Singkatan.tex [15
+
+] [16
 
 ]
 Overfull \hbox (32.96596pt too wide) in alignment at lines 15--91
@@ -3042,15 +3045,26 @@ Underfull \vbox (badness 1412) has occurred while \output is active []
 
 ]
 Bab III.
+Bab III - Analisis dan Desain.tex:15: Missing $ inserted.
+<inserted text> 
+                $
+l.15 ...ulan pertahanan \parencite{Kemhan_RI2021}.
+                                                   Konsep ini menuntut kemam...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: Citation 'Kemhan_RI2021' on page 37 undefined on input line 15.
+Bab III - Analisis dan Desain.tex:15: Missing $ inserted.
+<inserted text> 
+                $
+l.15 ...ulan pertahanan \parencite{Kemhan_RI2021}.
+                                                   Konsep ini menuntut kemam...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 [37]
-
-LaTeX Warning: Reference `tab:kebutuhan-framework' on page 38 undefined on inpu
-t line 25.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 41--41
 []|\TU/TimesNewRoman(0)/m/n/12 Metodologi pe-
  []
@@ -3152,11 +3166,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 ignored: Infinite glue shrinkage found in box being split [38]
 ignored: Infinite glue shrinkage fo
 und in box being split [39]
-
-LaTeX Warning: Reference `tab:evaluasi-framework' on page 40 undefined on input
- line 64.
-
-
 Underfull \hbox (badness 1320) in paragraph at lines 82--82
 []|\TU/TimesNewRoman(0)/m/n/12 Tata kelola arsitektur dan manaje-
  []
@@ -3166,16 +3175,7 @@ Overfull \hbox (20.5629pt too wide) in paragraph at lines 70--86
  [][] 
  []
 
-
-LaTeX Warning: Reference `tab:evaluasi-framework' on page 40 undefined on input
- line 91.
-
 [40] [41]
-
-LaTeX Warning: Reference `tab:kesenjangan-framework' on page 42 undefined on in
-put line 101.
-
-
 Underfull \hbox (badness 1478) in paragraph at lines 111--111
 \TU/TimesNewRoman(0)/m/n/12 yang secara khusus menangani
  []
@@ -3192,20 +3192,8 @@ Underfull \hbox (badness 1127) in paragraph at lines 117--117
  []
 
 [42]
-
-LaTeX Warning: Reference `fig:penyesuaian-adm' on page 43 undefined on input li
-ne 137.
-
 File: images/TOGAF ADM Pertahanan indonesia.drawio.png Graphic file (type bmp)
 <images/TOGAF ADM Pertahanan indonesia.drawio.png>
-
-LaTeX Warning: Reference `tab:kebutuhan-framework' on page 43 undefined on inpu
-t line 151.
-
-
-LaTeX Warning: Reference `tab:kesenjangan-framework' on page 43 undefined on in
-put line 151.
-
 
 Overfull \hbox (1.73515pt too wide) in paragraph at lines 159--159
 []|\TU/TimesNewRoman(0)/b/n/12 No.| 
@@ -3294,59 +3282,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [46]
 File: images/Preliminary.drawio.png Graphic file (type bmp)
 <images/Preliminary.drawio.png>
-
-
-LaTeX Warning: Reference `fig:fase-preliminary' on page 47 undefined on input l
-ine 214.
-
-
-LaTeX Warning: Reference `tab:fase-preliminary' on page 47 undefined on input l
-ine 214.
-
-[47] [48]
+ [47] [48]
 File: images/Architecture Vision.drawio.png Graphic file (type bmp)
 <images/Architecture Vision.drawio.png>
-
-
-LaTeX Warning: Reference `fig:fase-vision' on page 49 undefined on input line 2
-78.
-
-
-LaTeX Warning: Reference `tab:fase-vision' on page 49 undefined on input line 2
-78.
-
-[49]
+ [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50]
 File: images/Business Architecture.drawio.png Graphic file (type bmp)
 <images/Business Architecture.drawio.png>
 
-
-LaTeX Warning: Reference `fig:fase-business' on page 51 undefined on input line
- 346.
-
-
-LaTeX Warning: Reference `tab:fase-business' on page 51 undefined on input line
- 346.
-
 [51] [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
-
-LaTeX Warning: Reference `fig:fase-data' on page 54 undefined on input line 414
-.
-
 File: images/Data Architecture.drawio.png Graphic file (type bmp)
 <images/Data Architecture.drawio.png>
-
-LaTeX Warning: Reference `fig:fase-data' on page 54 undefined on input line 423
-.
-
-
-LaTeX Warning: Reference `tab:data-architecture' on page 54 undefined on input 
-line 423.
 
 [54] [55]
 ignored: Infinite glue shrinkage found in box being split [56]
@@ -3354,34 +3305,14 @@ Overfull \vbox (56.13866pt too high) has occurred while \output is active []
 
 
 [57]
-
-LaTeX Warning: Reference `fig:fase-aplikasi' on page 58 undefined on input line
- 487.
-
 File: images/Application Architecture.drawio.png Graphic file (type bmp)
 <images/Application Architecture.drawio.png>
-
-LaTeX Warning: Reference `fig:fase-aplikasi' on page 58 undefined on input line
- 496.
-
-
-LaTeX Warning: Reference `tab:application-architecture' on page 58 undefined on
- input line 496.
-
-[58] [59]
+ [58] [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60]
 File: images/Technology Architecture.drawio.png Graphic file (type bmp)
 <images/Technology Architecture.drawio.png>
-
-
-LaTeX Warning: Reference `fig:fase-teknologi' on page 61 undefined on input lin
-e 568.
-
-
-LaTeX Warning: Reference `tab:technology-architecture' on page 61 undefined on 
-input line 568.
 
 [61]
 ignored: Infinite glue shrinkage found in box being split [62]
@@ -3391,16 +3322,7 @@ Overfull \vbox (20.14973pt too high) has occurred while \output is active []
 [63]
 File: images/C5ISR Architecture.drawio.png Graphic file (type bmp)
 <images/C5ISR Architecture.drawio.png>
- [64]
-
-LaTeX Warning: Reference `fig:fase-c5isr' on page 65 undefined on input line 64
-0.
-
-
-LaTeX Warning: Reference `tab:c5isr-architecture' on page 65 undefined on input
- line 640.
-
-[65]
+ [64] [65]
 ignored: Infinite glue shrinkage found in box being split [66]
 Overfull \vbox (92.12758pt too high) has occurred while \output is active []
 
@@ -3408,16 +3330,7 @@ Overfull \vbox (92.12758pt too high) has occurred while \output is active []
 [67]
 File: images/Opportunities & Solutions.drawio.png Graphic file (type bmp)
 <images/Opportunities & Solutions.drawio.png>
-
-
-LaTeX Warning: Reference `fig:fase-opportunities' on page 68 undefined on input
- line 703.
-
-
-LaTeX Warning: Reference `tab:opportunities-solutions' on page 68 undefined on 
-input line 703.
-
-[68] [69]
+ [68] [69]
 ignored: Infinite glue shrinkage found in box being split [70]
 Overfull \vbox (92.12758pt too high) has occurred while \output is active []
 
@@ -3425,53 +3338,13 @@ Overfull \vbox (92.12758pt too high) has occurred while \output is active []
 [71]
 File: images/Migration Planning.drawio.png Graphic file (type bmp)
 <images/Migration Planning.drawio.png>
-
-
-LaTeX Warning: Reference `fig:fase-migration' on page 72 undefined on input lin
-e 769.
-
-
-LaTeX Warning: Reference `tab:migration-planning' on page 72 undefined on input
- line 769.
-
-[72] [73]
+ [72] [73]
 File: images/Implementation Governance.drawio.png Graphic file (type bmp)
 <images/Implementation Governance.drawio.png>
-
-
-LaTeX Warning: Reference `fig:fase-governance' on page 74 undefined on input li
-ne 833.
-
-
-LaTeX Warning: Reference `tab:implementation-governance' on page 74 undefined o
-n input line 833.
-
-[74] [75]
+ [74] [75]
 File: images/Architecture Change Management.drawio.png Graphic file (type bmp)
 <images/Architecture Change Management.drawio.png>
-
-
-LaTeX Warning: Reference `fig:fase-change' on page 76 undefined on input line 8
-98.
-
-
-LaTeX Warning: Reference `tab:change-management' on page 76 undefined on input 
-line 898.
-
-[76] [77] [78]
-
-LaTeX Warning: Reference `tab:kebutuhan-framework' on page 79 undefined on inpu
-t line 956.
-
-
-LaTeX Warning: Reference `tab:evaluasi-framework' on page 79 undefined on input
- line 956.
-
-
-LaTeX Warning: Reference `tab:pemenuhan-togaf' on page 79 undefined on input li
-ne 958.
-
-
+ [76] [77] [78]
 Underfull \hbox (badness 10000) in paragraph at lines 964--965
 []|\TU/TimesNewRoman(0)/b/n/12 Lokasi
  []
@@ -3769,17 +3642,31 @@ Overfull \hbox (10.34836pt too wide) in paragraph at lines 418--418
 Peraturan Menteri Pertahanan Nomor
  []
 
+d:/Marcel/Kuliah S2 Smart X ITB/4. Semester 4/Tesis/Latex Thesis Desain Arsitek
+tur Transformasi Digital Kemhan/Tesis.tex:418: Missing $ inserted.
+<inserted text> 
+                $
+l.418 \printbibliography[title={DAFTAR PUSTAKA}]
+                                                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+d:/Marcel/Kuliah S2 Smart X ITB/4. Semester 4/Tesis/Latex Thesis Desain Arsitek
+tur Transformasi Digital Kemhan/Tesis.tex:418: Missing $ inserted.
+<inserted text> 
+                $
+l.418 \printbibliography[title={DAFTAR PUSTAKA}]
+                                                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 [91
 
 
-]
-Overfull \hbox (3.13254pt too wide) in paragraph at lines 418--418
-[][]\TU/TimesNewRoman(0)/m/n/12 NATO. 2012. \TU/TimesNewRoman(0)/m/it/12 Chicag
-o Summit Declaration. \TU/TimesNewRoman(0)/m/n/12 NATO Official text. Diakses p
-ada June 3,
- []
-
-[92] [93] [94
+] [92] [93] [94
 
 ]
 
@@ -3799,31 +3686,21 @@ L3 programming layer <2026-01-19>
 
 LaTeX Warning: There were undefined references.
 
+Package rerunfilecheck Info: File `Tesis.out' has not changed.
+(rerunfilecheck)             Checksum: 5F0258914CB252FD8A59D96A92BB021B;16037.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Tesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Tesis.out':
-(rerunfilecheck)             Before: 4D049D1EEE6E4E93C9D755946BBC84E0;15783
-(rerunfilecheck)             After:  5F0258914CB252FD8A59D96A92BB021B;16037.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Tesis
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'Tesis.run.xml'.
 \openout1 = `Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34851 strings out of 402983
- 680330 string characters out of 5448483
- 2090637 words of memory out of 5000000
- 63148 multiletter control sequences out of 15000+600000
+ 34840 strings out of 402983
+ 680160 string characters out of 5448483
+ 2092867 words of memory out of 5000000
+ 63137 multiletter control sequences out of 15000+600000
  634665 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,11n,95p,1810b,6878s stack positions out of 10000i,1000n,20000p,200000b,200000s
