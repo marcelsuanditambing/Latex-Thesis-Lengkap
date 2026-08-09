@@ -907,4 +907,1756 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedlista=\count471
 \c@listb=\count472
 \c@savedlistb=\count473
-\c@listc=\count
+\c@listc=\count474
+\c@savedlistc=\count475
+\c@listd=\count476
+\c@savedlistd=\count477
+\c@liste=\count478
+\c@savedliste=\count479
+\c@listf=\count480
+\c@savedlistf=\count481
+\c@location=\count482
+\c@savedlocation=\count483
+\c@organization=\count484
+\c@savedorganization=\count485
+\c@origlocation=\count486
+\c@savedoriglocation=\count487
+\c@origpublisher=\count488
+\c@savedorigpublisher=\count489
+\c@publisher=\count490
+\c@savedpublisher=\count491
+\c@language=\count492
+\c@savedlanguage=\count493
+\c@origlanguage=\count494
+\c@savedoriglanguage=\count495
+\c@pageref=\count496
+\c@savedpageref=\count497
+\shorthandwidth=\skip124
+\shortjournalwidth=\skip125
+\shortserieswidth=\skip126
+\shorttitlewidth=\skip127
+\shortauthorwidth=\skip128
+\shorteditorwidth=\skip129
+\locallabelnumberwidth=\skip130
+\locallabelalphawidth=\skip131
+\localshorthandwidth=\skip132
+\localshortjournalwidth=\skip133
+\localshortserieswidth=\skip134
+\localshorttitlewidth=\skip135
+\localshortauthorwidth=\skip136
+\localshorteditorwidth=\skip137
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.de
+f)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count498
+\c@textcitetotal=\count499
+\c@textcitemaxnames=\count500
+\c@biburlbigbreakpenalty=\count501
+\c@biburlbreakpenalty=\count502
+\c@biburlnumpenalty=\count503
+\c@biburlucpenalty=\count504
+\c@biburllcpenalty=\count505
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count506
+)
+Package biblatex Info: Trying to load bibliography style 'chicago-authordate'..
+.
+Package biblatex Info: ... file 'chicago-authordate.bbx' found.
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\chicag
+o-authordate.bbx
+File: chicago-authordate.bbx 2022/11/17 v 3.18b biblatex bibliography style
+\lositemsep=\skip138
+Package biblatex Info: Delimiter 'revsdnamedelim' in context '' already defined
+, overwriting.
+\cms@tempcnta=\count507
+\cms@tempcntb=\count508
+\c@bbx:relatedcount=\count509
+\c@bbx:relatedtotal=\count510
+)
+Package biblatex Info: Trying to load citation style 'chicago-authordate'...
+Package biblatex Info: ... file 'chicago-authordate.cbx' found.
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\chicag
+o-authordate.cbx
+File: chicago-authordate.cbx 2022/07/02 v 3.18 biblatex citation style
+Package biblatex Info: Trying to load citation style 'chicago-dates-common'...
+Package biblatex Info: ... file 'chicago-dates-common.cbx' found.
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\chicag
+o-dates-common.cbx
+File: chicago-dates-common.cbx 2024/04/15 v 3.20 biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\citetitle'.
+Package biblatex Info: Redefining '\footfullcite'.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+\c@cms@punct=\count511
+Package biblatex Info: Delimiter 'dateeradelim' in context '' already defined, 
+overwriting.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2026-01-19 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+)))
+Package hyperref Info: Option `colorlinks' set `true' on input line 152.
+\c@myequations=\count512
+\cftbeforemyequationsskip=\skip139
+\cftmyequationsindent=\skip140
+\cftmyequationsnumwidth=\skip141
+\c@equdepth=\count513
+\cftbeforeequtitleskip=\skip142
+\cftafterequtitleskip=\skip143
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+
+
+Package csquotes Warning: No style for language 'indonesian'.
+(csquotes)                Using fallback style on input line 342.
+
+Package csquotes Info: Redefining alias 'default' -> 'fallback'.
+No file Tesis.aux.
+\openout1 = `Tesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 342.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 342.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 342.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 342.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 342.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 342.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 342.
+LaTeX Font Info:    Redeclaring math accent \check on input line 342.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 342.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 342.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 342.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 342.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 342.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 3
+42.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 342.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+342.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 342.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 342.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+342.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 342.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 342.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 342.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 342.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 342.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 342.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: Fixing longtable code of `floatrow' package.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/floatrow\fr-longtable.s
+ty
+Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
+
+\flrow@LT@lasthead=\box72
+\flrow@LT@prelastfoot=\box73
+\c@FBLTpage=\count514
+)
+\c@lstlisting=\count515
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=674.33032pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=13.08827pt
+* \topmargin=-18.78552pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 342.
+Package microtype Info: Applying patch `item' on input line 342.
+Package microtype Info: Applying patch `toc' on input line 342.
+Package microtype Info: Applying patch `eqnum' on input line 342.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 342.
+
+Package microtype Info: Applying patch `verbatim' on input line 342.
+LaTeX Info: Redefining \microtypesetup on input line 342.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `TimesNewRoman' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring ON on input line 342.
+\@outlinefile=\write4
+\openout4 = `Tesis.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+Package biblatex Info: Trying to load language 'indonesian'...
+Package biblatex Info: ... file 'indonesian.lbx' not found.
+
+Package biblatex Warning: Language 'indonesian' not supported.
+(biblatex)                Using dummy definitions on input line 342.
+
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `Tesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Tesis.bbl' found.
+(Tesis.bbl)
+Package biblatex Info: Reference section=0 on input line 342.
+Package biblatex Info: Reference segment=0 on input line 342.
+ (1 Halaman Judul.tex
+File: images/ganesha.jpg Graphic file (type bmp)
+<images/ganesha.jpg>
+
+
+Package datetime2 Warning: Region `bahasai' has ignored 
+(datetime2)                the following settings:
+(datetime2)                showmonthname=true
+ on input line 39.
+
+[1
+
+
+
+]) (2 Lembar Pengesahan.tex [2
+
+]) (3 Pernyataan Orisinalitas.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+[4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
+
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+))
+(3a Pernyataan Penggunaan AI.tex [5] [6
+
+]
+Overfull \hbox (3.43965pt too wide) in paragraph at lines 7--7
+[]|\TU/TimesNewRoman(0)/b/n/12 No.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude, Cha-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude, Cha-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\TU/TimesNewRoman(0)/m/n/12 Pencarian informasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/TimesNewRoman(0)/m/n/12 ChatGPT,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude, Cha-
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 19--19
+[]|\TU/TimesNewRoman(0)/m/n/12 Penyusunan kode pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude, Cha-
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 19--19
+\TU/TimesNewRoman(0)/m/n/12 tGPT, GitHub
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\TU/TimesNewRoman(0)/m/n/12 Penyusunan formula
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude, Cha-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\TU/TimesNewRoman(0)/m/n/12 Penyusunan kesimpul-
+ []
+
+
+Overfull \hbox (13.72078pt too wide) in paragraph at lines 5--30
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+) (4 Abstrak.tex [7] [8
+
+]) [9]
+
+Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=674.33032pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=13.08827pt
+* \topmargin=-18.78552pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(6 Daftar Isi.tex [10
+
+
+]
+No file Tesis.toc.
+\tf@toc=\write5
+\openout5 = `Tesis.toc'.
+
+) (7 Daftar Gambar.tex [11] [12
+
+]
+No file Tesis.lof.
+\tf@lof=\write6
+\openout6 = `Tesis.lof'.
+
+) (8 Daftar Tabel.tex [13] [14
+
+]
+No file Tesis.lot.
+\tf@lot=\write7
+\openout7 = `Tesis.lot'.
+
+) (12 Daftar Singkatan.tex [15] [16
+
+]
+Overfull \hbox (32.96596pt too wide) in alignment at lines 15--91
+ [] [] [] 
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [17]
+ignored: Infinite glue shrinkage fo
+und in box being split [18]) (13 Daftar Simbol.tex [19] [20
+
+]) [21] [22
+
+] (Bab I - Pendahuluan.tex
+Bab I.
+[1
+
+
+] [2] [3]
+Underfull \vbox (badness 7030) has occurred while \output is active []
+
+ [4]
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex)
+Package babel Info: Importing data for english
+(babel)             from babel-en.ini. Reported on input line 100.
+
+
+Package biblatex Warning: No localisation for language 'english' loaded.
+(biblatex)                Please rerun LaTeX to ensure languages can
+(biblatex)                be requested properly.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Syamfithriani' on input line 100.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+[5]
+
+Package biblatex Warning: Bibliography string 'andothers' untranslated
+(biblatex)                at entry 'Hevner2004' on input line 132.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+[6]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+ [7]
+
+LaTeX Warning: Reference `tab:perancangan-arsitektur' on page 8 undefined on in
+put line 185.
+
+
+Overfull \hbox (17.46999pt too wide) in alignment at lines 187--193
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (17.46999pt too wide) in alignment at lines 193--198
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+[]|\TU/TimesNewRoman(0)/m/it/12 Preliminary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+[]|\TU/TimesNewRoman(0)/m/n/12 Menentukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+\TU/TimesNewRoman(0)/m/n/12 ruang lingkup,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+\TU/TimesNewRoman(0)/m/n/12 dan kesiapan
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 200--201
+\TU/TimesNewRoman(0)/m/n/12 organisasi dalam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+\TU/TimesNewRoman(0)/m/n/12 pengembang-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+\TU/TimesNewRoman(0)/m/n/12 an arsitektur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+\TU/TimesNewRoman(0)/m/n/12 transformasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+[]|\TU/TimesNewRoman(0)/m/n/12 Identifikasi ruang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+\TU/TimesNewRoman(0)/m/n/12 digital pertahanan;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+\TU/TimesNewRoman(0)/m/n/12 identifikasi keterka-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+[]|\TU/TimesNewRoman(0)/m/n/12 Dokumen hasil
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+\TU/TimesNewRoman(0)/m/n/12 identifikasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+\TU/TimesNewRoman(0)/m/n/12 ruang lingkup
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+\TU/TimesNewRoman(0)/m/n/12 dan regulasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\TU/TimesNewRoman(0)/m/it/12 Architecture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+[]|\TU/TimesNewRoman(0)/m/n/12 Merumuskan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+\TU/TimesNewRoman(0)/m/n/12 visi, misi, dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+\TU/TimesNewRoman(0)/m/n/12 tujuan strategis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+\TU/TimesNewRoman(0)/m/n/12 arsitektur untuk
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 204--205
+\TU/TimesNewRoman(0)/m/n/12 mendukung tran-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+\TU/TimesNewRoman(0)/m/n/12 sformasi digital
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 205--206
+[]|\TU/TimesNewRoman(0)/m/n/12 Menyusun visi dan
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 205--206
+\TU/TimesNewRoman(0)/m/n/12 identifikasi kebutuh-
+ []
+
+
+Underfull \hbox (badness 7540) in paragraph at lines 205--206
+\TU/TimesNewRoman(0)/m/n/12 an strategis organi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]|\TU/TimesNewRoman(0)/m/it/12 Business
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+[]|\TU/TimesNewRoman(0)/m/n/12 Merancang mo-
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 208--209
+\TU/TimesNewRoman(0)/m/n/12 pertahanan yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\TU/TimesNewRoman(0)/m/n/12 efektif untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\TU/TimesNewRoman(0)/m/n/12 mendukung ko-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\TU/TimesNewRoman(0)/m/n/12 mando, kendali,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\TU/TimesNewRoman(0)/m/n/12 integrasi data,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\TU/TimesNewRoman(0)/m/n/12 serta kolaborasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+[]|\TU/TimesNewRoman(0)/m/n/12 Pemodelan proses
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 209--210
+\TU/TimesNewRoman(0)/m/n/12 bisnis inti dan pen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\TU/TimesNewRoman(0)/m/n/12 dukung; analisis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\TU/TimesNewRoman(0)/m/n/12 kesenjangan proses
+ []
+
+
+Underfull \hbox (badness 6792) in paragraph at lines 209--210
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 as-is \TU/TimesNewRom
+an(0)/m/n/12 vs. \TU/TimesNewRoman(0)/m/it/12 to-be\TU/TimesNewRoman(0)/m/n/12 
+);
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\TU/TimesNewRoman(0)/m/n/12 identifikasi domain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\TU/TimesNewRoman(0)/m/n/12 hanan; penyusunan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\TU/TimesNewRoman(0)/m/it/12 business process
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\TU/TimesNewRoman(0)/m/it/12 model \TU/TimesNewRoman(0)/m/n/12 ekosistem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\TU/TimesNewRoman(0)/m/it/12 Information
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+\TU/TimesNewRoman(0)/m/it/12 Systems
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+[]|\TU/TimesNewRoman(0)/m/n/12 Menentukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+\TU/TimesNewRoman(0)/m/n/12 kebutuhan arsi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+\TU/TimesNewRoman(0)/m/n/12 tektur data dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+\TU/TimesNewRoman(0)/m/n/12 aplikasi yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+\TU/TimesNewRoman(0)/m/n/12 mendukung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+\TU/TimesNewRoman(0)/m/n/12 proses bisnis
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 213--214
+\TU/TimesNewRoman(0)/m/n/12 sain aplikasi pendu-
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 213--214
+\TU/TimesNewRoman(0)/m/n/12 kung operasi perta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+\TU/TimesNewRoman(0)/m/n/12 data dan apli-
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 214--215
+\TU/TimesNewRoman(0)/m/n/12 kasi pertahanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 Data Model,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+\TU/TimesNewRoman(0)/m/it/12 Application
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]|\TU/TimesNewRoman(0)/m/it/12 Technology
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+[]|\TU/TimesNewRoman(0)/m/n/12 Menyusun arsi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+\TU/TimesNewRoman(0)/m/n/12 tektur teknologi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+\TU/TimesNewRoman(0)/m/n/12 yang mencakup
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+\TU/TimesNewRoman(0)/m/n/12 infrastruktur,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+\TU/TimesNewRoman(0)/m/n/12 platform, dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+\TU/TimesNewRoman(0)/m/n/12 keamanan siber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+\TU/TimesNewRoman(0)/m/n/12 sebagai fondasi
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 216--217
+\TU/TimesNewRoman(0)/m/n/12 ekosistem digital
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 217--218
+\TU/TimesNewRoman(0)/m/n/12 teknologi target (ja-
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 217--218
+\TU/TimesNewRoman(0)/m/n/12 nologi dan protokol
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 218--219
+\TU/TimesNewRoman(0)/m/n/12 logi pertahanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 technology
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+\TU/TimesNewRoman(0)/m/it/12 architecture
+ []
+
+
+Overfull \hbox (17.46999pt too wide) in alignment at lines 198--220
+ [] [] [] [] [] 
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10]
+Underfull \vbox (badness 4779) has occurred while \output is active []
+
+ [11]
+Overfull \hbox (7.54031pt too wide) in paragraph at lines 295--296
+\TU/TimesNewRoman(0)/m/n/12 Metode wawancara semi-terstruktur memungkinkan peng
+galian informasi yang
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12])
+(Bab II - Studi.tex [13] [14
+
+]
+Bab II.
+
+Overfull \hbox (20.16045pt too wide) in alignment at lines 6--11
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (20.16045pt too wide) in alignment at lines 11--16
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+[]|\TU/TimesNewRoman(0)/m/it/12 Implementing
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 18--19
+\TU/TimesNewRoman(0)/m/it/12 Cybersecurity in
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Zain2023' on input line 19.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[]|\TU/TimesNewRoman(0)/m/n/12 Yunnyzar Mohd
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 19--20
+\TU/TimesNewRoman(0)/m/n/12 Zain, Nur Aza-
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 19--20
+\TU/TimesNewRoman(0)/m/n/12 liah Abu Bakar,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\TU/TimesNewRoman(0)/m/n/12 Surya Sumarni
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\TU/TimesNewRoman(0)/m/n/12 Hussien (2023)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\TU/TimesNewRoman(0)/m/n/12 ([][][]Zain, Sabrina
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[] \TU/TimesNewRoman(0)/m/n/12 Mazlan
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 20--21
+\TU/TimesNewRoman(0)/m/n/12 hanan (DefTech)
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 20--21
+\TU/TimesNewRoman(0)/m/n/12 memiliki kerang-
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 20--21
+\TU/TimesNewRoman(0)/m/n/12 belum menginte-
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 20--21
+\TU/TimesNewRoman(0)/m/n/12 an siber dan in-
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 20--21
+\TU/TimesNewRoman(0)/m/n/12 tar divisi secara
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[]|\TU/TimesNewRoman(0)/m/n/12 Menggunakan
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 21--22
+\TU/TimesNewRoman(0)/m/n/12 untuk mendesain
+ []
+
+
+Underfull \hbox (badness 6348) in paragraph at lines 21--22
+\TU/TimesNewRoman(0)/m/n/12 arsitektur “as-is”
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/TimesNewRoman(0)/m/n/12 dan “to-be” di
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 21--22
+\TU/TimesNewRoman(0)/m/n/12 Divisi keamanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/TimesNewRoman(0)/m/n/12 & pertahanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/TimesNewRoman(0)/m/n/12 perusahaan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+[]|\TU/TimesNewRoman(0)/m/it/12 Systematic Lite-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/it/12 rature Review:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/it/12 The Role of
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/it/12 Enterprise Archi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/it/12 Transformation
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Syamfithriani' on input line 24.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 24--25
+[]|\TU/TimesNewRoman(0)/m/n/12 Tri Septiar Sya-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+\TU/TimesNewRoman(0)/m/n/12 mfithriani, Yudi
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 24--25
+\TU/TimesNewRoman(0)/m/n/12 Munir, Lili Adi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+\TU/TimesNewRoman(0)/m/n/12 Wibowo, Agus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+\TU/TimesNewRoman(0)/m/n/12 Rahayu (2024)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+\TU/TimesNewRoman(0)/m/n/12 ([][][]Syamfithriani
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[] \TU/TimesNewRoman(0)/m/n/12 Wibisono
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]|\TU/TimesNewRoman(0)/m/n/12 Kebutuhan un-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/12 tuk memahami
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/12 bagaimana EA
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/12 mendukung digi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/12 (DT) pada era
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/12 Industri 4.0:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/12 teknologi baru,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/12 kerangka kerja
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/12 EA yang makin
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 26--27
+[]|\TU/TimesNewRoman(0)/m/n/12 Melakukan SLR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 systematic lite-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\TU/TimesNewRoman(0)/m/it/12 rature review\TU/TimesNewRoman(0)/m/n/12 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\TU/TimesNewRoman(0)/m/n/12 pada literatur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\TU/TimesNewRoman(0)/m/n/12 2018-2022 di
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\TU/TimesNewRoman(0)/m/n/12 sektor industri
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 26--27
+\TU/TimesNewRoman(0)/m/n/12 untuk mengiden-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\TU/TimesNewRoman(0)/m/n/12 tifikasi peranan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]|\TU/TimesNewRoman(0)/m/it/12 Benefits of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\TU/TimesNewRoman(0)/m/it/12 Digital Tran-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\TU/TimesNewRoman(0)/m/it/12 sformation and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\TU/TimesNewRoman(0)/m/it/12 Implementation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\TU/TimesNewRoman(0)/m/it/12 A Literature
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\TU/TimesNewRoman(0)/m/n/12 an menghadapi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\TU/TimesNewRoman(0)/m/n/12 kebutuhan digi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\TU/TimesNewRoman(0)/m/n/12 talisasi, tetapi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\TU/TimesNewRoman(0)/m/n/12 literatur belum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\TU/TimesNewRoman(0)/m/n/12 dan keuntungan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\TU/TimesNewRoman(0)/m/n/12 implementasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\TU/TimesNewRoman(0)/m/n/12 DT di sektor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]|\TU/TimesNewRoman(0)/m/n/12 Mereview litera-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\TU/TimesNewRoman(0)/m/n/12 tur (2015-2021)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\TU/TimesNewRoman(0)/m/n/12 tentang digital
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 31--32
+\TU/TimesNewRoman(0)/m/n/12 berbagai industri
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 31--32
+\TU/TimesNewRoman(0)/m/n/12 posisi penerapan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\TU/TimesNewRoman(0)/m/n/12 untuk industri
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]|\TU/TimesNewRoman(0)/m/it/12 Governance of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/it/12 Digital Tran-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/it/12 sformation: As
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/it/12 observed in two
+ []
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+[]|\TU/TimesNewRoman(0)/m/n/12 J. Kai Mattila
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+\TU/TimesNewRoman(0)/m/n/12 (2022) ([][][]Mattila
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[]|\TU/TimesNewRoman(0)/m/n/12 Transformasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/12 digital di orga-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/12 nisasi militer
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/12 sangat kompleks:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/12 banyak proses,
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/12 sistem, manusia,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/12 teknologi—dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/12 sering gagal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+[]|\TU/TimesNewRoman(0)/m/n/12 Menganalisis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+\TU/TimesNewRoman(0)/m/n/12 la (governance)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+\TU/TimesNewRoman(0)/m/n/12 yang diterapkan
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 36--37
+\TU/TimesNewRoman(0)/m/n/12 dalam dua studi
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 36--37
+\TU/TimesNewRoman(0)/m/n/12 kasus militer un-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+\TU/TimesNewRoman(0)/m/n/12 tuk mendukung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+\TU/TimesNewRoman(0)/m/n/12 transformasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+[]|\TU/TimesNewRoman(0)/m/it/12 Enabling Open
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\TU/TimesNewRoman(0)/m/it/12 Architecture in
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 38--39
+\TU/TimesNewRoman(0)/m/it/12 A Systemic and
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Radoman2025' on input line 39.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 39--40
+[]|\TU/TimesNewRoman(0)/m/n/12 R. L. V. R. et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\TU/TimesNewRoman(0)/m/n/12 al.(2023) ([][][]Rado-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\TU/TimesNewRoman(0)/m/n/12 man, Henshaw
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+[]|\TU/TimesNewRoman(0)/m/n/12 Sistem militer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/n/12 menghadapi:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/it/12 obsolescence\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/n/12 berkembang-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/n/12 nya kebutuhan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/n/12 operasional,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/n/12 inter-operabilitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/n/12 dalam SoS; ba-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/n/12 nyak hambatan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/n/12 dan organisasio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]|\TU/TimesNewRoman(0)/m/n/12 Memberikan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/12 analisis menye-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/12 luruh (holistik)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/12 terhadap pene-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/12 rapan arsitektur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/12 terbuka (\TU/TimesNewRoman(0)/m/it/12 Open
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+[]|\TU/TimesNewRoman(0)/m/it/12 Architecture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\TU/TimesNewRoman(0)/m/it/12 Design Spa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\TU/TimesNewRoman(0)/m/it/12 ce Generation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\TU/TimesNewRoman(0)/m/it/12 via Decision
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\TU/TimesNewRoman(0)/m/it/12 Pattern-Guided
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\TU/TimesNewRoman(0)/m/it/12 Department of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\TU/TimesNewRoman(0)/m/it/12 Defense Archite-
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Fang2024' on input line 44.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 44--45
+\TU/TimesNewRoman(0)/m/n/12 ngyun Li (2024)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]|\TU/TimesNewRoman(0)/m/n/12 Kompleksitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\TU/TimesNewRoman(0)/m/n/12 tinggi dalam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\TU/TimesNewRoman(0)/m/n/12 desain arsi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\TU/TimesNewRoman(0)/m/n/12 tektur sistem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 system-of-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\TU/TimesNewRoman(0)/m/it/12 systems (SoS)\TU/TimesNewRoman(0)/m/n/12 ;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\TU/TimesNewRoman(0)/m/n/12 keputusan ar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\TU/TimesNewRoman(0)/m/n/12 sitektur sering
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\TU/TimesNewRoman(0)/m/n/12 dilakukan tanpa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[]|\TU/TimesNewRoman(0)/m/n/12 Menggabungkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+\TU/TimesNewRoman(0)/m/n/12 pola keputusan
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 46--47
+\TU/TimesNewRoman(0)/m/n/12 formal ke dalam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+\TU/TimesNewRoman(0)/m/n/12 EA/DoDAF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+\TU/TimesNewRoman(0)/m/n/12 untuk konteks
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 46--47
+\TU/TimesNewRoman(0)/m/n/12 mili
