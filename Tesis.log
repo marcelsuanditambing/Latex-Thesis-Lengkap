@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  9 AUG 2026 22:45
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  9 AUG 2026 22:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1253,11 +1253,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `Tesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Tesis.bbl' found.
- (Tesis.bbl)
+Package biblatex Info: ... file 'Tesis.bbl' not found.
+
+No file Tesis.bbl.
 Package biblatex Info: Reference section=0 on input line 342.
 Package biblatex Info: Reference segment=0 on input line 342.
- (1 Halaman Judul.tex
+(1 Halaman Judul.tex
 File: images/ganesha.jpg Graphic file (type bmp)
 <images/ganesha.jpg>
 
@@ -1429,58 +1430,58 @@ Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 
 
 ] (Tesis.toc [11]
-Overfull \hbox (4.01788pt too wide) in paragraph at lines 149--149
+Overfull \hbox (4.01788pt too wide) in paragraph at lines 151--151
  [][] [][][]\TU/TimesNewRoman(0)/m/n/12 Kesenjangan Kebutuhan dan Implikasi ter
 hadap Perancang- 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 154
+Overfull \hbox (0.58832pt too wide) detected at line 156
 \TU/TimesNewRoman(0)/m/n/12 III.2.3.1 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 155
+Overfull \hbox (0.58832pt too wide) detected at line 157
 \TU/TimesNewRoman(0)/m/n/12 III.2.3.2 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 156
+Overfull \hbox (0.58832pt too wide) detected at line 158
 \TU/TimesNewRoman(0)/m/n/12 III.2.3.3 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 157
+Overfull \hbox (0.58832pt too wide) detected at line 159
 \TU/TimesNewRoman(0)/m/n/12 III.2.3.4 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 160
+Overfull \hbox (0.58832pt too wide) detected at line 162
 \TU/TimesNewRoman(0)/m/n/12 III.2.3.5 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 161
+Overfull \hbox (0.58832pt too wide) detected at line 163
 \TU/TimesNewRoman(0)/m/n/12 III.2.3.6 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 162
+Overfull \hbox (0.58832pt too wide) detected at line 164
 \TU/TimesNewRoman(0)/m/n/12 III.2.3.7 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 163
+Overfull \hbox (0.58832pt too wide) detected at line 165
 \TU/TimesNewRoman(0)/m/n/12 III.2.3.8 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 164
+Overfull \hbox (0.58832pt too wide) detected at line 166
 \TU/TimesNewRoman(0)/m/n/12 III.2.3.9 
  []
 
 
-Overfull \hbox (6.58832pt too wide) detected at line 165
+Overfull \hbox (6.58832pt too wide) detected at line 167
 \TU/TimesNewRoman(0)/m/n/12 III.2.3.10 
  []
 
@@ -1527,7 +1528,63 @@ Bab I.
 Underfull \vbox (badness 7030) has occurred while \output is active []
 
  [4]
-[5] [6]
+
+LaTeX Warning: Citation 'Syamfithriani' on page 5 undefined on input line 100.
+
+
+LaTeX Warning: Citation 'Mattila2022' on page 5 undefined on input line 100.
+
+[5]
+
+LaTeX Warning: Citation 'Hevner2004' on page 6 undefined on input line 132.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 132.
+
+[6]
+
+LaTeX Warning: Citation 'KemhanRI2014' on page 7 undefined on input line 164.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 164.
+
+
+LaTeX Warning: Citation 'KementerianKomunikasidanInformatika2018' on page 7 und
+efined on input line 168.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'RepublikIndonesia2023' on page 7 undefined on input li
+ne 168.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'RI2019' on page 7 undefined on input line 168.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'RPJPN2025' on page 7 undefined on input line 168.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 168.
+
+
+Overfull \hbox (87.67874pt too wide) in paragraph at lines 167--169
+[]\TU/TimesNewRoman(0)/m/n/12 Tuntutan regulasi nasional. [][],
+ []
+
+
+Overfull \hbox (142.70906pt too wide) in paragraph at lines 167--169
+[][]\TU/TimesNewRoman(0)/m/n/12 , [][], dan [][]
+ []
+
+
 Underfull \vbox (badness 1817) has occurred while \output is active []
 
  [7]
@@ -1940,6 +1997,9 @@ Underfull \hbox (badness 5504) in paragraph at lines 18--19
  []
 
 
+LaTeX Warning: Citation 'Zain2023' on page 15 undefined on input line 19.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 []|\TU/TimesNewRoman(0)/m/n/12 Yunnyzar Mohd
  []
@@ -1962,16 +2022,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 \TU/TimesNewRoman(0)/m/n/12 Hussien (2023)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\TU/TimesNewRoman(0)/m/n/12 ([][][]Zain, Sabrina,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\TU/TimesNewRoman(0)/m/n/12 dan Mazlan
  []
 
 
@@ -2060,6 +2110,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
  []
 
 
+LaTeX Warning: Citation 'Syamfithriani' on page 15 undefined on input line 24.
+
+
 Underfull \hbox (badness 5105) in paragraph at lines 24--25
 []|\TU/TimesNewRoman(0)/m/n/12 Tri Septiar Sya-
  []
@@ -2082,16 +2135,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 \TU/TimesNewRoman(0)/m/n/12 Rahayu (2024)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-\TU/TimesNewRoman(0)/m/n/12 ([][][]Syamfithriani
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-\TU/TimesNewRoman(0)/m/n/12 dan Wibisono
  []
 
 
@@ -2290,13 +2333,16 @@ Underfull \hbox (badness 3039) in paragraph at lines 33--34
  []
 
 
+LaTeX Warning: Citation 'Mattila2022' on page 15 undefined on input line 34.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
-[]|\TU/TimesNewRoman(0)/m/n/12 J. Kai Mattila
+[]|\TU/TimesNewRoman(0)/m/n/12 J. Kai Mat-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
-\TU/TimesNewRoman(0)/m/n/12 (2022) ([][][]Mattila
+\TU/TimesNewRoman(0)/m/n/12 tila (2022)
  []
 
 
@@ -2390,18 +2436,16 @@ Underfull \hbox (badness 7081) in paragraph at lines 38--39
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 39--40
-[]|\TU/TimesNewRoman(0)/m/n/12 R. L. V. R. et
+LaTeX Warning: Citation 'Radoman2025' on page 15 undefined on input line 39.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+[]|\TU/TimesNewRoman(0)/m/n/12 R. L. V. R.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
-\TU/TimesNewRoman(0)/m/n/12 al.(2023) ([][][]Rado-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-\TU/TimesNewRoman(0)/m/n/12 man, Henshaw,
+\TU/TimesNewRoman(0)/m/n/12 et al.(2023)
  []
 
 
@@ -2518,6 +2562,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 \TU/TimesNewRoman(0)/m/it/12 Defense Archite-
  []
+
+
+LaTeX Warning: Citation 'Fang2024' on page 15 undefined on input line 44.
 
 
 Underfull \hbox (badness 1565) in paragraph at lines 44--45
@@ -2637,26 +2684,42 @@ File: images/DT_Verkuli.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (1.66449pt too wide) in paragraph at lines 71--73
-\TU/TimesNewRoman(0)/m/n/12 berbasis teknologi yang memengaruhi strategi, organ
-isasi, kultur, teknologi, pelangg-
- []
+LaTeX Warning: Citation 'Verkuli2019' on page 17 undefined on input line 71.
+
+
+LaTeX Warning: Citation '' on page 17 undefined on input line 71.
 
 [17]
 File: images/DT_Canvas.png Graphic file (type bmp)
 <images/DT_Canvas.png>
+
+
+LaTeX Warning: Citation 'Elia2024' on page 18 undefined on input line 80.
+
+
+LaTeX Warning: Citation '' on page 18 undefined on input line 80.
+
 File: images/DT_Nasional.png Graphic file (type bmp)
 <images/DT_Nasional.png>
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Citation 'RPJPN2025' on page 18 undefined on input line 91.
+
 [18] [19]
+
+LaTeX Warning: Citation 'U.S.DepartmentofDefense2019' on page 20 undefined on i
+nput line 110.
+
+
+LaTeX Warning: Citation '' on page 20 undefined on input line 110.
+
 File: images/DoD_Digital_Modernization_Strategy.png Graphic file (type bmp)
 <images/DoD_Digital_Modernization_Strategy.png>
 
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 131.
+LaTeX Warning: Citation 'U.S.DepartmentofDefense2019' on page 20 undefined on i
+nput line 131.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2665,6 +2728,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
  [20]
+
+LaTeX Warning: Citation 'Matthews2024' on page 21 undefined on input line 152.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
@@ -2672,22 +2739,44 @@ File: images/Singapore_Total_Defence.png Graphic file (type bmp)
 <images/Singapore_Total_Defence.png>
 
 [22]
-Overfull \hbox (0.76758pt too wide) in paragraph at lines 184--186
-\TU/TimesNewRoman(0)/m/n/12 rian Komunikasi dan Informatika [][]2018[][][][]), 
-dan ([][][]Republik Indonesia [][]2023[][][][]) meng-
+
+LaTeX Warning: Citation 'KementerianKomunikasidanInformatika2018' on page 23 un
+defined on input line 185.
+
+
+LaTeX Warning: Citation 'RepublikIndonesia2023' on page 23 undefined on input l
+ine 185.
+
+
+Overfull \hbox (192.30275pt too wide) in paragraph at lines 184--186
+[]\TU/TimesNewRoman(0)/m/n/12 Tuntutan kebijakan nasional tekait SPBE dan Satu 
+Data Indonesia. ([]),
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
+
+LaTeX Warning: Citation 'scribd_network_centric_warfare' on page 24 undefined o
+n input line 205.
+
+
+LaTeX Warning: Citation '' on page 24 undefined on input line 205.
+
 [24]
 File: images/Arsitektur_NCW.png Graphic file (type bmp)
 <images/Arsitektur_NCW.png>
- [25] [26]
+
+
+LaTeX Warning: Citation 'Koch2015' on page 25 undefined on input line 232.
+
+[25] [26]
+
+LaTeX Warning: Citation 'USDoD2022' on page 27 undefined on input line 258.
+
 File: images/Arsitektur_JADC2.png Graphic file (type bmp)
 <images/Arsitektur_JADC2.png>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2698,14 +2787,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
+
+LaTeX Warning: Citation 'C4ISRAWG1998' on page 29 undefined on input line 318.
+
+
+LaTeX Warning: Citation 'DoDAF2007v15' on page 29 undefined on input line 318.
+
+
+LaTeX Warning: Citation 'DoDAF2010v20' on page 29 undefined on input line 318.
+
+
+LaTeX Warning: Citation 'DoDAF2011v202' on page 29 undefined on input line 318.
+
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
+
+LaTeX Warning: Citation 'NAFv4' on page 30 undefined on input line 329.
+
+
+LaTeX Warning: Citation 'Weilkiens2022' on page 30 undefined on input line 335.
+
+
 [30]
-Overfull \hbox (1.97382pt too wide) in paragraph at lines 343--345
-\TU/TimesNewRoman(0)/m/it/12 terprise architecture\TU/TimesNewRoman(0)/m/n/12 )
- yang paling banyak digunakan secara internasional untuk mem-
- []
+
+LaTeX Warning: Citation 'togaf2020' on page 31 undefined on input line 343.
 
 [31]
 File: images/TOGAF_Framework.png Graphic file (type bmp)
@@ -3045,24 +3153,11 @@ Underfull \vbox (badness 1412) has occurred while \output is active []
 
 ]
 Bab III.
-Bab III - Analisis dan Desain.tex:15: Missing $ inserted.
-<inserted text> 
-                $
-l.15 ...ulan pertahanan \parencite{Kemhan_RI2021}.
-                                                   Konsep ini menuntut kemam...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-Bab III - Analisis dan Desain.tex:15: Missing $ inserted.
-<inserted text> 
-                $
-l.15 ...ulan pertahanan \parencite{Kemhan_RI2021}.
-                                                   Konsep ini menuntut kemam...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Warning: Citation 'Kemhan_RI2021' on page 37 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'USArmyMDO2018' on page 37 undefined on input line 15.
 
 [37]
 Underfull \hbox (badness 10000) in paragraph at lines 41--41
@@ -3192,517 +3287,4 @@ Underfull \hbox (badness 1127) in paragraph at lines 117--117
  []
 
 [42]
-File: images/TOGAF ADM Pertahanan indonesia.drawio.png Graphic file (type bmp)
-<images/TOGAF ADM Pertahanan indonesia.drawio.png>
-
-Overfull \hbox (1.73515pt too wide) in paragraph at lines 159--159
-[]|\TU/TimesNewRoman(0)/b/n/12 No.| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-[]|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan
- []
-
-
-Overfull \hbox (1.73515pt too wide) in paragraph at lines 164--164
-[]|\TU/TimesNewRoman(0)/b/n/12 No.| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-[]|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 169--169
-\TU/TimesNewRoman(0)/m/n/12 katan harus dapat saling terintegrasi
- []
-
-
-Underfull \hbox (badness 5787) in paragraph at lines 173--173
-[]|\TU/TimesNewRoman(0)/m/it/12 Data as Strategic
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 173--173
-\TU/TimesNewRoman(0)/m/n/12 aset strategis nasional untuk mendu-
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 173--174
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-02, KF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
-[]|\TU/TimesNewRoman(0)/m/it/12 Integrated Com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
-[]|\TU/TimesNewRoman(0)/m/n/12 Mendukung sistem komando dan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
-\TU/TimesNewRoman(0)/m/n/12 pengendalian terintegrasi berbasis
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 179--180
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-03, KF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
-[]|\TU/TimesNewRoman(0)/m/it/12 Governance &
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 181--182
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-07, KF-
- []
-
-
-Underfull \hbox (badness 7451) in paragraph at lines 183--183
-\TU/TimesNewRoman(0)/m/n/12 konsep \TU/TimesNewRoman(0)/m/it/12 smart defence \
-TU/TimesNewRoman(0)/m/n/12 dan operasi
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 185--186
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-02, KF-
- []
-
-[43] [44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]
-[46]
-File: images/Preliminary.drawio.png Graphic file (type bmp)
-<images/Preliminary.drawio.png>
- [47] [48]
-File: images/Architecture Vision.drawio.png Graphic file (type bmp)
-<images/Architecture Vision.drawio.png>
- [49]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50]
-File: images/Business Architecture.drawio.png Graphic file (type bmp)
-<images/Business Architecture.drawio.png>
-
-[51] [52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]
-File: images/Data Architecture.drawio.png Graphic file (type bmp)
-<images/Data Architecture.drawio.png>
-
-[54] [55]
-ignored: Infinite glue shrinkage found in box being split [56]
-Overfull \vbox (56.13866pt too high) has occurred while \output is active []
-
-
-[57]
-File: images/Application Architecture.drawio.png Graphic file (type bmp)
-<images/Application Architecture.drawio.png>
- [58] [59]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60]
-File: images/Technology Architecture.drawio.png Graphic file (type bmp)
-<images/Technology Architecture.drawio.png>
-
-[61]
-ignored: Infinite glue shrinkage found in box being split [62]
-Overfull \vbox (20.14973pt too high) has occurred while \output is active []
-
-
-[63]
-File: images/C5ISR Architecture.drawio.png Graphic file (type bmp)
-<images/C5ISR Architecture.drawio.png>
- [64] [65]
-ignored: Infinite glue shrinkage found in box being split [66]
-Overfull \vbox (92.12758pt too high) has occurred while \output is active []
-
-
-[67]
-File: images/Opportunities & Solutions.drawio.png Graphic file (type bmp)
-<images/Opportunities & Solutions.drawio.png>
- [68] [69]
-ignored: Infinite glue shrinkage found in box being split [70]
-Overfull \vbox (92.12758pt too high) has occurred while \output is active []
-
-
-[71]
-File: images/Migration Planning.drawio.png Graphic file (type bmp)
-<images/Migration Planning.drawio.png>
- [72] [73]
-File: images/Implementation Governance.drawio.png Graphic file (type bmp)
-<images/Implementation Governance.drawio.png>
- [74] [75]
-File: images/Architecture Change Management.drawio.png Graphic file (type bmp)
-<images/Architecture Change Management.drawio.png>
- [76] [77] [78]
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
-[]|\TU/TimesNewRoman(0)/b/n/12 Lokasi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 969--970
-[]|\TU/TimesNewRoman(0)/b/n/12 Lokasi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 974--974
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 974--974
-[]|\TU/TimesNewRoman(0)/m/n/12 Metodologi pe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 974--974
-\TU/TimesNewRoman(0)/m/n/12 ngembangan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 974--974
-\TU/TimesNewRoman(0)/m/n/12 preskriptif dan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 976--976
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 976--976
-[]|\TU/TimesNewRoman(0)/m/n/12 Cakupan domain
- []
-
-
-Underfull \hbox (badness 2359) in paragraph at lines 976--976
-\TU/TimesNewRoman(0)/m/it/12 tion Systems Architecture\TU/TimesNewRoman(0)/m/n/
-12 , dan \TU/TimesNewRoman(0)/m/it/12 Te-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 976--977
-[]|\TU/TimesNewRoman(0)/m/n/12 III.2.3.3;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 976--977
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.4;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 978--978
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 978--978
-[]|\TU/TimesNewRoman(0)/m/n/12 Akomodasi doma-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 978--979
-[]|\TU/TimesNewRoman(0)/m/n/12 III.2.1;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 978--979
-\TU/TimesNewRoman(0)/m/n/12 III.2.2;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 980--980
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 980--980
-\TU/TimesNewRoman(0)/m/n/12 bagai prinsip per-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 980--981
-[]|\TU/TimesNewRoman(0)/m/n/12 III.2.2;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 980--981
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.5;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--982
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--982
-[]|\TU/TimesNewRoman(0)/m/n/12 Dukungan intero-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--982
-\TU/TimesNewRoman(0)/m/n/12 perabilitas lintas
- []
-
-
-Underfull \hbox (badness 3396) in paragraph at lines 982--982
-[]|\TU/TimesNewRoman(0)/m/n/12 Penetapan prinsip \TU/TimesNewRoman(0)/m/it/12 I
-nteroperabilitas
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 982--982
-\TU/TimesNewRoman(0)/m/n/12 disertai penetapan standar integrasi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--983
-[]|\TU/TimesNewRoman(0)/m/n/12 III.2.2;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--983
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.4;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 984--984
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 984--984
-[]|\TU/TimesNewRoman(0)/m/n/12 Keterkaitan de-
- []
-
-
-Underfull \hbox (badness 4036) in paragraph at lines 984--984
-\TU/TimesNewRoman(0)/m/n/12 ngan doktrin dan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 984--985
-[]|\TU/TimesNewRoman(0)/m/n/12 III.2.2;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 984--985
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.1;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 986--986
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 986--986
-[]|\TU/TimesNewRoman(0)/m/n/12 Keselarasan de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 986--986
-\TU/TimesNewRoman(0)/m/n/12 ngan regulasi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 986--987
-[]|\TU/TimesNewRoman(0)/m/n/12 III.2.2;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 988--988
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 988--988
-[]|\TU/TimesNewRoman(0)/m/n/12 Fleksibilitas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 988--988
-\TU/TimesNewRoman(0)/m/n/12 dan kemampuan
- []
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 988--988
-[]|\TU/TimesNewRoman(0)/m/n/12 Penyesuaian dibatasi pada satu pe-
- []
-
-
-Underfull \hbox (badness 1264) in paragraph at lines 988--988
-\TU/TimesNewRoman(0)/m/n/12 nambahan fase yang bersifat aditif
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 990--990
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 990--990
-[]|\TU/TimesNewRoman(0)/m/n/12 Fase \TU/TimesNewRoman(0)/m/it/12 Implementation
- Governance
- []
-
-
-Underfull \hbox (badness 3838) in paragraph at lines 990--990
-\TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 Architecture Chang
-e Manage-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 990--991
-[]|\TU/TimesNewRoman(0)/m/n/12 III.2.3.1;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 990--991
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.9;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 992--992
-[]|\TU/TimesNewRoman(0)/m/n/12 KF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 992--992
-[]|\TU/TimesNewRoman(0)/m/n/12 Ketersediaan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 992--992
-\TU/TimesNewRoman(0)/m/n/12 dan kematangan
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [79]
-ignored: Infinite glue shrinkage fo
-und in box being split [80]) (Bab VI - Evaluasi.tex [81] [82
-
-]
-Bab IV.
-[83
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\TU/TimesNewRoman(0)/m/it/12 Technology Readi-
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 58--59
-[]|\TU/TimesNewRoman(0)/m/n/12 Kemampuan beradaptasi terhadap perubahan
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 60--60
-[]|\TU/TimesNewRoman(0)/m/it/12 Smart Defense Alig-
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [84] [85]
-Underfull \hbox (badness 1789) in paragraph at lines 156--156
-[]|\TU/TimesNewRoman(0)/m/n/12 Kelayakan pembentukan DTO (\TU/TimesNewRoman(0)/
-m/it/12 Digital
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
-[]|\TU/TimesNewRoman(0)/m/n/12 Aspek Data dan
- []
-
-[86]) (Bab VII - Penutup.tex [87] [88
-
-]
-Bab V.
-) [89
-
-] [90]
-Overfull \hbox (2.03366pt too wide) in paragraph at lines 418--418
-\TU/TimesNewRoman(0)/m/n/12 Tahun 2018 tentang Sistem Pemerintahan Berbasis Ele
-ktronik”. \TU/TimesNewRoman(0)/m/it/12 Menteri Hukum
- []
-
-
-Overfull \hbox (10.34836pt too wide) in paragraph at lines 418--418
-[][]\TU/TimesNewRoman(0)/m/n/12 Kemhan RI. 2014. “  Pedoman Pertahanan Siber”. 
-Peraturan Menteri Pertahanan Nomor
- []
-
-d:/Marcel/Kuliah S2 Smart X ITB/4. Semester 4/Tesis/Latex Thesis Desain Arsitek
-tur Transformasi Digital Kemhan/Tesis.tex:418: Missing $ inserted.
-<inserted text> 
-                $
-l.418 \printbibliography[title={DAFTAR PUSTAKA}]
-                                                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-d:/Marcel/Kuliah S2 Smart X ITB/4. Semester 4/Tesis/Latex Thesis Desain Arsitek
-tur Transformasi Digital Kemhan/Tesis.tex:418: Missing $ inserted.
-<inserted text> 
-                $
-l.418 \printbibliography[title={DAFTAR PUSTAKA}]
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[91
-
-
-] [92] [93] [94
-
-]
-
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 305.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: Unused \captionsetup[algorithm] on input line 315.
-See the caption package documentation for explanation.
-
-(Tesis.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
- ***********
-
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5F0258914CB252FD8A59D96A92BB021B;16037.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
-Package logreq Info: Writing requests to 'Tesis.run.xml'.
-\openout1 = `Tesis.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 34840 strings out of 402983
- 680160 string characters out of 5448483
- 2092867 words of memory out of 5000000
- 63137 multiletter control sequences out of 15000+600000
- 634665 words of font info for 97 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 73i,11n,95p,1810b,6878s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on Tesis.pdf (116 pages).
+File: 
