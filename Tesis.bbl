@@ -1,0 +1,1079 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{DoDAF2011v202}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=edda4f952c1268db0e7d048f59c449ff}{%
+           family={{Department of Defense Deputy Chief Information Officer}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {U.S. Department of Defense}%
+      }
+      \strng{namehash}{edda4f952c1268db0e7d048f59c449ff}
+      \strng{fullhash}{edda4f952c1268db0e7d048f59c449ff}
+      \strng{fullhashraw}{edda4f952c1268db0e7d048f59c449ff}
+      \strng{bibnamehash}{edda4f952c1268db0e7d048f59c449ff}
+      \strng{authorbibnamehash}{edda4f952c1268db0e7d048f59c449ff}
+      \strng{authornamehash}{edda4f952c1268db0e7d048f59c449ff}
+      \strng{authorfullhash}{edda4f952c1268db0e7d048f59c449ff}
+      \strng{authorfullhashraw}{edda4f952c1268db0e7d048f59c449ff}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DoDAF Journal}
+      \field{title}{{The DoDAF Architecture Framework Version 2.02}}
+      \field{type}{techreport}
+      \field{year}{2011}
+      \field{pages}{289}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://dodcio.defense.gov/Portals/0/Documents/DODAF/DoDAF_v2-02_web.pdf
+      \endverb
+      \verb{url}
+      \verb http://dodcio.defense.gov/Portals/0/Documents/DODAF/DoDAF_v2-02_web.pdf
+      \endverb
+    \endentry
+    \entry{Elia2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7f7620bb05e332a36c27b2c42886ee3b}{%
+           family={Elia},
+           familyi={E\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccd7749f37c018d3f9400a978cc10cec}{%
+           family={Solazzo},
+           familyi={S\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57ed5217898caf3dcb65374e334f1112}{%
+           family={Lerro},
+           familyi={L\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c64948a6f2fe278080b716f07f6985b7}{%
+           family={Pigni},
+           familyi={P\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccdf657cbf077908986e9484a29bb68a}{%
+           family={Tucci},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a1637ff7d4dd26190435c07f48f4d3d0}
+      \strng{fullhash}{353baa0404f76fe5b51ebf7b37291ee6}
+      \strng{fullhashraw}{353baa0404f76fe5b51ebf7b37291ee6}
+      \strng{bibnamehash}{353baa0404f76fe5b51ebf7b37291ee6}
+      \strng{authorbibnamehash}{353baa0404f76fe5b51ebf7b37291ee6}
+      \strng{authornamehash}{a1637ff7d4dd26190435c07f48f4d3d0}
+      \strng{authorfullhash}{353baa0404f76fe5b51ebf7b37291ee6}
+      \strng{authorfullhashraw}{353baa0404f76fe5b51ebf7b37291ee6}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Digital transformation has garnered significant interest within the research and business communities, and has become an umbrella concept to address the multiple technological, strategic, operational, and leadership dimensions involved in digitally enabled organizational renewal. Such transformation spans beyond mere automation of existing practices to a radical change of business scope. Despite this increased attention, a shared understanding of exactly what digital transformation encompasses and how a digital transformation initiative can be defined and led is still underdeveloped. This article aims to contribute to this research gap by identifying the multifaceted conceptual and applied dimensions of digital transformation and integrating them into a single, unifying framework. Based on a synthesis of extensive yet fragmented literature and feedback from domain experts, we present a conceptual map (i.e., a canvas) for successful digital transformation initiatives. In addition, we identify the key elements through which one can lead implementation (i.e., roles, competencies, behaviors, and enablers). The article contributes both to academia—by advancing the meaning and constituent factors of digital transformation—and practitioners, with the formulation of a conceptual tool for managers engaged in a systemic design of digital transformation initiatives.}
+      \field{issn}{00076813}
+      \field{journaltitle}{Business Horizons}
+      \field{number}{4}
+      \field{title}{{The digital transformation canvas: A conceptual framework for leading the digital transformation process}}
+      \field{volume}{67}
+      \field{year}{2024}
+      \field{pages}{381\bibrangedash 398}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.bushor.2024.03.007
+      \endverb
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital SDM/Digital Transformation Canvas.pdf:pdf;::
+      \endverb
+      \keyw{Conceptual framework,Digital leadership,Digital transformation,Organizational renewal}
+    \endentry
+    \entry{Fang2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=adeae3bdfa1e4b08b4e815bfc2d448e8}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Zhemei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eebacca9e99b77887386a9c3f75f936d}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xuemeng},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e96753df1a50d60c3dc477c0bd8535e2}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Fengyun},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a681b3571aeadfb677ff1cf16f1051d}
+      \strng{fullhash}{9a681b3571aeadfb677ff1cf16f1051d}
+      \strng{fullhashraw}{9a681b3571aeadfb677ff1cf16f1051d}
+      \strng{bibnamehash}{9a681b3571aeadfb677ff1cf16f1051d}
+      \strng{authorbibnamehash}{9a681b3571aeadfb677ff1cf16f1051d}
+      \strng{authornamehash}{9a681b3571aeadfb677ff1cf16f1051d}
+      \strng{authorfullhash}{9a681b3571aeadfb677ff1cf16f1051d}
+      \strng{authorfullhashraw}{9a681b3571aeadfb677ff1cf16f1051d}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Systems}
+      \field{number}{9}
+      \field{title}{{Architecture Design Space Generation via Decision Pattern-Guided Department of Defense Architecture Framework Modeling}}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{336}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/systems12090336
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/marce/Downloads/Architecture Design Space Generation via Decision Pattern-Guided Department of Defense Architecture Framework Modeling.pdf:pdf
+      \endverb
+      \keyw{architecture design space,decision pattern,department of defense architecture,framework}
+    \endentry
+    \entry{Hevner2004}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e054261c7f1739e1ba1db0a45e385c1b}{%
+           family={Hevner},
+           familyi={H\bibinitperiod},
+           given={Alan\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5aec260b5b1381edc4b8ff6755f2d543}{%
+           family={March},
+           familyi={M\bibinitperiod},
+           given={Salvatore\bibnamedelima T},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c518c214dc9e77148493e9ea47f505ab}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jinsoo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65565df90d4793da7a2f20e5e1b07345}{%
+           family={Ram},
+           familyi={R\bibinitperiod},
+           given={Sudha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{77b3350005135e016e7a83431f326d8f}
+      \strng{fullhash}{b163bef761d9a2c79a3d232595321775}
+      \strng{fullhashraw}{b163bef761d9a2c79a3d232595321775}
+      \strng{bibnamehash}{b163bef761d9a2c79a3d232595321775}
+      \strng{authorbibnamehash}{b163bef761d9a2c79a3d232595321775}
+      \strng{authornamehash}{77b3350005135e016e7a83431f326d8f}
+      \strng{authorfullhash}{b163bef761d9a2c79a3d232595321775}
+      \strng{authorfullhashraw}{b163bef761d9a2c79a3d232595321775}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Two paradigms characterize much of the research in the Information Systems discipline: behavioral science and design science. The behavioral- science paradigm seeks to develop and verify theories that explain or predict human or organi- zational behavior. The design-science paradigm seeks to extend the boundaries of human and organizational capabilities by creating new and innovative artifacts. Both paradigms are founda- tional to the IS discipline, positioned as it is at the confluence of people, organizations, and techno- logy. Our objective is to describe the performance of design-science research in Information Sys- tems via a concise conceptual framework and clear guidelines for understanding, executing, and evaluating the research. In the design-science paradigm, knowledge and understanding of a problem domain and its solution are achieved in the building and application of the designed arti- fact. Three recent exemplars in the research literature are used to demonstrate the application of these guidelines. We conclude with an analysis of the challenges of performing high-quality design-science research in the context of the broader IS community.}
+      \field{journaltitle}{MIS Quarterly}
+      \field{number}{1}
+      \field{title}{{Design Sceince in Information Systems}}
+      \field{volume}{28}
+      \field{year}{2004}
+      \field{pages}{75\bibrangedash 105}
+      \range{pages}{31}
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Design_Science_in_Information_Systems_Research.pdf:pdf;::
+      \endverb
+      \keyw{busi-,design artifact,design science,information systems research meth-,odologies}
+    \endentry
+    \entry{KementerianKomunikasidanInformatika2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a3892ebcb87c6e6ceeeebc0cee9adfde}{%
+           family={{Kementerian Komunikasi dan Informatika}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3892ebcb87c6e6ceeeebc0cee9adfde}
+      \strng{fullhash}{a3892ebcb87c6e6ceeeebc0cee9adfde}
+      \strng{fullhashraw}{a3892ebcb87c6e6ceeeebc0cee9adfde}
+      \strng{bibnamehash}{a3892ebcb87c6e6ceeeebc0cee9adfde}
+      \strng{authorbibnamehash}{a3892ebcb87c6e6ceeeebc0cee9adfde}
+      \strng{authornamehash}{a3892ebcb87c6e6ceeeebc0cee9adfde}
+      \strng{authorfullhash}{a3892ebcb87c6e6ceeeebc0cee9adfde}
+      \strng{authorfullhashraw}{a3892ebcb87c6e6ceeeebc0cee9adfde}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Menimbang bahwa untuk mewujudkan tata kelola pemerintahan yang bersih, efektif, transparan, dan akuntabel serta pelayanan publik yang berkualitas dan terpercaya diperlukan sistem pemerintahan berbasis elektronik;}
+      \field{journaltitle}{Menteri Hukum Dan Hak Asasi Manusia Republik Indonesia}
+      \field{title}{{Peraturan Presiden Nomor 95 Tahun 2018 tentang Sistem Pemerintahan Berbasis Elektronik}}
+      \field{year}{2018}
+      \field{pages}{110}
+      \range{pages}{1}
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/Perpres Nomor 95 Tahun 2018 ttg SPBE.pdf:pdf;::;::
+      \endverb
+    \endentry
+    \entry{Permenhan2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=891a2e0ad410d787463189b49e586bcf}{%
+           family={{Kementerian Pertahanan Republik Indonesia}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jakarta}%
+      }
+      \strng{namehash}{891a2e0ad410d787463189b49e586bcf}
+      \strng{fullhash}{891a2e0ad410d787463189b49e586bcf}
+      \strng{fullhashraw}{891a2e0ad410d787463189b49e586bcf}
+      \strng{bibnamehash}{891a2e0ad410d787463189b49e586bcf}
+      \strng{authorbibnamehash}{891a2e0ad410d787463189b49e586bcf}
+      \strng{authornamehash}{891a2e0ad410d787463189b49e586bcf}
+      \strng{authorfullhash}{891a2e0ad410d787463189b49e586bcf}
+      \strng{authorfullhashraw}{891a2e0ad410d787463189b49e586bcf}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Berita Negara Republik Indonesia}
+      \field{note}{Peraturan Menteri Pertahanan}
+      \field{title}{Peraturan Menteri Pertahanan Republik Indonesia Nomor 1 Tahun 2024 tentang Organisasi dan Tata Kerja Kementerian Pertahanan}
+      \field{year}{2024}
+    \endentry
+    \entry{KemhanRI2014}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1743950e8abacf7d710c10648a7cedb3}{%
+           family={{Kemhan RI}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Kementerian Pertahanan Republik Indonesia}%
+      }
+      \strng{namehash}{1743950e8abacf7d710c10648a7cedb3}
+      \strng{fullhash}{1743950e8abacf7d710c10648a7cedb3}
+      \strng{fullhashraw}{1743950e8abacf7d710c10648a7cedb3}
+      \strng{bibnamehash}{1743950e8abacf7d710c10648a7cedb3}
+      \strng{authorbibnamehash}{1743950e8abacf7d710c10648a7cedb3}
+      \strng{authornamehash}{1743950e8abacf7d710c10648a7cedb3}
+      \strng{authorfullhash}{1743950e8abacf7d710c10648a7cedb3}
+      \strng{authorfullhashraw}{1743950e8abacf7d710c10648a7cedb3}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{note}{Peraturan Menteri Pertahanan Nomor 82 Tahun 2014}
+      \field{title}{{Pedoman Pertahanan Siber}}
+      \field{year}{2014}
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/Permenhan-No.-82-Tahun-2014-tentang-Pertahanan-Siber.pdf:pdf;::
+      \endverb
+    \endentry
+    \entry{Kemhan_RI2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=010a60820afe5a08200f7fca8fe44f25}{%
+           family={Kemhan_RI},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{010a60820afe5a08200f7fca8fe44f25}
+      \strng{fullhash}{010a60820afe5a08200f7fca8fe44f25}
+      \strng{fullhashraw}{010a60820afe5a08200f7fca8fe44f25}
+      \strng{bibnamehash}{010a60820afe5a08200f7fca8fe44f25}
+      \strng{authorbibnamehash}{010a60820afe5a08200f7fca8fe44f25}
+      \strng{authornamehash}{010a60820afe5a08200f7fca8fe44f25}
+      \strng{authorfullhash}{010a60820afe5a08200f7fca8fe44f25}
+      \strng{authorfullhashraw}{010a60820afe5a08200f7fca8fe44f25}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{number}{848}
+      \field{title}{{Permenhan RI No 10/2021 Ttg Renstra Kemhan dan TNI 2020-2024}}
+      \field{year}{2021}
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/Renstra Kemhan 2020 - 2024.pdf:pdf;::
+      \endverb
+    \endentry
+    \entry{Koch2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=eb692bc1ea6907eb4cf0ac6aefcb469b}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7464d194c9d282f4dac14437f6117b6f}{%
+           family={Golling},
+           familyi={G\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2c48027c2ce7a95a609f04112b806f3}
+      \strng{fullhash}{b2c48027c2ce7a95a609f04112b806f3}
+      \strng{fullhashraw}{b2c48027c2ce7a95a609f04112b806f3}
+      \strng{bibnamehash}{b2c48027c2ce7a95a609f04112b806f3}
+      \strng{authorbibnamehash}{b2c48027c2ce7a95a609f04112b806f3}
+      \strng{authornamehash}{b2c48027c2ce7a95a609f04112b806f3}
+      \strng{authorfullhash}{b2c48027c2ce7a95a609f04112b806f3}
+      \strng{authorfullhashraw}{b2c48027c2ce7a95a609f04112b806f3}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{The advance of information and communication technology nowadays offers worldwide broadband communication with high data rates. Motivated by the benefits of real-time distributed information shared between units as well as different levels of command for the purpose of fast and reliable decision-making, numerous nations have been working hard over the past years to implement Network Centric Warfare (NCW). By that, information superiority can be gained and translated into command superiority and finally into force superiority. Being strongly dependent on fast and reliable communication, electrical power outages or disruptions of network nodes like SatCom systems respectively links can have a severe impact on information gathering and in turn on the decision making process and the capacity of forces to act. As a consequence, questions arise about the robustness of the NCW doctrine. The ability of power projection is strongly hampered by anti-access/area denial (A2/AD) capabilities. In order to successfully conduct military operations against technologically advanced opponents, forces must address A2/AD as an important element of today's battle-field, comprehend the associated operational implications, and eliminate any imbalances between military objectives and the means by which to achieve them. Following these considerations, this paper - on a technical level - analyses capabilities and weaknesses of NCW with regard to modern theatres. Based on that, recommendations in order to strengthen the performance and reliability for the further development of NCW are given.}
+      \field{isbn}{9789949954421}
+      \field{issn}{23255374}
+      \field{journaltitle}{International Conference on Cyber Conflict, CYCON}
+      \field{title}{{Blackout and now? Network centric warfare in an anti-access area-denial theatre}}
+      \field{volume}{2015-Janua}
+      \field{year}{2015}
+      \field{pages}{169\bibrangedash 184}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/CYCON.2015.7158476
+      \endverb
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/NCW - Nato.pdf:pdf;::
+      \endverb
+      \keyw{A2AD,Anti-acess area denial,Cyber war,Network Centric Warfare,Network breakdown,Next-generation military networks,Robust NCW}
+    \endentry
+    \entry{DoDAF2010v20}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa5a7c8780167efaa3ed45566a0806a0}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {U.S. Department of Defense}%
+      }
+      \strng{namehash}{aa5a7c8780167efaa3ed45566a0806a0}
+      \strng{fullhash}{aa5a7c8780167efaa3ed45566a0806a0}
+      \strng{fullhashraw}{aa5a7c8780167efaa3ed45566a0806a0}
+      \strng{bibnamehash}{aa5a7c8780167efaa3ed45566a0806a0}
+      \strng{authorbibnamehash}{aa5a7c8780167efaa3ed45566a0806a0}
+      \strng{authornamehash}{aa5a7c8780167efaa3ed45566a0806a0}
+      \strng{authorfullhash}{aa5a7c8780167efaa3ed45566a0806a0}
+      \strng{authorfullhashraw}{aa5a7c8780167efaa3ed45566a0806a0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{703}
+      \field{title}{{DoDAF V2.0 Overview}}
+      \field{type}{techreport}
+      \field{year}{2010}
+    \endentry
+    \entry{Matthews2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=084103fe635dbd824cb7877324d5fa99}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f4139af458a3ddccf087eed57236058}{%
+           family={{Bintang Timur}},
+           familyi={B\bibinitperiod},
+           given={Fitriani},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{d6c1d4f18d20c190b5da1368ead6ce8d}
+      \strng{fullhash}{d6c1d4f18d20c190b5da1368ead6ce8d}
+      \strng{fullhashraw}{d6c1d4f18d20c190b5da1368ead6ce8d}
+      \strng{bibnamehash}{d6c1d4f18d20c190b5da1368ead6ce8d}
+      \strng{authorbibnamehash}{d6c1d4f18d20c190b5da1368ead6ce8d}
+      \strng{authornamehash}{d6c1d4f18d20c190b5da1368ead6ce8d}
+      \strng{authorfullhash}{d6c1d4f18d20c190b5da1368ead6ce8d}
+      \strng{authorfullhashraw}{d6c1d4f18d20c190b5da1368ead6ce8d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Singapore launched its Total Defence strategy in 1984. It was one of the first countries in the modern era to enact such a policy based on an expanded interpretation of national security. Conventionally defence equates to military security, but for Singapore this approach was too limiting. There was a recognition that defence and development were intertwined and accordingly the authorities sought to exploit the synergies from adopting an integrative security approach. Total Defence thus emerged, manifesting itself as a blend of soft ‘social resilience' elements designed to foster collectivism and national identity, and the harder industrial and technological dynamics of ‘defence capability'. The resulting civil-military overlay, along with the government's imperative to push the boundaries of innovational endeavour, has enabled Singapore to achieve a remarkable cultural, economic and military transformation. In the process, it has achieved rapid expansion of both defence ‘and' development, leaving most other contemporary post-colonial states in its wake. Yet, the uncertain and turbulent global environment over recent years has revealed possible emerging fault lines in the Total Defence model that the Singaporean authorities would be well advised to heed, and, if possible, resolve.}
+      \field{issn}{14768267}
+      \field{journaltitle}{Defence and Peace Economics}
+      \field{number}{5}
+      \field{title}{{Singapore's 'Total Defence' Strategy}}
+      \field{volume}{35}
+      \field{year}{2024}
+      \field{pages}{638\bibrangedash 658}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/10242694.2023.2187924
+      \endverb
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/Singapore s Total Defence Strategy.pdf:pdf;::
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/10242694.2023.2187924
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/10242694.2023.2187924
+      \endverb
+      \keyw{Comprehensive Security,Singapore,Total Defence,defence-ecosystem,social resilience}
+    \endentry
+    \entry{Mattila2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5ec69d2e434db8858530d2881af73bef}{%
+           family={Mattila},
+           familyi={M\bibinitperiod},
+           given={Juha\bibnamedelima Kai},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5ec69d2e434db8858530d2881af73bef}
+      \strng{fullhash}{5ec69d2e434db8858530d2881af73bef}
+      \strng{fullhashraw}{5ec69d2e434db8858530d2881af73bef}
+      \strng{bibnamehash}{5ec69d2e434db8858530d2881af73bef}
+      \strng{authorbibnamehash}{5ec69d2e434db8858530d2881af73bef}
+      \strng{authornamehash}{5ec69d2e434db8858530d2881af73bef}
+      \strng{authorfullhash}{5ec69d2e434db8858530d2881af73bef}
+      \strng{authorfullhashraw}{5ec69d2e434db8858530d2881af73bef}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{title}{{Governance of Digital Transformation : As Observed in two Cases of Military Transformations}}
+      \field{year}{2022}
+      \field{pages}{300\bibrangedash 309}
+      \range{pages}{10}
+      \verb{file}
+      \verb :C\:/Users/marce/Downloads/Governance of Digital Transformation As Observed in two Cases of.pdf:pdf
+      \endverb
+      \keyw{action research,complex socio-technical,digital transformation,ict governance methods,is management}
+    \endentry
+    \entry{scribd_network_centric_warfare}{article}{}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{title}{{Network Centric Warfare | PDF}}
+      \field{urlday}{17}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scribd.com/document/958726721/011225-Network-Centric-Warfare
+      \endverb
+      \verb{url}
+      \verb https://www.scribd.com/document/958726721/011225-Network-Centric-Warfare
+      \endverb
+    \endentry
+    \entry{NAFv4}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cf5593968e997d7e64c3760f7ee7b17c}{%
+           family={{North Atlantic Treaty Organization}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {NATO Consultation, Command}%
+        {Control Board (C3B)}%
+      }
+      \strng{namehash}{cf5593968e997d7e64c3760f7ee7b17c}
+      \strng{fullhash}{cf5593968e997d7e64c3760f7ee7b17c}
+      \strng{fullhashraw}{cf5593968e997d7e64c3760f7ee7b17c}
+      \strng{bibnamehash}{cf5593968e997d7e64c3760f7ee7b17c}
+      \strng{authorbibnamehash}{cf5593968e997d7e64c3760f7ee7b17c}
+      \strng{authornamehash}{cf5593968e997d7e64c3760f7ee7b17c}
+      \strng{authorfullhash}{cf5593968e997d7e64c3760f7ee7b17c}
+      \strng{authorfullhashraw}{cf5593968e997d7e64c3760f7ee7b17c}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{January 2018}
+      \field{title}{{NATO Architecture Framework (NAFv4)}}
+      \field{type}{techreport}
+      \field{year}{2020}
+      \field{pages}{157}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.nato.int/cps/en/natohq/topics_157575.htm
+      \endverb
+      \verb{url}
+      \verb https://www.nato.int/cps/en/natohq/topics_157575.htm
+      \endverb
+    \endentry
+    \entry{RPJPN2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e170e6d1903f770cdf2946ae96dad2c1}{%
+           family={{Pemerintah Republik Indonesia}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e170e6d1903f770cdf2946ae96dad2c1}
+      \strng{fullhash}{e170e6d1903f770cdf2946ae96dad2c1}
+      \strng{fullhashraw}{e170e6d1903f770cdf2946ae96dad2c1}
+      \strng{bibnamehash}{e170e6d1903f770cdf2946ae96dad2c1}
+      \strng{authorbibnamehash}{e170e6d1903f770cdf2946ae96dad2c1}
+      \strng{authornamehash}{e170e6d1903f770cdf2946ae96dad2c1}
+      \strng{authorfullhash}{e170e6d1903f770cdf2946ae96dad2c1}
+      \strng{authorfullhashraw}{e170e6d1903f770cdf2946ae96dad2c1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Pemerintah Republik Indonesia}
+      \field{title}{{Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045}}
+      \field{year}{2024}
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/UU_RPJPN-2025-2045.pdf:pdf;::;::
+      \endverb
+    \endentry
+    \entry{Radoman2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=87c1a5d83912cf5d02c9063f9e3bd6a2}{%
+           family={Radoman},
+           familyi={R\bibinitperiod},
+           given={Raquel\bibnamedelimb L\bibnamedelima V},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7da67ef62ffd045c6dd0f2978a9fad2}{%
+           family={Henshaw},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39e6d86240ffbb0866393068553bb8d5}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{865af343592ba9d2260d324396c6af67}
+      \strng{fullhash}{865af343592ba9d2260d324396c6af67}
+      \strng{fullhashraw}{865af343592ba9d2260d324396c6af67}
+      \strng{bibnamehash}{865af343592ba9d2260d324396c6af67}
+      \strng{authorbibnamehash}{865af343592ba9d2260d324396c6af67}
+      \strng{authornamehash}{865af343592ba9d2260d324396c6af67}
+      \strng{authorfullhash}{865af343592ba9d2260d324396c6af67}
+      \strng{authorfullhashraw}{865af343592ba9d2260d324396c6af67}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{title}{{Enabling Open Architecture in Military Systems : A Systemic and Holistic Analysis}}
+      \field{year}{2025}
+      \field{pages}{1\bibrangedash 37}
+      \range{pages}{37}
+      \verb{file}
+      \verb :C\:/Users/marce/Downloads/Enabling_Open_Architecture_in_Military_Systems_A_S.pdf:pdf
+      \endverb
+    \endentry
+    \entry{RepublikIndonesia2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=824da8e2765619bb86b980b69b5fe59d}{%
+           family={{Republik Indonesia}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{824da8e2765619bb86b980b69b5fe59d}
+      \strng{fullhash}{824da8e2765619bb86b980b69b5fe59d}
+      \strng{fullhashraw}{824da8e2765619bb86b980b69b5fe59d}
+      \strng{bibnamehash}{824da8e2765619bb86b980b69b5fe59d}
+      \strng{authorbibnamehash}{824da8e2765619bb86b980b69b5fe59d}
+      \strng{authornamehash}{824da8e2765619bb86b980b69b5fe59d}
+      \strng{authorfullhash}{824da8e2765619bb86b980b69b5fe59d}
+      \strng{authorfullhashraw}{824da8e2765619bb86b980b69b5fe59d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Peraturan Presiden Republik Indonesia}
+      \field{number}{132281}
+      \field{title}{{Peraturan Presiden Republik Indonesia Nomor 82 Tahun 2023 tentang Percepatan Transformasi Digital dan Keterpaduan Layanan Digital Nasional}}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/Perpres Nomor 82 Tahun 2023 ttg Percepatan Transformasi Digital.pdf:pdf;::
+      \endverb
+      \verb{urlraw}
+      \verb https://peraturan.bpk.go.id/Details/273981/perpres-no-82-tahun-2023
+      \endverb
+      \verb{url}
+      \verb https://peraturan.bpk.go.id/Details/273981/perpres-no-82-tahun-2023
+      \endverb
+    \endentry
+    \entry{RI2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=29385129de1653f39189832f584f412b}{%
+           family={RI},
+           familyi={R\bibinitperiod},
+           given={Presiden},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{29385129de1653f39189832f584f412b}
+      \strng{fullhash}{29385129de1653f39189832f584f412b}
+      \strng{fullhashraw}{29385129de1653f39189832f584f412b}
+      \strng{bibnamehash}{29385129de1653f39189832f584f412b}
+      \strng{authorbibnamehash}{29385129de1653f39189832f584f412b}
+      \strng{authornamehash}{29385129de1653f39189832f584f412b}
+      \strng{authorfullhash}{29385129de1653f39189832f584f412b}
+      \strng{authorfullhashraw}{29385129de1653f39189832f584f412b}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Penelitian ini bertujuan untuk menganalisis politik hukum Undang-Undang Nomor 23 Tahun 2019 tentang Pengelolaan Sumber Daya Nasional untuk Pertahanan Negara. Permasalahan hukum yang dianalissi dalam penelitian ini adalah arah politik hukum Undang-Undang Nomor 23 tahun 2019 tentang Pengelolaan Sumber Daya Nasional untuk Pertahanan Negara dan implikasinya terhadap rakyat. Penelitian ini merupakan penelitian hukum normatif. Hasil penelitian ini menyimpulkan bahwa lahirnya Undang Undang a quo dilatarbelakangi oleh suatu keadaan untuk memperkuat pertahanan negara dalam menghadapi ancaman melalui sistem pertahanan rakyat semesta. Arah politik hukum Undang-Undang a quo ialah mewujudkan tegaknya kedaulatan negara, terjaganya keutuhan wilayah, dan keselamatan segenap bangsa dari segala bentuk ancaman. Selain itu, sejumlah asas yang tercantum sebagai dasar dalam UU a quo cukup termanifestasi dalam beberapa pasal. Namun demikian, asas-asas ini kemudian tereduksi oleh kecenderungan materi muatan Undang-Undang a quo yang bernuansa melanggar hak asasi manusia, overkriminalisasi, kurang akomodatif terhadap kondisi ancaman kekinian, serta menimbulkan potensi penyalahgunaan dalam pendanaannya.}
+      \field{issn}{26205386}
+      \field{journaltitle}{Sekretariat Negara. Jakarta}
+      \field{number}{009207}
+      \field{title}{{UU No. 23 Tahun 2019 tentang Pengelolaan Sumber Daya Nasional untuk Pertahanan Negara}}
+      \field{year}{2019}
+      \field{pages}{53}
+      \range{pages}{1}
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/Salinan-UU-Nomor-23-Tahun-2019 ttg Pengelolaan Sumber Daya Nasional untuk Pertahanan Negara.pdf:pdf;::
+      \endverb
+    \endentry
+    \entry{Syamfithriani}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=25b55af9f02617a96361ebf7ef60befb}{%
+           family={Syamfithriani},
+           familyi={S\bibinitperiod},
+           given={Tri\bibnamedelima Septiar},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=713becad8a3a094d5c82cc6e947e74e8}{%
+           family={Wibisono},
+           familyi={W\bibinitperiod},
+           given={Yudi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Atlantis Press International BV}%
+      }
+      \strng{namehash}{50cac267286ca0f183e36f2126c45cfe}
+      \strng{fullhash}{50cac267286ca0f183e36f2126c45cfe}
+      \strng{fullhashraw}{50cac267286ca0f183e36f2126c45cfe}
+      \strng{bibnamehash}{50cac267286ca0f183e36f2126c45cfe}
+      \strng{authorbibnamehash}{50cac267286ca0f183e36f2126c45cfe}
+      \strng{authornamehash}{50cac267286ca0f183e36f2126c45cfe}
+      \strng{authorfullhash}{50cac267286ca0f183e36f2126c45cfe}
+      \strng{authorfullhashraw}{50cac267286ca0f183e36f2126c45cfe}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789464634433}
+      \field{number}{Gcbme 2023}
+      \field{title}{{Systematic Literature Review : The Role of Enterprise Architecture in Digital Transformation in the Era of the Fourth Industrial Revolution}}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.2991/978-94-6463-443-3
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/marce/Downloads/Systematic Literature Review The Role of Enterprise.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.2991/978-94-6463-443-3_55
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.2991/978-94-6463-443-3_55
+      \endverb
+      \keyw{0,Digital Transformation,Enterprise Architecture,Industry 4.0,digital transformation,enterprise architecture,industry 4}
+    \endentry
+    \entry{togaf2020}{article}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{title}{{TOGAF | www.opengroup.org}}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.opengroup.org/togaf
+      \endverb
+      \verb{url}
+      \verb https://www.opengroup.org/togaf
+      \endverb
+    \endentry
+    \entry{USArmyMDO2018}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80af90fe7f30e2767faed4faf6e2d3bf}{%
+           family={{U.S. Army}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {U.S. Army Training}%
+        {Doctrine Command (TRADOC)}%
+      }
+      \strng{namehash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{fullhash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{fullhashraw}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{bibnamehash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{authorbibnamehash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{authornamehash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{authorfullhash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{authorfullhashraw}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{525-3-1}
+      \field{title}{{The U.S. Army in Multi-Domain Operations 2028}}
+      \field{type}{TRADOC Pamphlet}
+      \field{year}{2018}
+    \endentry
+    \entry{DoDAF2007v15}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c276e5e25dabfcb5829609b82a1e01ca}{%
+           family={{U.S. Department of Defense}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {U.S. Department of Defense, DoD Architecture Framework Working Group}%
+      }
+      \strng{namehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{fullhash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{fullhashraw}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{bibnamehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authorbibnamehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authornamehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authorfullhash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authorfullhashraw}{c276e5e25dabfcb5829609b82a1e01ca}
+      \field{extraname}{1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{February}
+      \field{title}{{DoD Architecture Framework Volume I: Definitions and Guidelines, Version 1.5}}
+      \field{type}{techreport}
+      \field{volume}{I}
+      \field{year}{2007}
+    \endentry
+    \entry{U.S.DepartmentofDefense2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c276e5e25dabfcb5829609b82a1e01ca}{%
+           family={{U.S. Department of Defense}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{fullhash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{fullhashraw}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{bibnamehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authorbibnamehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authornamehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authorfullhash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authorfullhashraw}{c276e5e25dabfcb5829609b82a1e01ca}
+      \field{extraname}{2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{title}{{DoD Digital Modernization Strategy: Information Resource Management Strategic Plan FY2019-FY2023}}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 72}
+      \range{pages}{72}
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital SDM/DoD Digital Modernization Strategy 2019.pdf:pdf;::
+      \endverb
+    \endentry
+    \entry{C4ISRAWG1998}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=29ea58a082e33677854f505d5c871ba9}{%
+           family={{US DoD}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {U.S. Department of Defense}%
+      }
+      \strng{namehash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{fullhash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{fullhashraw}{29ea58a082e33677854f505d5c871ba9}
+      \strng{bibnamehash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{authorbibnamehash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{authornamehash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{authorfullhash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{authorfullhashraw}{29ea58a082e33677854f505d5c871ba9}
+      \field{extraname}{1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{July}
+      \field{title}{{C4ISR Architecture Working Group (AWG) Final Report}}
+      \field{type}{techreport}
+      \field{year}{1998}
+    \endentry
+    \entry{USDoD2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=29ea58a082e33677854f505d5c871ba9}{%
+           family={{US DoD}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {U.S. Department of Defense}%
+      }
+      \strng{namehash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{fullhash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{fullhashraw}{29ea58a082e33677854f505d5c871ba9}
+      \strng{bibnamehash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{authorbibnamehash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{authornamehash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{authorfullhash}{29ea58a082e33677854f505d5c871ba9}
+      \strng{authorfullhashraw}{29ea58a082e33677854f505d5c871ba9}
+      \field{extraname}{2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{number}{March}
+      \field{title}{{Summary of the Joint All-Domain Command and Control (JADC2) Strategy}}
+      \field{year}{2022}
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/SUMMARY-OF-THE-JOINT-ALL-DOMAIN-COMMAND-AND-CONTROL-STRATEGY (JADC2).pdf:pdf;::
+      \endverb
+      \verb{urlraw}
+      \verb https://media.defense.gov/2022/Mar/17/2002958406/-1/-1/1/SUMMARY-OF-THE-JOINT-ALL-DOMAIN-COMMAND-AND-CONTROL-STRATEGY.PDF
+      \endverb
+      \verb{url}
+      \verb https://media.defense.gov/2022/Mar/17/2002958406/-1/-1/1/SUMMARY-OF-THE-JOINT-ALL-DOMAIN-COMMAND-AND-CONTROL-STRATEGY.PDF
+      \endverb
+      \keyw{CUI,JADC2,Strategy}
+    \endentry
+    \entry{Verkuli2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=78887778f1adb24e08be2d0d192343f6}{%
+           family={Verkuli},
+           familyi={V\bibinitperiod},
+           given={Arie\bibnamedelima Hans},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04638596e3e3c2645c5ea68197093921}{%
+           family={Hinkelmann},
+           familyi={H\bibinitperiod},
+           given={Knut},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab4641993d211f09dc6570ee8930610a}{%
+           family={Aeschbacher},
+           familyi={A\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f1e172114dd3c78520c338729dc2e42}{%
+           family={Bumann},
+           familyi={B\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90dd48ef6252849f81b7b4b52e210c75}{%
+           family={Peter},
+           familyi={P\bibinitperiod},
+           given={Marc\bibnamedelima K},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c6ef7f118ff541022181d3f0d30c26b}
+      \strng{fullhash}{3acc5ca3e990e59610ceb83185831d63}
+      \strng{fullhashraw}{3acc5ca3e990e59610ceb83185831d63}
+      \strng{bibnamehash}{3acc5ca3e990e59610ceb83185831d63}
+      \strng{authorbibnamehash}{3acc5ca3e990e59610ceb83185831d63}
+      \strng{authornamehash}{6c6ef7f118ff541022181d3f0d30c26b}
+      \strng{authorfullhash}{3acc5ca3e990e59610ceb83185831d63}
+      \strng{authorfullhashraw}{3acc5ca3e990e59610ceb83185831d63}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{For many organisations, digital transformation is a strategic priority in order to renew their business and stay competitive. However, managers find it difficult to set and implement digital agendas because they are unsure about the process, topics and setup. In order to provide management with an overview of the most important topics, a literature review has identified eighteen validated digital maturity models and frameworks which describe various dimensions or action fields to be considered for a digital transformation strategy. In a comparative analysis of over one hundred described dimensions , the most often cited dimensions were identified, namely strategy, the organisation , corporate culture, technology, the customer and people (employees). The six identified dimensions/action fields provide an important framework for businesses to succeed in digital transformations. Zusammenfassung Für viele Unternehmen ist die digitale Transformation eine strategische Priorität, um}
+      \field{title}{{Digitalisierung und andere Innovationsformen im Management}}
+      \field{volume}{2}
+      \field{year}{2019}
+      \field{pages}{13\bibrangedash 40}
+      \range{pages}{28}
+      \verb{file}
+      \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital SDM/Bumann_Peter_Action-Fields_of_Digital_Transformation.pdf:pdf;::
+      \endverb
+      \keyw{Corporate Culture,Customers,Digital Maturity Models,Digital Transformation,Employers,Frameworks,Organization,Strategy,Technology}
+    \endentry
+    \entry{Weilkiens2022}{incollection}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=457ec7edc99b6a61f24d71555f532609}{%
+           family={Weilkiens},
+           familyi={W\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b014a37d7a854b1b5d7ba4ff7c1576a}{%
+           family={Lamm},
+           familyi={L\bibinitperiod},
+           given={Jesko\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61a92330d973fdcc7e382fff626fa6c8}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53b8687f7368169ff91c2a2fea8b186a}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7716b05cff480340d258aa9ec0436ee5}
+      \strng{fullhash}{9630d86119948576f27d53316c3f7317}
+      \strng{fullhashraw}{9630d86119948576f27d53316c3f7317}
+      \strng{bibnamehash}{9630d86119948576f27d53316c3f7317}
+      \strng{authorbibnamehash}{9630d86119948576f27d53316c3f7317}
+      \strng{authornamehash}{7716b05cff480340d258aa9ec0436ee5}
+      \strng{authorfullhash}{9630d86119948576f27d53316c3f7317}
+      \strng{authorfullhashraw}{9630d86119948576f27d53316c3f7317}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Model-Based System Architecture, Second Edition}
+      \field{title}{{Architecture Frameworks}}
+      \field{year}{2022}
+      \field{pages}{279\bibrangedash 299}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1002/9781119746683.ch19
+      \endverb
+    \endentry
+    \entry{Zain2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9988a879e982bf41c158476c2463a4b5}{%
+           family={Zain},
+           familyi={Z\bibinitperiod},
+           given={Yunnyzar\bibnamedelima Mohd},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9502cd5516f338729124999d08f061cf}{%
+           family={Sabrina},
+           familyi={S\bibinitperiod},
+           given={Nur},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37fb87ed378f583705a4811d979a88da}{%
+           family={Mazlan},
+           familyi={M\bibinitperiod},
+           given={Syazwani},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b8eabbcc845a4e55b9447859fba840a}
+      \strng{fullhash}{1b8eabbcc845a4e55b9447859fba840a}
+      \strng{fullhashraw}{1b8eabbcc845a4e55b9447859fba840a}
+      \strng{bibnamehash}{1b8eabbcc845a4e55b9447859fba840a}
+      \strng{authorbibnamehash}{1b8eabbcc845a4e55b9447859fba840a}
+      \strng{authornamehash}{1b8eabbcc845a4e55b9447859fba840a}
+      \strng{authorfullhash}{1b8eabbcc845a4e55b9447859fba840a}
+      \strng{authorfullhashraw}{1b8eabbcc845a4e55b9447859fba840a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{number}{1}
+      \field{title}{{Implementing Cybersecurity In DefTech Sdn Bhd using DoDAF}}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{file}
+      \verb :C\:/Users/marce/Downloads/Implementing_Cybersecurity_In_DefTech_Sdn_Bhd_usin.pdf:pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
