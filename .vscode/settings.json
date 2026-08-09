@@ -1,0 +1,48 @@
+{
+  // ====== LaTeX Workshop: resep build XeLaTeX + Biber untuk Tesis.tex ======
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "XeLaTeX ➜ Biber ➜ XeLaTeX x2",
+      "tools": ["xelatex", "biber", "xelatex", "xelatex"]
+    },
+    {
+      "name": "XeLaTeX saja (cepat, tanpa update sitasi)",
+      "tools": ["xelatex"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+    {
+      "name": "biber",
+      "command": "biber",
+      "args": ["%DOCFILE%"],
+      "env": {}
+    }
+  ],
+  // File utama yang dikompilasi (root document)
+  "latex-workshop.latex.rootFile": "Tesis.tex",
+  // Resep default = yang pertama (XeLaTeX + Biber)
+  "latex-workshop.latex.recipe.default": "first",
+  // Bersihkan berkas bantu, TAPI jangan hapus .pdf dan .bbl
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux", "*.bcf", "*.blg", "*.idx", "*.ind", "*.lof", "*.lot",
+    "*.out", "*.toc", "*.acn", "*.acr", "*.alg", "*.glg", "*.glo",
+    "*.gls", "*.fls", "*.log", "*.fdb_latexmk", "*.snm", "*.nav",
+    "*.run.xml", "*.synctex.gz"
+  ],
+  // Build otomatis saat menyimpan (opsional; matikan bila terasa berat)
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  // Penampil PDF di dalam VS Code (tab)
+  "latex-workshop.view.pdf.viewer": "tab"
+}
