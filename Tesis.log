@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  9 AUG 2026 23:22
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  9 AUG 2026 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1061,8 +1061,22 @@ Package csquotes Info: Redefining alias 'default' -> 'fallback'.
 (C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
 -english.tex)
 Package babel Info: Importing data for english
-(babel)             from babel-en.ini. Reported on input line 55.
+(babel)             from babel-en.ini. Reported on input line 54.
 )
+Runaway argument?
+{\contentsline {table}{\numberline {IV.12}{\ignorespaces Rincian \textit \ETC.
+d:/Marcel/Kuliah S2 Smart X ITB/4. Semester 4/Tesis/Latex Thesis Desain Arsitek
+tur Transformasi Digital Kemhan/Tesis.tex:342: File ended while scanning use of
+ \@writefile.
+<inserted text> 
+                \par 
+l.342 \begin{document}
+                      
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 \openout1 = `Tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 342.
@@ -1157,7 +1171,6 @@ Package caption Info: floatrow package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-
 (C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
@@ -1228,24 +1241,45 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package hyperref Info: Link coloring ON on input line 342.
-(Tesis.out) (Tesis.out)
+(Tesis.out)
+Runaway argument?
+{chap 
+d:/Marcel/Kuliah S2 Smart X ITB/4. Semester 4/Tesis/Latex Thesis Desain Arsitek
+tur Transformasi Digital Kemhan/Tesis.tex:342: File ended while scanning use of
+ \@@BOOKMARK.
+<inserted text> 
+                \par 
+l.342 \begin{document}
+                      
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(Tesis.out)
+Runaway argument?
+{chap 
+d:/Marcel/Kuliah S2 Smart X ITB/4. Semester 4/Tesis/Latex Thesis Desain Arsitek
+tur Transformasi Digital Kemhan/Tesis.tex:342: File ended while scanning use of
+ \@@BOOKMARK.
+<inserted text> 
+                \par 
+l.342 \begin{document}
+                      
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 \@outlinefile=\write4
 \openout4 = `Tesis.out'.
 
 Package biblatex Info: Trying to load language 'indonesian'...
 Package biblatex Info: ... file 'indonesian.lbx' not found.
 
-
 Package biblatex Warning: Language 'indonesian' not supported.
 (biblatex)                Using dummy definitions on input line 342.
 
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
-x
-File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-)
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1254,7 +1288,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Tesis.bbl' found.
- (Tesis.bbl)
+(Tesis.bbl)
 Package biblatex Info: Reference section=0 on input line 342.
 Package biblatex Info: Reference segment=0 on input line 342.
  (1 Halaman Judul.tex
@@ -1428,95 +1462,36 @@ Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 (6 Daftar Isi.tex [10
 
 
-] (Tesis.toc [11]
-Overfull \hbox (4.01788pt too wide) in paragraph at lines 149--149
- [][] [][][]\TU/TimesNewRoman(0)/m/n/12 Kesenjangan Kebutuhan dan Implikasi ter
-hadap Perancang- 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 154
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.1 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 155
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.2 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 156
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.3 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 157
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.4 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 160
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.5 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 161
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.6 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 162
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.7 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 163
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.8 
- []
-
-
-Overfull \hbox (0.58832pt too wide) detected at line 164
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.9 
- []
-
-
-Overfull \hbox (6.58832pt too wide) detected at line 165
-\TU/TimesNewRoman(0)/m/n/12 III.2.3.10 
- []
-
-[12])
+] (Tesis.toc)
 \tf@toc=\write5
 \openout5 = `Tesis.toc'.
 
-) (7 Daftar Gambar.tex [13] [14
+) (7 Daftar Gambar.tex [11] [12
 
-] (Tesis.lof
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15])
+] (Tesis.lof)
 \tf@lof=\write6
 \openout6 = `Tesis.lof'.
 
-)
-(8 Daftar Tabel.tex [16] (Tesis.lot [17
+) (8 Daftar Tabel.tex [13] [14
 
-])
+] (Tesis.lot)
 \tf@lot=\write7
 \openout7 = `Tesis.lot'.
 
-) (12 Daftar Singkatan.tex [18]
+) (12 Daftar Singkatan.tex [15]
+[16
+
+]
 Overfull \hbox (32.96596pt too wide) in alignment at lines 15--91
  [] [] [] 
  []
 
 
-ignored: Infinite glue shrinkage found in box being split [19
+ignored: Infinite glue shrinkage found in box being split [17]
+ignored: Infinite glue shrinkage fo
+und in box being split [18]) (13 Daftar Simbol.tex [19] [20
 
-]
-ignored: Infinite glue shrinkage found in box being split [20]) (13 Daftar Simbol.tex [
-21] [22
-
-]) [23] [24
+]) [21] [22
 
 ] (Bab I - Pendahuluan.tex
 Bab I.
@@ -1527,7 +1502,78 @@ Bab I.
 Underfull \vbox (badness 7030) has occurred while \output is active []
 
  [4]
-[5] [6]
+
+Package biblatex Warning: No localisation for language 'english' loaded.
+(biblatex)                Please rerun LaTeX to ensure languages can
+(biblatex)                be requested properly.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Syamfithriani' on input line 100.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+[5]
+
+Package biblatex Warning: Bibliography string 'andothers' untranslated
+(biblatex)                at entry 'Hevner2004' on input line 132.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+[6]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
 Underfull \vbox (badness 1817) has occurred while \output is active []
 
  [7]
@@ -1940,6 +1986,17 @@ Underfull \hbox (badness 5504) in paragraph at lines 18--19
  []
 
 
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Zain2023' on input line 19.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 []|\TU/TimesNewRoman(0)/m/n/12 Yunnyzar Mohd
  []
@@ -1966,12 +2023,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\TU/TimesNewRoman(0)/m/n/12 ([][][]Zain, Sabrina,
+\TU/TimesNewRoman(0)/m/n/12 ([][][]Zain, Sabrina
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\TU/TimesNewRoman(0)/m/n/12 dan Mazlan
+[] \TU/TimesNewRoman(0)/m/n/12 Mazlan
  []
 
 
@@ -2060,6 +2117,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
  []
 
 
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Syamfithriani' on input line 24.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
 Underfull \hbox (badness 5105) in paragraph at lines 24--25
 []|\TU/TimesNewRoman(0)/m/n/12 Tri Septiar Sya-
  []
@@ -2091,7 +2159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
-\TU/TimesNewRoman(0)/m/n/12 dan Wibisono
+[] \TU/TimesNewRoman(0)/m/n/12 Wibisono
  []
 
 
@@ -2290,6 +2358,13 @@ Underfull \hbox (badness 3039) in paragraph at lines 33--34
  []
 
 
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 []|\TU/TimesNewRoman(0)/m/n/12 J. Kai Mattila
  []
@@ -2390,6 +2465,17 @@ Underfull \hbox (badness 7081) in paragraph at lines 38--39
  []
 
 
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Radoman2025' on input line 39.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
 Underfull \hbox (badness 5077) in paragraph at lines 39--40
 []|\TU/TimesNewRoman(0)/m/n/12 R. L. V. R. et
  []
@@ -2401,7 +2487,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
-\TU/TimesNewRoman(0)/m/n/12 man, Henshaw,
+\TU/TimesNewRoman(0)/m/n/12 man, Henshaw
  []
 
 
@@ -2518,6 +2604,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 \TU/TimesNewRoman(0)/m/it/12 Defense Archite-
  []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Fang2024' on input line 44.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
 
 
 Underfull \hbox (badness 1565) in paragraph at lines 44--45
@@ -2637,23 +2734,59 @@ File: images/DT_Verkuli.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (1.66449pt too wide) in paragraph at lines 71--73
-\TU/TimesNewRoman(0)/m/n/12 berbasis teknologi yang memengaruhi strategi, organ
-isasi, kultur, teknologi, pelangg-
- []
+Package biblatex Warning: Bibliography string 'andothers' untranslated
+(biblatex)                at entry 'Verkuli2019' on input line 71.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
 
 [17]
 File: images/DT_Canvas.png Graphic file (type bmp)
 <images/DT_Canvas.png>
+
+
+Package biblatex Warning: Bibliography string 'andothers' untranslated
+(biblatex)                at entry 'Elia2024' on input line 80.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
 File: images/DT_Nasional.png Graphic file (type bmp)
 <images/DT_Nasional.png>
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
 [18] [19]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
 File: images/DoD_Digital_Modernization_Strategy.png Graphic file (type bmp)
 <images/DoD_Digital_Modernization_Strategy.png>
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
 
 
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 131.
@@ -2665,6 +2798,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
  [20]
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Matthews2024' on input line 152.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
@@ -2672,6 +2817,21 @@ File: images/Singapore_Total_Defence.png Graphic file (type bmp)
 <images/Singapore_Total_Defence.png>
 
 [22]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
 Overfull \hbox (0.76758pt too wide) in paragraph at lines 184--186
 \TU/TimesNewRoman(0)/m/n/12 rian Komunikasi dan Informatika [][]2018[][][][]), 
 dan ([][][]Republik Indonesia [][]2023[][][][]) meng-
@@ -2681,13 +2841,36 @@ dan ([][][]Republik Indonesia [][]2023[][][][]) meng-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
+
+Package biblatex Warning: Bibliography string 'nodate' untranslated
+(biblatex)                at entry 'scribd_network_centric_warfare' on input li
+ne 205.
+
 [24]
 File: images/Arsitektur_NCW.png Graphic file (type bmp)
 <images/Arsitektur_NCW.png>
- [25] [26]
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Koch2015' on input line 232.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+[25] [26]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
 File: images/Arsitektur_JADC2.png Graphic file (type bmp)
 <images/Arsitektur_JADC2.png>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2698,10 +2881,71 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'andothers' untranslated
+(biblatex)                at entry 'Weilkiens2022' on input line 335.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Overfull \hbox (10.54227pt too wide) in paragraph at lines 335--337
+\TU/TimesNewRoman(0)/m/n/12 mendukung perencanaan pertahanan dan manajemen peru
+bahan ([][][]Weilkiens []
+ []
+
 [30]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
 Overfull \hbox (1.97382pt too wide) in paragraph at lines 343--345
 \TU/TimesNewRoman(0)/m/it/12 terprise architecture\TU/TimesNewRoman(0)/m/n/12 )
  yang paling banyak digunakan secara internasional untuk mem-
@@ -3048,6 +3292,13 @@ Bab III.
 
 LaTeX Warning: Citation 'KemhanRI2021' on page 37 undefined on input line 15.
 
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
 [37]
 Underfull \hbox (badness 10000) in paragraph at lines 41--41
 []|\TU/TimesNewRoman(0)/m/n/12 Metodologi pe-
@@ -3112,4 +3363,156 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]|\TU/TimesNewRoman(0)/m/it/12 Fram
+[]|\TU/TimesNewRoman(0)/m/it/12 Framework \TU/TimesNewRoman(0)/m/n/12 harus men
+yediakan
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 57--57
+\TU/TimesNewRoman(0)/m/n/12 mekanisme tata kelola arsitektur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\TU/TimesNewRoman(0)/m/n/12 arsitektur tetap relevan secara
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]|\TU/TimesNewRoman(0)/m/n/12 Praktik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\TU/TimesNewRoman(0)/m/n/12 terbaik;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\TU/TimesNewRoman(0)/m/n/12 Ketersediaan dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+[]|\TU/TimesNewRoman(0)/m/n/12 Praktik
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [38]
+ignored: Infinite glue shrinkage fo
+und in box being split [39]
+Underfull \hbox (badness 1320) in paragraph at lines 82--82
+[]|\TU/TimesNewRoman(0)/m/n/12 Tata kelola arsitektur dan manaje-
+ []
+
+
+Overfull \hbox (20.5629pt too wide) in paragraph at lines 70--86
+ [][] 
+ []
+
+[40] [41]
+Underfull \hbox (badness 1478) in paragraph at lines 111--111
+\TU/TimesNewRoman(0)/m/n/12 yang secara khusus menangani
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 115--116
+\TU/TimesNewRoman(0)/m/it/12 liminary \TU/TimesNewRoman(0)/m/n/12 dan \TU/Times
+NewRoman(0)/m/it/12 Architecture Vision\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 117--117
+[]|\TU/TimesNewRoman(0)/m/n/12 Interoperabilitas belum diarahk-
+ []
+
+[42]
+File: images/TOGAF ADM Pertahanan indonesia.drawio.png Graphic file (type bmp)
+<images/TOGAF ADM Pertahanan indonesia.drawio.png>
+
+Overfull \hbox (1.73515pt too wide) in paragraph at lines 159--159
+[]|\TU/TimesNewRoman(0)/b/n/12 No.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+[]|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan
+ []
+
+
+Overfull \hbox (1.73515pt too wide) in paragraph at lines 164--164
+[]|\TU/TimesNewRoman(0)/b/n/12 No.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+[]|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 169--169
+\TU/TimesNewRoman(0)/m/n/12 katan harus dapat saling terintegrasi
+ []
+
+
+Underfull \hbox (badness 5787) in paragraph at lines 173--173
+[]|\TU/TimesNewRoman(0)/m/it/12 Data as Strategic
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 173--173
+\TU/TimesNewRoman(0)/m/n/12 aset strategis nasional untuk mendu-
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 173--174
+[]|\TU/TimesNewRoman(0)/m/n/12 KF-02, KF-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+[]|\TU/TimesNewRoman(0)/m/it/12 Integrated Com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+[]|\TU/TimesNewRoman(0)/m/n/12 Mendukung sistem komando dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+\TU/TimesNewRoman(0)/m/n/12 pengendalian terintegrasi berbasis
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 179--180
+[]|\TU/TimesNewRoman(0)/m/n/12 KF-03, KF-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]|\TU/TimesNewRoman(0)/m/it/12 Governance &
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 181--182
+[]|\TU/TimesNewRoman(0)/m/n/12 KF-07, KF-
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 183--183
+\TU/TimesNewRoman(0)/m/n/12 konsep \TU/TimesNewRoman(0)/m/it/12 smart defence \
+TU/TimesNewRoman(0)/m/n/12 dan operasi
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 185--186
+[]|\TU/TimesNewRoman(0)/m/n/12 KF-02, KF-
+ []
+
+[43] [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+[46]
+File: images/Preliminary.draw
