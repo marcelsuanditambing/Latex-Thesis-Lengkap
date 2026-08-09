@@ -1,13 +1,13 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  14 JUN 2026 22:04
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  9 AUG 2026 22:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Marcel/Kuliah S2 Smart X ITB/3. Semester 3/IF5091 Tesis 1/Latex Thesis De
-sain Arsitektur Transformasi Digital Kemhan/Tesis.tex"
+**"d:/Marcel/Kuliah S2 Smart X ITB/4. Semester 4/Tesis/Latex Thesis Desain Arsi
+tektur Transformasi Digital Kemhan/Tesis.tex"
 
-(d:/Marcel/Kuliah S2 Smart X ITB/3. Semester 3/IF5091 Tesis 1/Latex Thesis Desa
-in Arsitektur Transformasi Digital Kemhan/Tesis.tex
+(d:/Marcel/Kuliah S2 Smart X ITB/4. Semester 4/Tesis/Latex Thesis Desain Arsite
+ktur Transformasi Digital Kemhan/Tesis.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
@@ -1520,7 +1520,11 @@ Bab I.
 [1
 
 
-] [2] [3] [4] [5] [6]
+] [2] [3]
+Underfull \vbox (badness 7030) has occurred while \output is active []
+
+ [4]
+[5] [6]
 Underfull \vbox (badness 1817) has occurred while \output is active []
 
  [7]
@@ -1924,12 +1928,12 @@ Overfull \hbox (20.16045pt too wide) in alignment at lines 11--16
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[]|\TU/TimesNewRoman(0)/m/n/12 Implementing
+[]|\TU/TimesNewRoman(0)/m/it/12 Implementing
  []
 
 
 Underfull \hbox (badness 5504) in paragraph at lines 18--19
-\TU/TimesNewRoman(0)/m/n/12 Cybersecurity in
+\TU/TimesNewRoman(0)/m/it/12 Cybersecurity in
  []
 
 
@@ -2028,18 +2032,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 23--24
-\TU/TimesNewRoman(0)/m/n/12 Role of Enterp-
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+[]|\TU/TimesNewRoman(0)/m/it/12 Systematic Lite-
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 23--24
-\TU/TimesNewRoman(0)/m/n/12 rise Architecture
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/it/12 rature Review:
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 23--24
-\TU/TimesNewRoman(0)/m/n/12 in Digital Tran-
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/it/12 The Role of
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/it/12 Enterprise Archi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\TU/TimesNewRoman(0)/m/it/12 Transformation
  []
 
 
@@ -2129,12 +2143,12 @@ Underfull \hbox (badness 7631) in paragraph at lines 26--27
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
-\TU/TimesNewRoman(0)/m/n/12 (systematic lite-
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 systematic lite-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
-\TU/TimesNewRoman(0)/m/n/12 rature review)
+\TU/TimesNewRoman(0)/m/it/12 rature review\TU/TimesNewRoman(0)/m/n/12 )
  []
 
 
@@ -2164,27 +2178,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
-[]|\TU/TimesNewRoman(0)/m/n/12 Benefits of
+[]|\TU/TimesNewRoman(0)/m/it/12 Benefits of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
-\TU/TimesNewRoman(0)/m/n/12 Digital Tran-
+\TU/TimesNewRoman(0)/m/it/12 Digital Tran-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
-\TU/TimesNewRoman(0)/m/n/12 sformation and
+\TU/TimesNewRoman(0)/m/it/12 sformation and
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
-\TU/TimesNewRoman(0)/m/n/12 Implementation
+\TU/TimesNewRoman(0)/m/it/12 Implementation
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
-\TU/TimesNewRoman(0)/m/n/12 A Literature
+\TU/TimesNewRoman(0)/m/it/12 A Literature
  []
 
 
@@ -2254,22 +2268,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
-[]|\TU/TimesNewRoman(0)/m/n/12 Governance of
+[]|\TU/TimesNewRoman(0)/m/it/12 Governance of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
-\TU/TimesNewRoman(0)/m/n/12 Digital Tran-
+\TU/TimesNewRoman(0)/m/it/12 Digital Tran-
  []
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 33--34
-\TU/TimesNewRoman(0)/m/n/12 sformation: As
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/it/12 sformation: As
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 33--34
-\TU/TimesNewRoman(0)/m/n/12 observed in two
+Underfull \hbox (badness 3039) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/it/12 observed in two
  []
 
 
@@ -2359,17 +2373,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
-[]|\TU/TimesNewRoman(0)/m/n/12 Enabling Open
+[]|\TU/TimesNewRoman(0)/m/it/12 Enabling Open
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
-\TU/TimesNewRoman(0)/m/n/12 Architecture in
+\TU/TimesNewRoman(0)/m/it/12 Architecture in
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 38--39
-\TU/TimesNewRoman(0)/m/n/12 A Systemic and
+Underfull \hbox (badness 7081) in paragraph at lines 38--39
+\TU/TimesNewRoman(0)/m/it/12 A Systemic and
  []
 
 
@@ -2399,7 +2413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
-\TU/TimesNewRoman(0)/m/n/12 obsolescence,
+\TU/TimesNewRoman(0)/m/it/12 obsolescence\TU/TimesNewRoman(0)/m/n/12 ,
  []
 
 
@@ -2438,58 +2452,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
  []
 
 
-Underfull \hbox (badness 5475) in paragraph at lines 41--42
-\TU/TimesNewRoman(0)/m/n/12 lisis menyeluruh
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]|\TU/TimesNewRoman(0)/m/n/12 Memberikan
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
-\TU/TimesNewRoman(0)/m/n/12 (holistik) terha-
+\TU/TimesNewRoman(0)/m/n/12 analisis menye-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
-\TU/TimesNewRoman(0)/m/n/12 dap penerapan
+\TU/TimesNewRoman(0)/m/n/12 luruh (holistik)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/12 terhadap pene-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/12 rapan arsitektur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/12 terbuka (\TU/TimesNewRoman(0)/m/it/12 Open
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
-[]|\TU/TimesNewRoman(0)/m/n/12 Architecture
+[]|\TU/TimesNewRoman(0)/m/it/12 Architecture
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\TU/TimesNewRoman(0)/m/n/12 Design Spa-
+\TU/TimesNewRoman(0)/m/it/12 Design Spa-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\TU/TimesNewRoman(0)/m/n/12 ce Generation
+\TU/TimesNewRoman(0)/m/it/12 ce Generation
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\TU/TimesNewRoman(0)/m/n/12 via Decision
+\TU/TimesNewRoman(0)/m/it/12 via Decision
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\TU/TimesNewRoman(0)/m/n/12 Pattern-Guided
+\TU/TimesNewRoman(0)/m/it/12 Pattern-Guided
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\TU/TimesNewRoman(0)/m/n/12 Department of
+\TU/TimesNewRoman(0)/m/it/12 Department of
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 43--44
-\TU/TimesNewRoman(0)/m/n/12 Defense Archite-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 43--44
-\TU/TimesNewRoman(0)/m/n/12 cture Framework
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\TU/TimesNewRoman(0)/m/it/12 Defense Archite-
  []
 
 
@@ -2519,12 +2543,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\TU/TimesNewRoman(0)/m/n/12 dan system-of-
+\TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 system-of-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\TU/TimesNewRoman(0)/m/n/12 systems (SoS);
+\TU/TimesNewRoman(0)/m/it/12 systems (SoS)\TU/TimesNewRoman(0)/m/n/12 ;
  []
 
 
@@ -2578,776 +2602,4 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-\TU/TimesNewRoman(0)/m/n/12 desain arsitektur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-\TU/TimesNewRoman(0)/m/n/12 (design-space)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-\TU/TimesNewRoman(0)/m/n/12 sistem pertahan-
- []
-
-
-Overfull \hbox (20.16045pt too wide) in alignment at lines 16--48
- [] [] [] [] [] 
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [15
-
-]
-ignored: Infinite glue shrinkage found in box being split [16]
-File: images/DT_Verkuli.png Graphic file (type bmp)
-<images/DT_Verkuli.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (1.66449pt too wide) in paragraph at lines 71--73
-\TU/TimesNewRoman(0)/m/n/12 berbasis teknologi yang memengaruhi strategi, organ
-isasi, kultur, teknologi, pelangg-
- []
-
-[17]
-File: images/DT_Canvas.png Graphic file (type bmp)
-<images/DT_Canvas.png>
-File: images/DT_Nasional.png Graphic file (type bmp)
-<images/DT_Nasional.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18] [19]
-File: images/DoD_Digital_Modernization_Strategy.png Graphic file (type bmp)
-<images/DoD_Digital_Modernization_Strategy.png>
-
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 131.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 3460) has occurred while \output is active []
-
- [20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
-File: images/Singapore_Total_Defence.png Graphic file (type bmp)
-<images/Singapore_Total_Defence.png>
-
-[22]
-Overfull \hbox (0.76758pt too wide) in paragraph at lines 184--186
-\TU/TimesNewRoman(0)/m/n/12 rian Komunikasi dan Informatika [][]2018[][][][]), 
-dan ([][][]Republik Indonesia [][]2023[][][][]) meng-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
-[24]
-File: images/Arsitektur_NCW.png Graphic file (type bmp)
-<images/Arsitektur_NCW.png>
- [25] [26]
-File: images/Arsitektur_JADC2.png Graphic file (type bmp)
-<images/Arsitektur_JADC2.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 1859) has occurred while \output is active []
-
- [27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
-[30] [31]
-File: images/TOGAF_Framework.png Graphic file (type bmp)
-<images/TOGAF_Framework.png>
-
-Overfull \hbox (8.33984pt too wide) in alignment at lines 381--386
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (8.33984pt too wide) in alignment at lines 386--391
- [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
-[]|\TU/TimesNewRoman(0)/m/n/10 Departemen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
-\TU/TimesNewRoman(0)/m/n/10 Pertahanan AS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
-[]|\TU/TimesNewRoman(0)/m/n/10 NATO (\TU/TimesNewRoman(0)/m/it/10 Archite-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
-\TU/TimesNewRoman(0)/m/it/10 cture Capability
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
-\TU/TimesNewRoman(0)/m/n/10 tahanan Inggris
- []
-
-
-Underfull \hbox (badness 1715) in paragraph at lines 395--395
-[]|\TU/TimesNewRoman(0)/m/n/10 v1.2, ditarik (di-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
-[]|\TU/TimesNewRoman(0)/m/n/10 10th Edition
- []
-
-
-Underfull \hbox (badness 6300) in paragraph at lines 395--396
-\TU/TimesNewRoman(0)/m/n/10 (2022), aktif &
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-[]|\TU/TimesNewRoman(0)/m/n/10 Orientasi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-[]|\TU/TimesNewRoman(0)/m/n/10 Standardisasi &
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-\TU/TimesNewRoman(0)/m/n/10 interoperabilitas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-[]|\TU/TimesNewRoman(0)/m/n/10 Perencanaan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-\TU/TimesNewRoman(0)/m/n/10 kapabilitas &
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
-[]|\TU/TimesNewRoman(0)/m/n/10 Keselarasan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
-\TU/TimesNewRoman(0)/m/n/10 bisnis–TI lintas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-[]|\TU/TimesNewRoman(0)/m/it/10 Architecture
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-\TU/TimesNewRoman(0)/m/it/10 description
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-[]|\TU/TimesNewRoman(0)/m/it/10 Architecture
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-\TU/TimesNewRoman(0)/m/it/10 description
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
-[]|\TU/TimesNewRoman(0)/b/n/10 Metodologi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
-\TU/TimesNewRoman(0)/b/n/10 pengembangan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
-[]|\TU/TimesNewRoman(0)/m/n/10 Komponen/
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 401--401
-[]|\TU/TimesNewRoman(0)/m/n/10 8 \TU/TimesNewRoman(0)/m/it/10 viewpoint\TU/Time
-sNewRoman(0)/m/n/10 , 52
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
-\TU/TimesNewRoman(0)/m/n/10 model, meta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
-[]|\TU/TimesNewRoman(0)/m/it/10 Grid viewpoint
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
-\TU/TimesNewRoman(0)/m/n/10 (\TU/TimesNewRoman(0)/m/it/10 issues $\OMS/cmsy/m/n
-/10 ^^B$ \TU/TimesNewRoman(0)/m/it/10 aspe-
- []
-
-
-Underfull \hbox (badness 7308) in paragraph at lines 401--401
-\TU/TimesNewRoman(0)/m/it/10 cts of concern\TU/TimesNewRoman(0)/m/n/10 ),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
-\TU/TimesNewRoman(0)/m/n/10 meta-model
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 401--401
-[]|\TU/TimesNewRoman(0)/m/n/10 7 \TU/TimesNewRoman(0)/m/it/10 viewpoint \TU/Tim
-esNewRoman(0)/m/n/10 (AV,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
-\TU/TimesNewRoman(0)/m/n/10 StV, OV, SOV,
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 401--402
-\TU/TimesNewRoman(0)/m/it/10 terprise Continu-
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 401--402
-\TU/TimesNewRoman(0)/m/it/10 um\TU/TimesNewRoman(0)/m/n/10 , \TU/TimesNewRoman(
-0)/m/it/10 Architecture
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|\TU/TimesNewRoman(0)/m/n/10 Metode Pe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|\TU/TimesNewRoman(0)/m/it/10 Architecting sta-
- []
-
-
-Underfull \hbox (badness 6477) in paragraph at lines 403--403
-\TU/TimesNewRoman(0)/m/it/10 ges \TU/TimesNewRoman(0)/m/n/10 (tidak ketat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
-[]|\TU/TimesNewRoman(0)/b/n/10 ADM iteratif
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
-\TU/TimesNewRoman(0)/b/n/10 & preskrip-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
-\TU/TimesNewRoman(0)/b/n/10 tif \TU/TimesNewRoman(0)/m/n/10 dengan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
-\TU/TimesNewRoman(0)/m/it/10 Requirements
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
-\TU/TimesNewRoman(0)/m/it/10 Management \TU/TimesNewRoman(0)/m/n/10 di
- []
-
-
-Underfull \hbox (badness 6559) in paragraph at lines 405--405
-[]|\TU/TimesNewRoman(0)/m/n/10 Cakupan Sek-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--405
-[]|\TU/TimesNewRoman(0)/m/n/10 Spesifik militer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--405
-[]|\TU/TimesNewRoman(0)/m/n/10 Militer (NATO)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--405
-[]|\TU/TimesNewRoman(0)/m/n/10 Spesifik militer
- []
-
-
-Underfull \hbox (badness 3746) in paragraph at lines 405--406
-[]|\TU/TimesNewRoman(0)/m/n/10 Netral industri /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]|\TU/TimesNewRoman(0)/m/n/10 Penanganan
- []
-
-
-Underfull \hbox (badness 1484) in paragraph at lines 407--407
-\TU/TimesNewRoman(0)/m/n/10 bilitas lintas ma-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
-[]|\TU/TimesNewRoman(0)/m/n/10 Tidak eksplisit;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
-\TU/TimesNewRoman(0)/m/n/10 bersifat \TU/TimesNewRoman(0)/m/it/10 cross-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
-\TU/TimesNewRoman(0)/m/it/10 cutting \TU/TimesNewRoman(0)/m/n/10 (perlu
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 409--409
-[]|\TU/TimesNewRoman(0)/m/n/10 Terikat konvensi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
-[]|\TU/TimesNewRoman(0)/m/n/10 Selaras
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
-\TU/TimesNewRoman(0)/m/n/10 ISO/IEC/IEEE
- []
-
-
-Underfull \hbox (badness 4492) in paragraph at lines 409--409
-\TU/TimesNewRoman(0)/m/n/10 42010; kompati-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
-[]|\TU/TimesNewRoman(0)/m/n/10 Menambah StV
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
-\TU/TimesNewRoman(0)/m/n/10 & AcV; kini
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
-\TU/TimesNewRoman(0)/m/n/10 ADM dirancang
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 411--411
-[]|\TU/TimesNewRoman(0)/m/n/10 Adopsi & ke-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
-[]|\TU/TimesNewRoman(0)/m/n/10 Adopsi global
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
-\TU/TimesNewRoman(0)/m/n/10 terluas; ekosis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
-\TU/TimesNewRoman(0)/m/n/10 matang; gratis
- []
-
-
-Overfull \hbox (8.33984pt too wide) in alignment at lines 391--413
- [] [] [] [] [] 
- []
-
-[32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
-Underfull \vbox (badness 1412) has occurred while \output is active []
-
- [34])
-(Bab III - Analisis dan Desain.tex [35] [36
-
-]
-Bab III.
-File: images/Struktur_Organisasi_Kemhan.png Graphic file (type bmp)
-<images/Struktur_Organisasi_Kemhan.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: images/Struktur_Organisasi_Pusdatin.png Graphic file (type bmp)
-<images/Struktur_Organisasi_Pusdatin.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[37
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\TU/TimesNewRoman(0)/m/n/12 Bidang Banglola
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
-[]|\TU/TimesNewRoman(0)/m/n/12 Kelompok Jabatan
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 56--57
-[]|\TU/TimesNewRoman(0)/m/n/12 Pelaksanaan tugas fungsional, antara lain Pranat
-a
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 56--57
-\TU/TimesNewRoman(0)/m/n/12 Komputer dan Sandiman, sesuai keahlian masing-
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [38] [39]
-File: images/Usulan_DTO_Pusdatin.png Graphic file (type bmp)
-<images/Usulan_DTO_Pusdatin.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[40]
-Underfull \hbox (badness 1394) in paragraph at lines 109--110
-[]|\TU/TimesNewRoman(0)/m/n/12 Kemhan wajib menyusun Arsitektur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-[]|\TU/TimesNewRoman(0)/m/n/12 RPJPN Tahun
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-[]|\TU/TimesNewRoman(0)/m/n/12 Perencanaan
- []
-
-
-Underfull \hbox (badness 3503) in paragraph at lines 115--115
-\TU/TimesNewRoman(0)/m/n/12 Jangka Panjang
- []
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/TimesNewRoman(0)/m/n/12 Pengelolaan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/TimesNewRoman(0)/m/n/12 Sumber Daya
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/TimesNewRoman(0)/m/n/12 Nasional untuk
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/TimesNewRoman(0)/m/n/12 Pertahanan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-[]|\TU/TimesNewRoman(0)/m/n/12 Mengelola data strategis nasional,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-\TU/TimesNewRoman(0)/m/n/12 membangun sistem \TU/TimesNewRoman(0)/m/it/12 cyber
- defence\TU/TimesNewRoman(0)/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 133--134
-\TU/TimesNewRoman(0)/m/n/12 dan menyusun kebijakan pertahanan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
-[]|\TU/TimesNewRoman(0)/m/n/12 Pertahanan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[]|\TU/TimesNewRoman(0)/m/n/12 Renstra Kemhan
- []
-
-
-Underfull \hbox (badness 4595) in paragraph at lines 137--137
-[]|\TU/TimesNewRoman(0)/m/n/12 Rencana Strate-
- []
-
-[42] [43]
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-[]|\TU/TimesNewRoman(0)/m/it/12 Multi-Domain Opera-
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [44] [45]
-Underfull \hbox (badness 6691) in paragraph at lines 226--226
-[]|\TU/TimesNewRoman(0)/b/n/12 Kelemahan TOGAF ADM
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 226--227
-[]|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan Konteks Perta-
- []
-
-
-Overfull \hbox (9.14719pt too wide) in alignment at lines 222--228
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 6691) in paragraph at lines 230--230
-[]|\TU/TimesNewRoman(0)/b/n/12 Kelemahan TOGAF ADM
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 230--231
-[]|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan Konteks Perta-
- []
-
-
-Overfull \hbox (9.14719pt too wide) in alignment at lines 228--232
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
-[]|\TU/TimesNewRoman(0)/m/n/12 Domain arsi-
- []
-
-
-Underfull \hbox (badness 6348) in paragraph at lines 233--234
-[]|\TU/TimesNewRoman(0)/m/n/12 Memerlukan domain C5ISR
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
-[]|\TU/TimesNewRoman(0)/m/n/12 Keamanan
- []
-
-
-Underfull \hbox (badness 3690) in paragraph at lines 235--236
-\TU/TimesNewRoman(0)/m/n/12 bagai prinsip utama (\TU/TimesNewRoman(0)/m/it/12 s
-ecuri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
-[]|\TU/TimesNewRoman(0)/m/n/12 Lingkup orga-
- []
-
-
-Underfull \hbox (badness 7468) in paragraph at lines 237--237
-[]|\TU/TimesNewRoman(0)/m/n/12 Mengasumsikan satu entitas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
-\TU/TimesNewRoman(0)/m/it/12 enterprise \TU/TimesNewRoman(0)/m/n/12 tunggal den
-gan
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 237--238
-\TU/TimesNewRoman(0)/m/n/12 dan industri pertahanan) de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
-[]|\TU/TimesNewRoman(0)/m/n/12 Keterkaitan
- []
-
-
-Underfull \hbox (badness 4872) in paragraph at lines 239--240
-\TU/TimesNewRoman(0)/m/n/12 pertahanan nasional, konsep
- []
-
-
-Underfull \hbox (badness 6893) in paragraph at lines 239--240
-\TU/TimesNewRoman(0)/m/it/12 smart defence\TU/TimesNewRoman(0)/m/n/12 , dan ope
-rasi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-\TU/TimesNewRoman(0)/m/n/12 multi-domain (\TU/TimesNewRoman(0)/m/it/12 multi-do
-main
- []
-
-
-Overfull \hbox (9.14719pt too wide) in alignment at lines 232--241
- [] [] [] 
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [46]
-File: images/Perbandingan_TOGAF.png Graphic file (type bmp)
-<images/Perbandingan_TOGAF.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[47]
-Overfull \hbox (11.97878pt too wide) in paragraph at lines 263--265
-\TU/TimesNewRoman(0)/m/n/12 nempatan \TU/TimesNewRoman(0)/m/it/12 C5ISR Archite
-cture \TU/TimesNewRoman(0)/m/n/12 setelah \TU/TimesNewRoman(0)/m/it/12 Technolo
-gy Architecture \TU/TimesNewRoman(0)/m/n/12 karena arsitektur C5ISR
- []
-
-
-Underfull \hbox (badness 7649) in paragraph at lines 288--288
-[]|\TU/TimesNewRoman(0)/m/it/12 Data as Strategic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
-[]|\TU/TimesNewRoman(0)/m/it/12 Integrated Com-
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 300--300
-[]|\TU/TimesNewRoman(0)/m/it/12 User-Centric Servi-
- []
-
-[48] [49] [50] [51] [52] [53] [54]) (Bab VI - Evaluasi.tex [55] [56
-
-]
-Bab IV.
-[57
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\TU/TimesNewRoman(0)/m/it/12 Technology Readi-
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 58--59
-[]|\TU/TimesNewRoman(0)/m/n/12 Kemampuan beradaptasi terhadap perubahan
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 60--60
-[]|\TU/TimesNewRoman(0)/m/it/12 Smart Defense Alig-
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [58] [59]
-Underfull \hbox (badness 1789) in paragraph at lines 156--156
-[]|\TU/TimesNewRoman(0)/m/n/12 Kelayakan pembentukan DTO (\TU/TimesNewRoman(0)/
-m/it/12 Digital
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
-[]|\TU/TimesNewRoman(0)/m/n/12 Aspek Data dan
- []
-
-[60]) (Bab VII - Penutup.tex [61] [62
-
-]
-Bab V.
-) [63
-
-] [64]
-Overfull \hbox (2.03366pt too wide) in paragraph at lines 418--418
-\TU/TimesNewRoman(0)/m/n/12 Tahun 2018 tentang Sistem Pemerintahan Berbasis Ele
-ktronik”. \TU/TimesNewRoman(0)/m/it/12 Menteri Hukum
- []
-
-
-Overfull \hbox (10.34836pt too wide) in paragraph at lines 418--418
-[][]\TU/TimesNewRoman(0)/m/n/12 Kemhan RI. 2014. “  Pedoman Pertahanan Siber”. 
-Peraturan Menteri Pertahanan Nomor
- []
-
-[65
-
-
-]
-Overfull \hbox (3.13254pt too wide) in paragraph at lines 418--418
-[][]\TU/TimesNewRoman(0)/m/n/12 NATO. 2012. \TU/TimesNewRoman(0)/m/it/12 Chicag
-o Summit Declaration. \TU/TimesNewRoman(0)/m/n/12 NATO Official text. Diakses p
-ada June 3,
- []
-
-[66] [67] [68
-
-]
-
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 305.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: Unused \captionsetup[algorithm] on input line 315.
-See the caption package documentation for explanation.
-
-(Tesis.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
- ***********
-Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4D049D1EEE6E4E93C9D755946BBC84E0;15783.
-Package logreq Info: Writing requests to 'Tesis.run.xml'.
-\openout1 = `Tesis.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 34728 strings out of 402983
- 676019 string characters out of 5448483
- 2089637 words of memory out of 5000000
- 63033 multiletter control sequences out of 15000+600000
- 634665 words of font info for 97 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 73i,11n,95p,1819b,6874s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on Tesis.pdf (90 pages).
+Underfull \hbox (bad
