@@ -18,7 +18,7 @@ Sumber kedua adalah mandat regulasi nasional yang mengikat penyelenggaraan trans
 
 Sumber ketiga adalah praktik terbaik internasional dan hasil kajian perbandingan kerangka kerja arsitektur \textit{enterprise} yang telah dilakukan pada DoDAF, NAF, MODAF, dan TOGAF. Kajian tersebut memberikan gambaran mengenai kapabilitas yang secara empiris dinilai penting dalam pengembangan arsitektur pertahanan, sekaligus memperlihatkan perbedaan karakter antara kerangka yang bersifat deskriptif dan kerangka yang bersifat metodologis.
 
-Ketiga sumber tersebut kemudian dianalisis dan disintesiskan menjadi sekumpulan kebutuhan \textit{framework} yang diberi kode KF-01 hingga KF-10. Pemberian kode dimaksudkan agar setiap kebutuhan dapat ditelusuri secara konsisten pada tahap evaluasi kerangka kerja eksisting, tahap perancangan artefak, hingga tahap evaluasi artefak pada Bab IV.
+Ketiga sumber tersebut kemudian dianalisis dan disintesiskan menjadi sekumpulan kebutuhan \textit{framework} yang diberi kode KF-01 hingga KF-10. Pemberian kode dimaksudkan agar setiap kebutuhan dapat ditelusuri secara konsisten pada tahap evaluasi kerangka kerja saat ini, tahap perancangan artefak, hingga tahap evaluasi artefak pada Bab IV.
 
 \subsection{Identifikasi Kebutuhan \textit{Framework}}
 
@@ -59,12 +59,12 @@ KF-09 & Tata kelola arsitektur dan manajemen perubahan & \textit{Framework} haru
 KF-10 & Ketersediaan dan kematangan ekosistem & \textit{Framework} harus tersedia secara terbuka untuk penggunaan akademik dan non-komersial serta didukung ekosistem pengetahuan yang matang. & Praktik terbaik\\
 \end{longtable}
 
-\subsection{Evaluasi Pemenuhan Kebutuhan oleh \textit{Framework} Eksisting}
+\subsection{Evaluasi Pemenuhan Kebutuhan oleh \textit{Framework} Saat Ini}
 
 Evaluasi ini adalah untuk menilai sejauh mana kerangka kerja arsitektur \textit{enterprise} yang telah tersedia mampu memenuhi kesepuluh kebutuhan tersebut. Evaluasi dilakukan terhadap empat kerangka yang telah dikaji pada Bab II, yaitu DoDAF, NAF, MODAF, dan TOGAF, dengan menggunakan tiga tingkat pemenuhan, yaitu terpenuhi (T), terpenuhi sebagian (TS), dan tidak terpenuhi (TT). Penilaian didasarkan pada karakteristik masing-masing kerangka sebagaimana dirangkum pada Tabel II.2. Hasil evaluasi disajikan pada Tabel~\ref{tab:evaluasi-framework}.
 
 \begin{table}[htbp]
-\caption{Evaluasi Pemenuhan Kebutuhan dari \textit{Framework} Eksisting}
+\caption{Evaluasi Pemenuhan Kebutuhan dari \textit{Framework} Saat Ini}
 \label{tab:evaluasi-framework}
 \centering
 \begin{tabular}{@{}p{0.08\textwidth}p{0.44\textwidth}cccc@{}}
@@ -94,7 +94,7 @@ Sebaliknya, TOGAF memenuhi seluruh kebutuhan metodologis (KF-01, KF-08, KF-09, d
 
 \subsection{Kesenjangan Kebutuhan dan Implikasi terhadap Perancangan}
 
-Berdasarkan hasil evaluasi tersebut, dapat disimpulkan bahwa tidak terdapat satu pun \textit{framework} eksisting yang memenuhi seluruh kebutuhan secara utuh. \textit{Framework} pertahanan memenuhi kebutuhan kontekstual tetapi tidak menyediakan metodologi pengembangan, sedangkan TOGAF menyediakan metodologi pengembangan yang kuat tetapi tidak mengakomodasi kebutuhan kontekstual pertahanan. Kondisi ini menunjukkan adanya kesenjangan (\textit{gap}) yang tidak dapat diselesaikan dengan sekadar memilih salah satu kerangka, melainkan menuntut penyesuaian terhadap kerangka yang memiliki fondasi metodologis terkuat.
+Berdasarkan hasil evaluasi tersebut, dapat disimpulkan bahwa tidak terdapat satu pun \textit{framework} saat ini yang memenuhi seluruh kebutuhan secara utuh. \textit{Framework} pertahanan memenuhi kebutuhan kontekstual tetapi tidak menyediakan metodologi pengembangan, sedangkan TOGAF menyediakan metodologi pengembangan yang kuat tetapi tidak mengakomodasi kebutuhan kontekstual pertahanan. Kondisi ini menunjukkan adanya kesenjangan (\textit{gap}) yang tidak dapat diselesaikan dengan sekadar memilih salah satu kerangka, melainkan menuntut penyesuaian terhadap kerangka yang memiliki fondasi metodologis terkuat.
 
 TOGAF dipilih sebagai fondasi penyesuaian karena dua pertimbangan utama. Pertama, kebutuhan yang tidak terpenuhi oleh TOGAF berjumlah lebih sedikit dan bersifat aditif, yakni dapat ditutup dengan menambahkan muatan pertahanan ke dalam \textit{framework}. Kedua, kemampuan \textit{tailoring} yang secara eksplisit disediakan oleh ADM memungkinkan penambahan tersebut dilakukan tanpa merusak integritas metodologis \textit{framework} aslinya, suatu kelonggaran yang tidak dimiliki oleh DoDAF maupun MODAF.
 
@@ -371,7 +371,7 @@ Gambar~\ref{fig:fase-business} menempatkan fase \textit{Business Architecture} s
 9. \textit{Enterprise Continuum} dan \textit{Architecture Repository}\newline
 10. Dokumen \textit{Architecture Vision}\newline
 11. Draf \textit{Architecture Definition Document}\newline
-12. Struktur organisasi dan proses bisnis eksisting Kemhan dan TNI\newline
+12. Struktur organisasi dan proses bisnis saat ini Kemhan dan TNI\newline
 13. Strategi pertahanan dan transformasi digital
 &
 \raggedright
@@ -398,7 +398,7 @@ Gambar~\ref{fig:fase-business} menempatkan fase \textit{Business Architecture} s
 8. Model operasi dan interoperabilitas lintas matra\arraybackslash\\
 \end{longtable}
 
-\textit{Input} fase ini mencakup arahan strategis dari fase \textit{Architecture Vision} serta gambaran struktur organisasi dan proses bisnis eksisting di lingkungan Kemhan dan TNI. Kombinasi keduanya pada fase ini menghasilkan perbandingan kondisi saat ini (\textit{as-is}) dengan kondisi yang dituju (\textit{target}), sehingga rancangan yang dihasilkan berangkat dari keadaan nyata organisasi pertahanan.
+\textit{Input} fase ini mencakup arahan strategis dari fase \textit{Architecture Vision} serta gambaran struktur organisasi dan proses bisnis saat ini di lingkungan Kemhan dan TNI. Kombinasi keduanya pada fase ini menghasilkan perbandingan kondisi saat ini (\textit{as-is}) dengan kondisi yang dituju (\textit{target}), sehingga rancangan yang dihasilkan berangkat dari keadaan nyata organisasi pertahanan.
 
 Langkah-langkah fase ini menegaskan pendekatan berbasis kapabilitas. Pemodelan proses bisnis inti dan pendukung, penyusunan peta kapabilitas, dan penyusunan \textit{value stream} pertahanan menempatkan kapabilitas sebagai analisis utama. Setelah arsitektur bisnis target disusun, analisis kesenjangan mengidentifikasi selisih antara kondisi saat ini dan kondisi target yang harus ditutup.
 
