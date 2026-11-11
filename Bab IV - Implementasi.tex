@@ -34,7 +34,7 @@ Prinsip arsitektur (\textit{architecture principles}) merupakan kaidah fundament
 \addlinespace
 \multicolumn{2}{@{}l}{\textbf{B. Prinsip Bisnis}}\\
 \addlinespace
-\textit{Integrated Command \& Control} & Mendukung sistem komando dan pengendalian terintegrasi berbasis C5ISR.\\
+\textit{Integrated Command \& Control} & Mendukung sistem komando dan pengendalian terintegrasi berbasis C6ISR.\\
 \addlinespace
 \textit{User-Centric Service} & Sistem dibangun untuk meningkatkan efektivitas personel dan kualitas layanan organisasi.\\
 \addlinespace
@@ -63,7 +63,7 @@ Ruang lingkup arsitektur menetapkan batas organisasi, unit, dan domain yang menj
 
 Dari sisi unit organisasi, penetapan ini mengacu pada struktur terbaru Kemhan berdasarkan Peraturan Menteri Pertahanan Nomor 1 Tahun 2024 tentang Organisasi dan Tata Kerja Kementerian Pertahanan \parencite{Permenhan2024}. Berdasarkan peraturan tersebut, fungsi pengelolaan data dan sistem informasi kini diselenggarakan oleh \textit{Badan Informasi dan Komunikasi Pertahanan}, yang membawahi Pusat Teknologi Informasi dan Komunikasi Pertahanan, Pusat Informasi Strategis Pertahanan, dan Pusat Pertahanan Siber. Unit-unit yang menjadi fokus pengembangan arsitektur meliputi Sekretariat Jenderal, Direktorat Jenderal Potensi Pertahanan, Badan Informasi dan Komunikasi Pertahanan beserta ketiga pusatnya, serta Badan Pengembangan Kebijakan dan Teknologi Pertahanan.
 
-Dari sisi domain arsitektur, dilakukan pengembangan pada lima domain sesuai TOGAF Pertahanan Indonesia, yaitu \textit{Business Architecture}, \textit{Data Architecture}, \textit{Application Architecture}, \textit{Technology Architecture}, dan \textit{C5ISR Architecture}. Sesuai batasan penelitian, ruang lingkup tidak mencakup aspek rahasia militer dan operasi tempur, melainkan difokuskan pada integrasi sistem informasi, keamanan data, dan tata kelola digital pertahanan. Ringkasan ketiga dimensi ruang lingkup dapat dilihat pada Gambar~\ref{fig:ruang-lingkup}.
+Dari sisi domain arsitektur, dilakukan pengembangan pada lima domain sesuai TOGAF Pertahanan Indonesia, yaitu \textit{Business Architecture}, \textit{Data Architecture}, \textit{Application Architecture}, \textit{Technology Architecture}, dan \textit{C6ISR Architecture}. Sesuai batasan penelitian, ruang lingkup tidak mencakup aspek rahasia militer dan operasi tempur, melainkan difokuskan pada integrasi sistem informasi, keamanan data, dan tata kelola digital pertahanan. Ringkasan ketiga dimensi ruang lingkup dapat dilihat pada Gambar~\ref{fig:ruang-lingkup}.
 
 \begin{figure}[htbp]
 \centering
@@ -131,7 +131,7 @@ Tata kelola arsitektur (\textit{architecture governance}) menetapkan struktur pe
 \endfoot
 1 & \textit{Architecture Board} (Dewan Arsitektur) & Diketuai Sekretaris Jenderal; beranggotakan Kepala Badan Informasi dan Komunikasi Pertahanan, para Direktur Jenderal terkait, dan perwakilan matra & Menetapkan prinsip, menyetujui \textit{Request for Architecture Work}, serta mengesahkan dan meninjau kepatuhan arsitektur\\
 \addlinespace
-2 & \textit{Architecture Team} (Tim Arsitektur) & Dipimpin \textit{Chief Enterprise Architect} (fungsi DTO), berkedudukan pada Badan Informasi dan Komunikasi Pertahanan & Melaksanakan siklus TOGAF Pertahanan Indonesia dan merancang arsitektur pada domain bisnis, data, aplikasi, teknologi, dan C5ISR\\
+2 & \textit{Architecture Team} (Tim Arsitektur) & Dipimpin \textit{Chief Enterprise Architect} (fungsi DTO), berkedudukan pada Badan Informasi dan Komunikasi Pertahanan & Melaksanakan siklus TOGAF Pertahanan Indonesia dan merancang arsitektur pada domain bisnis, data, aplikasi, teknologi, dan C6ISR\\
 \addlinespace
 3 & Tim Keamanan Siber & Pusat Pertahanan Siber & Menjamin penerapan prinsip \textit{security by design} pada seluruh fase\\
 \addlinespace
@@ -164,7 +164,7 @@ Repositori arsitektur (\textit{Architecture Repository}) merupakan wadah penyimp
 \addlinespace
 \textit{Technology Repository} & Standar teknologi, katalog infrastruktur, platform, dan protokol keamanan\\
 \addlinespace
-\textit{C5ISR Repository} & Model arsitektur C5ISR (komando-kendali, komunikasi, komputer, siber, intelijen, surveilans, dan pengintaian), rantai \textit{sensor-to-shooter}, dan \textit{common operational picture} berbasis \textit{network centric warfare}\\
+\textit{C6ISR Repository} & Model arsitektur C6ISR (komando-kendali, komunikasi, komputer, siber, intelijen, surveilans, dan pengintaian), rantai \textit{sensor-to-shooter}, dan \textit{common operational picture} berbasis \textit{network centric warfare}\\
 \addlinespace
 \textit{Reference Library} dan Standar & Prinsip arsitektur, katalog regulasi (SPBE, Satu Data), dan model rujukan TOGAF Pertahanan Indonesia\\
 \end{longtable}
@@ -187,7 +187,7 @@ Untuk mewujudkan visi tersebut, ditetapkan misi arsitektur sebagai berikut:
 \item Mewujudkan interoperabilitas dan integrasi data lintas unit Kemhan dan ketiga matra;
 \item Menerapkan keamanan siber sejak perancangan (\textit{security by design}) pada seluruh sistem pertahanan;
 \item Menyediakan layanan digital yang andal dan berorientasi pengguna bagi personel dan pimpinan;
-\item Membangun fondasi kapabilitas C5ISR untuk mendukung komando dan kendali terintegrasi; dan
+\item Membangun fondasi kapabilitas C6ISR untuk mendukung komando dan kendali terintegrasi; dan
 \item Menyelenggarakan tata kelola digital yang selaras dengan SPBE dan Satu Data Indonesia.
 \end{enumerate}
 
@@ -213,7 +213,7 @@ Visi dan misi tersebut diturunkan menjadi tujuan strategis arsitektur yang masin
 \addlinespace
 3 & Mengelola data pertahanan sebagai aset strategis pengambilan keputusan & \textit{Data as Strategic Asset}\\
 \addlinespace
-4 & Menyiapkan kapabilitas C5ISR dan komando-kendali terintegrasi & \textit{Integrated Command \& Control}\\
+4 & Menyiapkan kapabilitas C6ISR dan komando-kendali terintegrasi & \textit{Integrated Command \& Control}\\
 \addlinespace
 5 & Meningkatkan kualitas layanan dan efektivitas personel & \textit{User-Centric Service}\\
 \addlinespace
@@ -307,7 +307,7 @@ Identifikasi risiko transformasi dilakukan untuk mengantisipasi hambatan yang da
 
 \subsection{Konsep Solusi}
 
-Konsep solusi memberikan gambaran menyeluruh mengenai kondisi target arsitektur transformasi digital pertahanan. Konsep ini disusun berlapis, mulai dari infrastruktur terpadu sebagai fondasi, platform interoperabilitas dan Satu Data Pertahanan sebagai simpul integrasi, kapabilitas C5ISR sebagai inti operasional, hingga layanan digital yang melayani seluruh pemangku kepentingan. Keamanan siber berlapis (\textit{security by design}) serta tata kelola \& kepatuhan terhadap SPBE, Satu Data Indonesia, dan regulasi pertahanan membentang menyilang pada seluruh lapisan. Gambaran konsep solusi disajikan pada Gambar~\ref{fig:konsep-solusi}.
+Konsep solusi memberikan gambaran menyeluruh mengenai kondisi target arsitektur transformasi digital pertahanan. Konsep ini disusun berlapis, mulai dari infrastruktur terpadu sebagai fondasi, platform interoperabilitas dan Satu Data Pertahanan sebagai simpul integrasi, kapabilitas C6ISR sebagai inti operasional, hingga layanan digital yang melayani seluruh pemangku kepentingan. Keamanan siber berlapis (\textit{security by design}) serta tata kelola \& kepatuhan terhadap SPBE, Satu Data Indonesia, dan regulasi pertahanan membentang menyilang pada seluruh lapisan. Gambaran konsep solusi disajikan pada Gambar~\ref{fig:konsep-solusi}.
 
 \begin{figure}[htbp]
 \centering
@@ -336,7 +336,7 @@ Konsep solusi memberikan gambaran menyeluruh mengenai kondisi target arsitektur 
 \endfoot
 Nama Pekerjaan & Perancangan arsitektur transformasi digital pertahanan cerdas Kemhan RI berbasis TOGAF Pertahanan Indonesia\\
 \addlinespace
-Ruang Lingkup & Kemhan RI, ketiga matra, dan industri pertahanan; lima domain arsitektur (bisnis, data, aplikasi, teknologi, dan C5ISR); mengecualikan rahasia militer dan operasi tempur\\
+Ruang Lingkup & Kemhan RI, ketiga matra, dan industri pertahanan; lima domain arsitektur (bisnis, data, aplikasi, teknologi, dan C6ISR); mengecualikan rahasia militer dan operasi tempur\\
 \addlinespace
 Tujuan & Mewujudkan arsitektur yang terintegrasi, aman, dan berorientasi \textit{smart defence} sesuai visi dan tujuan strategis\\
 \addlinespace
@@ -422,7 +422,7 @@ Dari sisi tata kelola, pengambilan keputusan pertahanan berjalan berjenjang dari
 \centering
 \caption{\textit{Value Stream} Kemhan RI}
 \label{fig:value-stream}
-\includegraphics[width=0.9\textwidth]{images/Value Stream Kemhan.drawio.png}
+\includegraphics[width=0.9\textwidth]{images/Value Stream Kemhan dan Penjelasan.png}
 \end{figure}
 
 Gambar~\ref{fig:value-stream} memperlihatkan lima aliran nilai utama yang saling berurutan. Aliran pertama, Perumusan Kebijakan dan Strategi Pertahanan, berfokus untuk menetapkan arah strategis pertahanan nasional yang selaras dengan kepentingan negara dan dinamika global, mencakup penyusunan kebijakan serta perencanaan pertahanan jangka pendek, menengah, dan panjang. Aliran kedua, Pengembangan Kekuatan dan Kapabilitas Pertahanan, berfokus untuk membangun kemampuan pertahanan melalui sumber daya manusia, alutsista, dan infrastruktur strategis. Aliran ketiga, Pelaksanaan Operasional dan Dukungan Pertahanan, berfokus menjalankan kegiatan pertahanan secara efektif dan terkoordinasi dari pusat hingga daerah. Aliran keempat, Tata Kelola, Pengawasan, dan Kepatuhan, berfokus untuk menjamin akuntabilitas, transparansi, serta kepatuhan terhadap regulasi dan standar. Aliran kelima, Pengelolaan Sumber Daya dan Aset Pertahanan, berfokus untuk mengoptimalkan penggunaan sumber daya dan aset negara, termasuk pengelolaan barang milik negara dan keuangan pertahanan. Kelima aliran nilai ini menjadi dasar penurunan kapabilitas yang diperlukan pada peta kapabilitas pertahanan.
@@ -471,7 +471,7 @@ Dalam menjalankan tugasnya, DTO menetapkan arah strategi dan arsitektur, sedangk
 Unit DTO dipimpin oleh seorang \textit{Chief Digital Transformation Officer} yang sekaligus berperan sebagai \textit{Chief Enterprise Architect} dan memimpin \textit{Architecture Board}. Unit ini terdiri atas bidang-bidang berikut:
 \begin{enumerate}[a.]
 \item Bidang Strategi dan \textit{roadmap} Transformasi Digital, yang merumuskan strategi dan peta jalan (\textit{roadmap}) transformasi digital pertahanan;
-\item Bidang Arsitektur \textit{Enterprise}, yang menyelenggarakan tata kelola arsitektur \textit{enterprise} dan standardisasi sistem lintas unit dan lintas matra, yang berisi para arsitek tiap domain (bisnis, data, aplikasi, teknologi, dan C5ISR);
+\item Bidang Arsitektur \textit{Enterprise}, yang menyelenggarakan tata kelola arsitektur \textit{enterprise} dan standardisasi sistem lintas unit dan lintas matra, yang berisi para arsitek tiap domain (bisnis, data, aplikasi, teknologi, dan C6ISR);
 \item Bidang Koordinasi dan Manajemen Perubahan, yang mengoordinasikan pelaksanaan transformasi lintas satuan kerja dan lintas matra serta mengelola manajemen perubahan (\textit{change management});
 \item Bidang Tata Kelola Data, yang menyelenggarakan tata kelola data sebagai aset strategis, mencakup kebijakan data, penetapan wali data, dan standar data;
 \item Bidang Inovasi dan Teknologi Baru, yang menelaah serta menyiapkan adopsi teknologi baru (\textit{emerging technology}).
@@ -1370,7 +1370,7 @@ e. Portal layanan terpadu bagi pengguna internal dan publik.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.85\textwidth]{images/Model Integrasi Aplikasi Target.drawio.png}
+\includegraphics[width=0.85\textwidth]{images/Model Integrasi Target dengan Rasionalisasi Aplikasi.drawio.png}
 \caption{Integrasi Aplikasi Target melalui Portal Satu Data Pertahanan}
 \label{fig:iv-app-target}
 \end{figure}
@@ -1389,7 +1389,7 @@ Setiap aplikasi cukup terhubung ke platform, sehingga integrasi menjadi
 lebih sederhana, aman, dan mudah dikelola. Interoperabilitas ini
 menghubungkan arsitektur aplikasi dengan arsitektur data melalui Portal
 Satu Data Pertahanan, dan menjadi langkah awal dalam komando-kendali
-yang dirancang pada arsitektur C5ISR.
+yang dirancang pada arsitektur C6ISR.
 
 \subsubsection{Analisis Kesenjangan Aplikasi}
 
@@ -1618,7 +1618,7 @@ a. Presentation Layer sebagai antarmuka bagi pengguna, mencakup Portal
 Satu Data Pertahanan, antarmuka seluruh aplikasi Kemhan, serta titik
 akses \emph{Joint All-Domain Command and Control} (JADC2) sebagai
 gerbang menuju kapabilitas komando dan kendali lintas domain yang
-dirinci pada arsitektur \emph{C5ISR;}
+dirinci pada arsitektur \emph{C6ISR;}
 
 b. Security Layer atau lapisan keamanan yang bersifat menyeluruh,
 mencakup \emph{firewall}, IDPS, VAPT, \emph{Cyber Threat Intelligence}
@@ -1750,7 +1750,7 @@ domain \\
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.9\textwidth]{images/Roadmap implementasi fase Technology Architecture.drawio.png}
+\includegraphics[width=0.9\textwidth]{images/Roadmap implementasi fase Technology Architecture.drawio.drawio.png}
 \caption{\textit{Roadmap} Implementasi Arsitektur Teknologi}
 \label{fig:iv-tech-roadmap}
 \end{figure}
@@ -1796,6 +1796,6 @@ Utama dan DRC dalam mode aktif-aktif & Infrastruktur teknologi
 terintegrasi, aman, dan andal \\
 \end{longtable}
 
-\section{Fase \textit{C5ISR}}
+\section{Fase \textit{C6ISR}}
 
 Bagian ini masih dalam penyusunan.

@@ -42,7 +42,7 @@ KF-01 & Metodologi pengembangan yang preskriptif dan iteratif & \textit{Framewor
 \addlinespace
 KF-02 & Cakupan domain arsitektur inti & \textit{Framework} harus mencakup domain bisnis, data, aplikasi, dan teknologi secara terpadu dan saling tertaut. & Praktik terbaik; regulasi\\
 \addlinespace
-KF-03 & Akomodasi domain C5ISR & \textit{Framework} harus mampu merancang kapabilitas komando, kendali, komunikasi, komputer, siber, intelijen, surveilans, dan pengintaian sebagai inti operasional pertahanan. & \textit{Smart defence}\\
+KF-03 & Akomodasi domain C6ISR & \textit{Framework} harus mampu merancang kapabilitas komando, kendali, komunikasi, komputer, siber, intelijen, surveilans, dan pengintaian sebagai inti operasional pertahanan. & \textit{Smart defence}\\
 \addlinespace
 KF-04 & Keamanan siber sebagai prinsip perancangan & Keamanan harus melekat sejak tahap perencanaan arsitektur (\textit{security by design}), bukan sebagai penambahan pada tahap akhir. & \textit{Smart defence}; regulasi\\
 \addlinespace
@@ -73,7 +73,7 @@ Evaluasi ini adalah untuk menilai sejauh mana kerangka kerja arsitektur \textit{
 \midrule
 KF-01 & Metodologi pengembangan preskriptif dan iteratif & TT & TS & TT & T\\
 KF-02 & Cakupan domain arsitektur inti & T & T & T & T\\
-KF-03 & Akomodasi domain C5ISR & T & T & T & TT\\
+KF-03 & Akomodasi domain C6ISR & T & T & T & TT\\
 KF-04 & Keamanan siber sebagai prinsip perancangan & TS & TS & TS & TT\\
 KF-05 & Dukungan interoperabilitas lintas entitas & T & T & TS & TS\\
 KF-06 & Keterkaitan dengan doktrin dan strategi pertahanan & T & T & T & TT\\
@@ -108,7 +108,7 @@ Kesenjangan yang teridentifikasi beserta implikasinya terhadap perancangan \text
 \toprule
 \textbf{Kode} & \textbf{Kesenjangan pada TOGAF} & \textbf{Implikasi terhadap Perancangan}\\
 \midrule
-KF-03 & Tidak tersedia domain arsitektur yang secara khusus menangani kapabilitas C5ISR. & Penambahan fase khusus \textit{C5ISR Architecture} sebagai domain arsitektur tersendiri di dalam siklus ADM.\\
+KF-03 & Tidak tersedia domain arsitektur yang secara khusus menangani kapabilitas C6ISR. & Penambahan fase khusus \textit{C6ISR Architecture} sebagai domain arsitektur tersendiri di dalam siklus ADM.\\
 \addlinespace
 KF-04 & Keamanan diperlakukan sebagai \textit{concern} pendukung yang tersebar tanpa penekanan khusus. & Penetapan \textit{security by design} sebagai prinsip arsitektur yang mengikat seluruh fase pengembangan.\\
 \addlinespace
@@ -126,11 +126,11 @@ Keempat implikasi tersebut menjadi spesifikasi rancangan (\textit{design require
 
 Berdasarkan hasil analisis kebutuhan \textit{framework}, diketahui bahwa belum terdapat satu \textit{framework enterprise architecture} yang mampu memenuhi seluruh kebutuhan transformasi digital sektor pertahanan Indonesia secara komprehensif.
 
-Oleh karena itu, perancangan TOGAF Pertahanan Indonesia pada penelitian ini difokuskan pada empat komponen utama. Pertama, penyesuaian struktur \textit{Architecture Development Method} (ADM) melalui penambahan fase \textbf{C5ISR Architecture} sebagai domain arsitektur baru. Kedua, penyusunan prinsip-prinsip arsitektur yang menjadi pedoman pengembangan seluruh domain arsitektur. Ketiga, perancangan TOGAF Pertahanan Indonesia beserta aktivitas, masukan (\textit{input}), keluaran (\textit{output}), dan hasil yang diharapkan pada setiap fase. Keempat, pemenuhan kesepuluh kebutuhan oleh TOGAF Pertahanan Indonesia.
+Oleh karena itu, perancangan TOGAF Pertahanan Indonesia pada penelitian ini difokuskan pada empat komponen utama. Pertama, penyesuaian struktur \textit{Architecture Development Method} (ADM) melalui penambahan fase \textbf{C6ISR Architecture} sebagai domain arsitektur baru. Kedua, penyusunan prinsip-prinsip arsitektur yang menjadi pedoman pengembangan seluruh domain arsitektur. Ketiga, perancangan TOGAF Pertahanan Indonesia beserta aktivitas, masukan (\textit{input}), keluaran (\textit{output}), dan hasil yang diharapkan pada setiap fase. Keempat, pemenuhan kesepuluh kebutuhan oleh TOGAF Pertahanan Indonesia.
 
 \subsection{Penyesuaian TOGAF ADM}
 
-TOGAF ADM dipilih sebagai landasan dalam pengembangan \textit{framework Enterprise Architecture} karena memiliki metodologi yang sistematis, bersifat generik, dan mudah disesuaikan dengan karakteristik organisasi. Meskipun demikian, TOGAF ADM belum secara eksplisit mengakomodasi kebutuhan transformasi digital di lingkungan pertahanan, khususnya yang berkaitan dengan interoperabilitas sistem pertahanan, integrasi kapabilitas C5ISR, serta tata kelola arsitektur yang sesuai dengan karakteristik organisasi pertahanan Indonesia.
+TOGAF ADM dipilih sebagai landasan dalam pengembangan \textit{framework Enterprise Architecture} karena memiliki metodologi yang sistematis, bersifat generik, dan mudah disesuaikan dengan karakteristik organisasi. Meskipun demikian, TOGAF ADM belum secara eksplisit mengakomodasi kebutuhan transformasi digital di lingkungan pertahanan, khususnya yang berkaitan dengan interoperabilitas sistem pertahanan, integrasi kapabilitas C6ISR, serta tata kelola arsitektur yang sesuai dengan karakteristik organisasi pertahanan Indonesia.
 
 Oleh karena itu, penelitian ini melakukan penyesuaian terhadap TOGAF ADM tanpa mengubah struktur utama metodologinya. Penyesuaian dilakukan dengan mempertahankan siklus ADM sebagai proses pengembangan arsitektur, selanjutnya menambahkan komponen yang diperlukan untuk memenuhi kebutuhan transformasi digital pertahanan. Pendekatan ini memungkinkan \textit{framework} tetap mengikuti praktik terbaik TOGAF dan mengakomodasi kebutuhan organisasi dari kementerian pertahanan.
 
@@ -174,7 +174,7 @@ Berdasarkan penurunan tersebut, dirumuskan sembilan prinsip arsitektur Pertahana
 \addlinespace
 4 & \textit{Scalability \& Flexibility} & Arsitektur harus mampu berkembang mengikuti dinamika ancaman dan kemajuan teknologi di masa depan. & KF-08\\
 \addlinespace
-5 & \textit{Integrated Command \& Control} & Mendukung sistem komando dan pengendalian terintegrasi berbasis C5ISR. & KF-03\\
+5 & \textit{Integrated Command \& Control} & Mendukung sistem komando dan pengendalian terintegrasi berbasis C6ISR. & KF-03\\
 \addlinespace
 6 & \textit{Availability \& Reliability} & Sistem pertahanan digital harus memiliki ketersediaan tinggi dan tahan terhadap gangguan. & KF-03, KF-06\\
 \addlinespace
@@ -190,11 +190,11 @@ Berdasarkan penurunan tersebut, dirumuskan sembilan prinsip arsitektur Pertahana
 
 TOGAF Pertahanan Indonesia merupakan hasil penyesuaian (kustomisasi) TOGAF ADM yang disesuaikan dengan kebutuhan transformasi digital sektor pertahanan. \textit{Framework} ini mempertahankan seluruh kekuatan metodologis TOGAF ADM, yaitu sifat bertahap, iteratif, dan preskriptif, dengan \textit{Requirements Management} yang tetap berada di pusat siklus sebagai pengendali konsistensi kebutuhan antarfase.
 
-TOGAF Pertahanan Indonesia terdiri atas sepuluh fase utama, yaitu \textit{Preliminary}, \textit{Architecture Vision}, \textit{Business Architecture}, \textit{Information Systems Architecture}, \textit{Technology Architecture}, \textit{C5ISR Architecture}, \textit{Opportunities \& Solutions}, \textit{Migration Planning}, \textit{Implementation Governance}, dan \textit{Architecture Change Management}.
+TOGAF Pertahanan Indonesia terdiri atas sepuluh fase utama, yaitu \textit{Preliminary}, \textit{Architecture Vision}, \textit{Business Architecture}, \textit{Information Systems Architecture}, \textit{Technology Architecture}, \textit{C6ISR Architecture}, \textit{Opportunities \& Solutions}, \textit{Migration Planning}, \textit{Implementation Governance}, dan \textit{Architecture Change Management}.
 
 Kesepuluh fase tersebut dapat dipandang sebagai tiga kelompok yang berurutan. Kelompok pertama adalah fase penetapan arah dan fondasi, yang mencakup \textit{Preliminary} dan \textit{Architecture Vision}. Pada kelompok inilah muatan pertahanan ditanamkan paling awal, yaitu melalui penetapan doktrin dan strategi pertahanan nasional sebagai masukan serta penetapan prinsip arsitektur.
 
-Kelompok kedua adalah fase pengembangan domain arsitektur, yang mencakup \textit{Business Architecture}, \textit{Information Systems Architecture}, \textit{Technology Architecture}, dan \textit{C5ISR Architecture}. Tiga fase pertama merupakan bagian standar TOGAF yang dipertahankan tanpa pengurangan, sedangkan Fase \textit{C5ISR Architecture} merupakan fase baru yang menjadi pembeda utama \textit{framework} ini dari TOGAF standar.
+Kelompok kedua adalah fase pengembangan domain arsitektur, yang mencakup \textit{Business Architecture}, \textit{Information Systems Architecture}, \textit{Technology Architecture}, dan \textit{C6ISR Architecture}. Tiga fase pertama merupakan bagian standar TOGAF yang dipertahankan tanpa pengurangan, sedangkan Fase \textit{C6ISR Architecture} merupakan fase baru yang menjadi pembeda utama \textit{framework} ini dari TOGAF standar.
 
 Kelompok ketiga adalah fase realisasi dan keberlanjutan, yang mencakup \textit{Opportunities \& Solutions}, \textit{Migration Planning}, \textit{Implementation Governance}, dan \textit{Architecture Change Management}. Keempat fase ini dipertahankan sebagaimana adanya pada TOGAF ADM standar karena telah memadai untuk menjamin bahwa arsitektur yang dirancang dapat diwujudkan, dikendalikan, dan dipelihara relevansinya secara berkelanjutan.
 
@@ -208,7 +208,7 @@ Fase \textit{Preliminary} merupakan fase persiapan yang menetapkan fondasi bagi 
 \centering
 \caption{Kedudukan Fase \textit{Preliminary} pada Siklus TOGAF Pertahanan Indonesia}
 \label{fig:fase-preliminary}
-\includegraphics[width=0.42\textwidth]{images/Preliminary.drawio.png}
+\includegraphics[width=0.42\textwidth]{images/Fase Preliminary.drawio.png}
 \end{figure}
 
 Gambar~\ref{fig:fase-preliminary} menempatkan fase \textit{Preliminary} pada puncak siklus, terpisah dari kesembilan fase lain yang mengelilingi \textit{Requirements Management}. Kedudukan ini menegaskan sifatnya sebagai fase persiapan yang dijalankan satu kali di awal untuk membentuk fondasi seluruh siklus, bukan bagian dari perulangan pengembangan arsitektur. Pada fase inilah kesiapan organisasi dinilai, tim arsitektur dibentuk, prinsip arsitektur ditetapkan, dan kerangka TOGAF disesuaikan menjadi TOGAF Pertahanan Indonesia. Rincian \textit{input}, \textit{step} dan \textit{output} yang membentuk fase tersebut terdapat pada Tabel~\ref{tab:fase-preliminary}.
@@ -260,7 +260,7 @@ Gambar~\ref{fig:fase-preliminary} menempatkan fase \textit{Preliminary} pada pun
 
 Fase \textit{Preliminary} TOGAF Pertahanan Indonesia menghadirkan konteks pertahanan sejak titik paling awal. Fase ini menerima \textit{input} doktrin dan strategi pertahanan nasional, standar industri pertahanan, serta kerangka regulasi dan tata kelola yang mencakup SPBE dan Satu Data Indonesia. Ketiga kelompok \textit{input} ini memastikan bahwa arsitektur yang akan dibentuk selaras dengan karakteristik organisasi pertahanan dan berada sesuai dengan hukum yang berlaku.
 
-Langkah-langkah fase ini bergerak dari penetapan ruang lingkup organisasi yang terdampak, pembentukan tim arsitektur, hingga penetapan prinsip arsitektur pertahanan. Langkah yang paling menentukan adalah penyesuaian kerangka TOGAF ADM menjadi TOGAF Pertahanan Indonesia, karena pada langkah inilah struktur sepuluh fase, prinsip pertahanan, dan penempatan fase C5ISR ditetapkan.
+Langkah-langkah fase ini bergerak dari penetapan ruang lingkup organisasi yang terdampak, pembentukan tim arsitektur, hingga penetapan prinsip arsitektur pertahanan. Langkah yang paling menentukan adalah penyesuaian kerangka TOGAF ADM menjadi TOGAF Pertahanan Indonesia, karena pada langkah inilah struktur sepuluh fase, prinsip pertahanan, dan penempatan fase C6ISR ditetapkan.
 
 \textit{Output} dari fase ini merupakan perangkat kerja bagi seluruh siklus. Model organisasi arsitektur, kerangka tata kelola arsitektur, dan prinsip arsitektur pertahanan menjadi acuan pengendalian mutu pada setiap fase.
 
@@ -272,7 +272,7 @@ Pada fase \textit{Architecture Vision} dilakukan perumusan visi, misi, dan tujua
 \centering
 \caption{Kedudukan Fase \textit{Architecture Vision} pada Siklus TOGAF Pertahanan Indonesia}
 \label{fig:fase-vision}
-\includegraphics[width=0.42\textwidth]{images/Architecture Vision.drawio.png}
+\includegraphics[width=0.42\textwidth]{images/Fase Architecture Vision.drawio.png}
 \end{figure}
 
 Gambar~\ref{fig:fase-vision} menunjukkan fase \textit{Architecture Vision} sebagai fase pertama yang terhubung langsung dengan \textit{Requirements Management} di pusat siklus. Posisi ini menandai peralihan dari persiapan menuju pengembangan, yaitu titik ketika kebutuhan pemangku kepentingan mulai dikumpulkan dan diterjemahkan menjadi arah arsitektur. \textit{Input}, \textit{step} dan \textit{output} yang menghasilkan arah tersebut diuraikan pada Tabel~\ref{tab:fase-vision}.
@@ -340,10 +340,10 @@ Pada fase \textit{Business Architecture} dilakukan perancangan model proses bisn
 \centering
 \caption{Kedudukan Fase \textit{Business Architecture} pada Siklus TOGAF Pertahanan Indonesia}
 \label{fig:fase-business}
-\includegraphics[width=0.42\textwidth]{images/Business Architecture.drawio.png}
+\includegraphics[width=0.42\textwidth]{images/Fase Business Architecture.drawio.png}
 \end{figure}
 
-Gambar~\ref{fig:fase-business} menempatkan fase \textit{Business Architecture} sebagai fase pertama dari kelompok pengembangan domain arsitektur. Sebagai fase yang menerjemahkan visi menjadi rancangan organisasi yang konkret, \textit{Business Architecture} menjadi pijakan bagi perancangan arsitektur data, aplikasi, teknologi, dan C5ISR pada fase-fase sesudahnya. Uraian \textit{input}, \textit{step}, dan \textit{output} dapat dilihat pada Tabel~\ref{tab:fase-business}.
+Gambar~\ref{fig:fase-business} menempatkan fase \textit{Business Architecture} sebagai fase pertama dari kelompok pengembangan domain arsitektur. Sebagai fase yang menerjemahkan visi menjadi rancangan organisasi yang konkret, \textit{Business Architecture} menjadi pijakan bagi perancangan arsitektur data, aplikasi, teknologi, dan C6ISR pada fase-fase sesudahnya. Uraian \textit{input}, \textit{step}, dan \textit{output} dapat dilihat pada Tabel~\ref{tab:fase-business}.
 
 \begin{longtable}{@{}p{0.31\textwidth}p{0.31\textwidth}p{0.31\textwidth}@{}}
 \caption{\textit{Input}, \textit{Step}, dan \textit{Output} Fase \textit{Business Architecture}}
@@ -402,7 +402,7 @@ Gambar~\ref{fig:fase-business} menempatkan fase \textit{Business Architecture} s
 
 Langkah-langkah fase ini menegaskan pendekatan berbasis kapabilitas. Pemodelan proses bisnis inti dan pendukung, penyusunan peta kapabilitas, dan penyusunan \textit{value stream} pertahanan menempatkan kapabilitas sebagai analisis utama. Setelah arsitektur bisnis target disusun, analisis kesenjangan mengidentifikasi selisih antara kondisi saat ini dan kondisi target yang harus ditutup.
 
-\textit{Output} fase ini menyediakan pijakan organisasional bagi fase berikutnya. Peta kapabilitas dan \textit{value stream} pertahanan menjadi acuan penurunan kebutuhan data dan aplikasi, sedangkan model tata kelola dan komando serta model operasi dan interoperabilitas lintas matra secara khusus menyiapkan landasan bagi perancangan arsitektur komando dan kendali pada fase C5ISR. Dengan demikian, arsitektur C5ISR tidak dirancang terlepas dari struktur organisasi yang menjalankannya.
+\textit{Output} fase ini menyediakan pijakan organisasional bagi fase berikutnya. Peta kapabilitas dan \textit{value stream} pertahanan menjadi acuan penurunan kebutuhan data dan aplikasi, sedangkan model tata kelola dan komando serta model operasi dan interoperabilitas lintas matra secara khusus menyiapkan landasan bagi perancangan arsitektur komando dan kendali pada fase C6ISR. Dengan demikian, arsitektur C6ISR tidak dirancang terlepas dari struktur organisasi yang menjalankannya.
 
 \subsubsection{Fase \textit{Information Systems Architecture}}
 
@@ -417,7 +417,7 @@ Arsitektur data merancang struktur definisi, klasifikasi, dan tata kelola kepemi
 \centering
 \caption{Kedudukan Sub-domain \textit{Data Architecture} pada Siklus TOGAF Pertahanan Indonesia}
 \label{fig:fase-data}
-\includegraphics[width=0.42\textwidth]{images/Data Architecture.drawio.png}
+\includegraphics[width=0.42\textwidth]{images/Fase Data Architecture.drawio.png}
 \end{figure}
 
 Gambar~\ref{fig:fase-data} menunjukkan bahwa arsitektur data merupakan salah satu dari dua cabang fase \textit{Information Systems Architecture} yang dikerjakan terlebih dahulu. \textit{Input}, \textit{step}, dan \textit{output} yang membentuk arsitektur data disajikan pada Tabel~\ref{tab:data-architecture}.
@@ -490,7 +490,7 @@ Arsitektur aplikasi dilakukan untuk merancang portofolio aplikasi yang diperluka
 \centering
 \caption{Kedudukan Sub-domain \textit{Application Architecture} pada Siklus TOGAF Pertahanan Indonesia}
 \label{fig:fase-aplikasi}
-\includegraphics[width=0.42\textwidth]{images/Application Architecture.drawio.png}
+\includegraphics[width=0.42\textwidth]{images/Fase Application Architecture.drawio.png}
 \end{figure}
 
 Gambar~\ref{fig:fase-aplikasi} menunjukkan arsitektur aplikasi sebagai cabang kedua fase \textit{Information Systems Architecture}, yang dikerjakan setelah arsitektur data selesai ditetapkan. Fokusnya adalah menentukan aplikasi apa yang dibutuhkan, aplikasi mana yang masih layak dipertahankan, dan bagaimana aplikasi lintas satuan dapat saling bertukar data. Rincian \textit{input}, \textit{step}, dan \textit{output} dapat dilihat pada Tabel~\ref{tab:application-architecture}.
@@ -562,10 +562,10 @@ Pada fase \textit{Technology Architecture} disusun arsitektur teknologi yang men
 \centering
 \caption{Kedudukan Fase \textit{Technology Architecture} pada Siklus TOGAF Pertahanan Indonesia}
 \label{fig:fase-teknologi}
-\includegraphics[width=0.42\textwidth]{images/Technology Architecture.drawio.png}
+\includegraphics[width=0.42\textwidth]{images/Fase Technology Architecture.drawio.png}
 \end{figure}
 
-Gambar~\ref{fig:fase-teknologi} menempatkan fase \textit{Technology Architecture} sebelum fase \textit{C5ISR Architecture}. Posisi ini menegaskan perannya sebagai penyedia fondasi teknologi yang menentukan kelayakan penerapan seluruh rancangan sebelumnya. \textit{Input}, \textit{step}, dan \textit{output} disajikan pada Tabel~\ref{tab:technology-architecture}.
+Gambar~\ref{fig:fase-teknologi} menempatkan fase \textit{Technology Architecture} sebelum fase \textit{C6ISR Architecture}. Posisi ini menegaskan perannya sebagai penyedia fondasi teknologi yang menentukan kelayakan penerapan seluruh rancangan sebelumnya. \textit{Input}, \textit{step}, dan \textit{output} disajikan pada Tabel~\ref{tab:technology-architecture}.
 
 \begin{longtable}{@{}p{0.31\textwidth}p{0.31\textwidth}p{0.31\textwidth}@{}}
 \caption{\textit{Input}, \textit{Step}, dan \textit{Output} Fase \textit{Technology Architecture}}
@@ -622,26 +622,26 @@ Gambar~\ref{fig:fase-teknologi} menempatkan fase \textit{Technology Architecture
 
 Langkah-langkah pada fase ini memuat perancangan arsitektur teknologi target yang mencakup jaringan, \textit{server}, komputasi awan, dan komputasi tepi, disertai dua langkah bernilai strategis, yaitu perancangan fondasi keamanan siber terpadu lintas lapisan dan penetapan standar teknologi serta protokol keamanan. Kedua langkah ini merupakan penerapan langsung prinsip \textit{Security by Design}.
 
-\textit{Output} fase ini berupa model arsitektur teknologi pertahanan, standar teknologi dan protokol keamanan, serta rancangan fondasi keamanan siber terpadu. Rancangan fondasi keamanan tersebut menjadi masukan penting bagi fase \textit{C5ISR Architecture}, sehingga kapabilitas komando dan kendali dibangun di atas landasan keamanan yang telah ditetapkan, bukan di atas landasan yang masih harus disiapkan kemudian.
+\textit{Output} fase ini berupa model arsitektur teknologi pertahanan, standar teknologi dan protokol keamanan, serta rancangan fondasi keamanan siber terpadu. Rancangan fondasi keamanan tersebut menjadi masukan penting bagi fase \textit{C6ISR Architecture}, sehingga kapabilitas komando dan kendali dibangun di atas landasan keamanan yang telah ditetapkan, bukan di atas landasan yang masih harus disiapkan kemudian.
 
-\subsubsection{Fase \textit{C5ISR Architecture}}
+\subsubsection{Fase \textit{C6ISR Architecture}}
 
-Fase \textit{C5ISR Architecture} merupakan fase khusus yang terdapat pada TOGAF Pertahanan Indonesia. Fase ini merancang arsitektur kapabilitas C5ISR, yaitu \textit{Command, Control, Communication, Computer, Cyber, Intelligence, Surveillance, and Reconnaissance}, sebagai inti operasional pertahanan.
+Fase \textit{C6ISR Architecture} merupakan fase khusus yang terdapat pada TOGAF Pertahanan Indonesia. Fase ini merancang arsitektur kapabilitas C6ISR, yaitu \textit{Command, Control, Communications, Computers, Cyber Defense, Combat Systems, Intelligence, Surveillance, and Reconnaissance}, sebagai inti operasional pertahanan.
 
 \begin{figure}[htbp]
 \centering
-\caption{Kedudukan Fase \textit{C5ISR Architecture} pada Siklus TOGAF Pertahanan Indonesia}
-\label{fig:fase-c5isr}
-\includegraphics[width=0.42\textwidth]{images/C5ISR Architecture.drawio.png}
+\caption{Kedudukan Fase \textit{C6ISR Architecture} pada Siklus TOGAF Pertahanan Indonesia}
+\label{fig:fase-c6isr}
+\includegraphics[width=0.42\textwidth]{images/Fase C6ISR Architecture.drawio.png}
 \end{figure}
 
-Arsitektur C5ISR dirancang dengan pendekatan \textit{network centric warfare} yang menghubungkan unsur sensor (\textit{surveillance} dan \textit{reconnaissance}), unsur pemroses dan intelijen, unsur pengambil keputusan (\textit{command and control}), serta unsur penindak (\textit{effector}) dalam satu jaringan informasi terpadu.
+Arsitektur C6ISR dirancang dengan pendekatan \textit{network centric warfare} yang menghubungkan unsur sensor (\textit{surveillance} dan \textit{reconnaissance}), unsur pemroses dan intelijen, unsur pengambil keputusan (\textit{command and control}), serta unsur penindak (\textit{effector}) dalam satu jaringan informasi terpadu.
 
-Gambar~\ref{fig:fase-c5isr} memperlihatkan penempatan fase \textit{C5ISR Architecture} setelah \textit{Technology Architecture} dan sebelum \textit{Opportunities \& Solutions} menegaskan bahwa kapabilitas C5ISR dirancang di atas fondasi data, aplikasi, teknologi, dan keamanan yang telah ditetapkan sebelumnya. \textit{Input}, \textit{step}, dan \textit{output} disajikan pada Tabel~\ref{tab:c5isr-architecture}.
+Gambar~\ref{fig:fase-c6isr} memperlihatkan penempatan fase \textit{C6ISR Architecture} setelah \textit{Technology Architecture} dan sebelum \textit{Opportunities \& Solutions} menegaskan bahwa kapabilitas C6ISR dirancang di atas fondasi data, aplikasi, teknologi, dan keamanan yang telah ditetapkan sebelumnya. \textit{Input}, \textit{step}, dan \textit{output} disajikan pada Tabel~\ref{tab:c6isr-architecture}.
 
 \begin{longtable}{@{}p{0.31\textwidth}p{0.31\textwidth}p{0.31\textwidth}@{}}
-\caption{\textit{Input}, \textit{Step}, dan \textit{Output} Fase \textit{C5ISR Architecture}}
-\label{tab:c5isr-architecture}\\
+\caption{\textit{Input}, \textit{Step}, dan \textit{Output} Fase \textit{C6ISR Architecture}}
+\label{tab:c6isr-architecture}\\
 \toprule
 \textbf{INPUT} & \textbf{STEP} & \textbf{OUTPUT}\\
 \midrule
@@ -663,41 +663,41 @@ Gambar~\ref{fig:fase-c5isr} memperlihatkan penempatan fase \textit{C5ISR Archite
 7. Draf \textit{Architecture Definition Document} dan draf \textit{Architecture Requirements Specification}
 &
 \raggedright
-1. Memilih model rujukan dan sudut pandang C5ISR, antara lain \textit{operational} dan \textit{systems viewpoint}\newline
-2. Memetakan kapabilitas C5ISR dan keterkaitannya dengan proses pertahanan\newline
-3. Menyusun deskripsi arsitektur C5ISR \textit{baseline}\newline
+1. Memilih model rujukan dan sudut pandang C6ISR, antara lain \textit{operational} dan \textit{systems viewpoint}\newline
+2. Memetakan kapabilitas C6ISR dan keterkaitannya dengan proses pertahanan\newline
+3. Menyusun deskripsi arsitektur C6ISR \textit{baseline}\newline
 4. Merancang arsitektur komando dan kendali terpadu\newline
 5. Merancang integrasi unsur sensor, pengambil keputusan, dan penindak dalam satu jaringan (\textit{sensor to effector})\newline
 6. Mengintegrasikan pertahanan siber dan operasi lintas domain\newline
-7. Menyusun deskripsi arsitektur C5ISR target\newline
+7. Menyusun deskripsi arsitektur C6ISR target\newline
 8. Melakukan analisis kesenjangan\newline
-9. Menetapkan komponen \textit{roadmap} C5ISR\newline
+9. Menetapkan komponen \textit{roadmap} C6ISR\newline
 10. Melaksanakan tinjauan formal pemangku kepentingan\newline
-11. Memfinalkan arsitektur C5ISR dan memutakhirkan \textit{Architecture Definition Document}
+11. Memfinalkan arsitektur C6ISR dan memutakhirkan \textit{Architecture Definition Document}
 &
 \raggedright
-1. Model arsitektur C5ISR pertahanan\newline
+1. Model arsitektur C6ISR pertahanan\newline
 2. Rancangan jaringan \textit{sensor to effector}\newline
 3. Kerangka integrasi multi-domain dan pertahanan siber\newline
 4. Draf \textit{Architecture Definition Document} dan \textit{Architecture Requirements Specification} yang dimutakhirkan\newline
-5. Komponen arsitektur C5ISR pada \textit{roadmap} arsitektur\arraybackslash\\
+5. Komponen arsitektur C6ISR pada \textit{roadmap} arsitektur\arraybackslash\\
 \end{longtable}
 
-\textit{Input} fase ini menghimpun keluaran ketiga fase arsitektur sebelumnya beserta rujukan operasional pertahanan, yaitu doktrin, kebutuhan \textit{smart defence}, konsep \textit{network centric warfare}, dan operasi multi-domain. Himpunan dari masukan ini menempatkan arsitektur C5ISR sebagai bagian akhir dari seluruh rancangan teknis sekaligus penerjemah doktrin pertahanan ke dalam rancangan sistem.
+\textit{Input} fase ini menghimpun keluaran ketiga fase arsitektur sebelumnya beserta rujukan operasional pertahanan, yaitu doktrin, kebutuhan \textit{smart defence}, konsep \textit{network centric warfare}, dan operasi multi-domain. Himpunan dari masukan ini menempatkan arsitektur C6ISR sebagai bagian akhir dari seluruh rancangan teknis sekaligus penerjemah doktrin pertahanan ke dalam rancangan sistem.
 
-Langkah-langkah pada fase ini mulai dari pemilihan sudut pandang, pemetaan kapabilitas C5ISR, penyusunan arsitektur \textit{baseline} dan target, hingga finalisasi. Inti perancangannya terletak pada integrasi unsur sensor, unsur pengambil keputusan, dan unsur penindak dalam satu jaringan, atau rangkaian \textit{sensor to effector}, yang dipadukan dengan pertahanan siber dan operasi lintas domain.
+Langkah-langkah pada fase ini mulai dari pemilihan sudut pandang, pemetaan kapabilitas C6ISR, penyusunan arsitektur \textit{baseline} dan target, hingga finalisasi. Inti perancangannya terletak pada integrasi unsur sensor, unsur pengambil keputusan, dan unsur penindak dalam satu jaringan, atau rangkaian \textit{sensor to effector}, yang dipadukan dengan pertahanan siber dan operasi lintas domain.
 
-\textit{Output} fase ini berupa model arsitektur C5ISR pertahanan, rancangan jaringan \textit{sensor to effector}, dan kerangka integrasi multi-domain dan pertahanan siber. Ketiga keluaran tersebut merupakan wujud kapabilitas pertahanan cerdas yang menjadi tujuan penelitian.
+\textit{Output} fase ini berupa model arsitektur C6ISR pertahanan, rancangan jaringan \textit{sensor to effector}, dan kerangka integrasi multi-domain dan pertahanan siber. Ketiga keluaran tersebut merupakan wujud kapabilitas pertahanan cerdas yang menjadi tujuan penelitian.
 
 \subsubsection{Fase \textit{Opportunities \& Solutions}}
 
-Pada fase \textit{Opportunities \& Solutions} dilakukan penggabungan seluruh kesenjangan yang teridentifikasi dari fase arsitektur bisnis, data, aplikasi, teknologi, dan C5ISR, kemudian menerjemahkannya menjadi kelompok inisiatif dan arsitektur transisi.
+Pada fase \textit{Opportunities \& Solutions} dilakukan penggabungan seluruh kesenjangan yang teridentifikasi dari fase arsitektur bisnis, data, aplikasi, teknologi, dan C6ISR, kemudian menerjemahkannya menjadi kelompok inisiatif dan arsitektur transisi.
 
 \begin{figure}[htbp]
 \centering
 \caption{Kedudukan Fase \textit{Opportunities \& Solutions} pada Siklus TOGAF Pertahanan Indonesia}
 \label{fig:fase-opportunities}
-\includegraphics[width=0.42\textwidth]{images/Opportunities & Solutions.drawio.png}
+\includegraphics[width=0.42\textwidth]{images/Fase Opportunities and Solutions.drawio.png}
 \end{figure}
 
 Gambar~\ref{fig:fase-opportunities} menempatkan fase \textit{Opportunities \& Solutions} sebagai fase pertama dari kelompok realisasi, yaitu titik ketika rancangan arsitektur mulai diterjemahkan menjadi rencana pelaksanaan. Posisi ini menjadikannya penghubung antara kelima fase perancangan sebelumnya dan fase-fase implementasi sesudahnya. \textit{Input}, \textit{step}, dan \textit{output} dapat dilihat pada Tabel~\ref{tab:opportunities-solutions}.
@@ -722,7 +722,7 @@ Gambar~\ref{fig:fase-opportunities} menempatkan fase \textit{Opportunities \& So
 3. Rencana komunikasi\newline
 4. \textit{Statement of Architecture Work}, dokumen \textit{Architecture Vision}, dan \textit{Architecture Repository}\newline
 5. Draf \textit{Architecture Definition Document} dan draf \textit{Architecture Requirements Specification}\newline
-6. Hasil analisis kesenjangan dari seluruh fase arsitektur, termasuk fase C5ISR\newline
+6. Hasil analisis kesenjangan dari seluruh fase arsitektur, termasuk fase C6ISR\newline
 7. Komponen \textit{roadmap} arsitektur dari Fase B, C, D, dan E\newline
 8. Prinsip arsitektur pertahanan dan prioritas strategi organisasi
 &
@@ -749,7 +749,7 @@ Gambar~\ref{fig:fase-opportunities} menempatkan fase \textit{Opportunities \& So
 7. Daftar inisiatif dan proyek transformasi digital pertahanan\arraybackslash\\
 \end{longtable}
 
-\textit{Input} fase ini menghimpun hasil analisis kesenjangan dari seluruh fase arsitektur, termasuk fase C5ISR, beserta komponen \textit{roadmap} dari tiap domain. Cakupan yang meliputi kelima domain memastikan bahwa rencana pelaksanaan yang disusun tidak melewatkan satu pun aspek arsitektur yang telah dirancang.
+\textit{Input} fase ini menghimpun hasil analisis kesenjangan dari seluruh fase arsitektur, termasuk fase C6ISR, beserta komponen \textit{roadmap} dari tiap domain. Cakupan yang meliputi kelima domain memastikan bahwa rencana pelaksanaan yang disusun tidak melewatkan satu pun aspek arsitektur yang telah dirancang.
 
 Langkah-langkah pada fase ini yaitu konsolidasi dan pengelompokan kesenjangan menjadi paket pekerjaan yang seragam, penyelarasan kebutuhan interoperabilitas lintas matra, serta penyusunan arsitektur transisi.
 
@@ -763,7 +763,7 @@ Pada fase \textit{Migration Planning} dilakukan penyusunan rencana migrasi dan p
 \centering
 \caption{Kedudukan Fase \textit{Migration Planning} pada Siklus TOGAF Pertahanan Indonesia}
 \label{fig:fase-migration}
-\includegraphics[width=0.42\textwidth]{images/Migration Planning.drawio.png}
+\includegraphics[width=0.42\textwidth]{images/Fase Migration Planning.drawio.png}
 \end{figure}
 
 Gambar~\ref{fig:fase-migration} menunjukkan fase \textit{Migration Planning} sebagai kelanjutan langsung dari fase \textit{Opportunities \& Solutions} dalam kelompok realisasi. Posisi berurutan ini memperlihatkan peralihan dari penetapan paket pekerjaan menuju penetapan urutan dan waktu pelaksanaannya. \textit{Input}, \textit{step} dan \textit{output} dapat dilihat pada Tabel~\ref{tab:migration-planning}.
@@ -827,7 +827,7 @@ Fase \textit{Implementation Governance} memastikan bahwa implementasi inisiatif 
 \centering
 \caption{Kedudukan Fase \textit{Implementation Governance} pada Siklus TOGAF Pertahanan Indonesia}
 \label{fig:fase-governance}
-\includegraphics[width=0.42\textwidth]{images/Implementation Governance.drawio.png}
+\includegraphics[width=0.42\textwidth]{images/Fase Implementation Governance.drawio.png}
 \end{figure}
 
 Gambar~\ref{fig:fase-governance} menempatkan fase \textit{Implementation Governance} setelah fase \textit{Migration Planning}, yaitu pada tahap ketika rencana yang telah disusun mulai diwujudkan menjadi solusi nyata. Posisi ini menegaskan perannya sebagai fase pengendalian pelaksanaan yang menjaga agar solusi yang dibangun tidak menyimpang dari rancangan. \textit{Input}, \textit{step}, dan \textit{output} dapat dilihat pada Tabel~\ref{tab:implementation-governance}.
@@ -892,7 +892,7 @@ Fase \textit{Architecture Change Management} bertujuan untuk mengelola perubahan
 \centering
 \caption{Kedudukan Fase \textit{Architecture Change Management} pada Siklus TOGAF Pertahanan Indonesia}
 \label{fig:fase-change}
-\includegraphics[width=0.42\textwidth]{images/Architecture Change Management.drawio.png}
+\includegraphics[width=0.42\textwidth]{images/Fase Architecture Change Management.drawio.png}
 \end{figure}
 
 Gambar~\ref{fig:fase-change} memperlihatkan TOGAF Pertahanan Indonesia menutup siklusnya dengan fase \textit{Architecture Change Management}, yang terhubung kembali ke fase \textit{Architecture Vision}. Hubungan balik inilah yang menandai sifat berulang keseluruhan siklus, sekaligus menempatkan fase ini sebagai penjaga keberlanjutan yang mengawali siklus baru ketika perubahan menuntut penyesuaian arsitektur. \textit{Input}, \textit{step} dan \textit{output} dapat dilihat pada Tabel~\ref{tab:change-management}.
@@ -975,11 +975,11 @@ KF-01 & Metodologi pengembangan preskriptif dan iteratif & Siklus ADM diadopsi s
 \addlinespace
 KF-02 & Cakupan domain arsitektur inti & Fase \textit{Business Architecture}, \textit{Information Systems Architecture}, dan \textit{Technology Architecture} dipertahankan tanpa pengurangan. & III.2.3.3; III.2.3.4; III.2.3.5\\
 \addlinespace
-KF-03 & Akomodasi domain C5ISR & Penambahan Fase E \textit{C5ISR Architecture} sebagai domain arsitektur tersendiri, diperkuat prinsip \textit{Integrated Command \& Control}. & III.2.1; III.2.2; III.2.3.6\\
+KF-03 & Akomodasi domain C6ISR & Penambahan Fase E \textit{C6ISR Architecture} sebagai domain arsitektur tersendiri, diperkuat prinsip \textit{Integrated Command \& Control}. & III.2.1; III.2.2; III.2.3.6\\
 \addlinespace
 KF-04 & Keamanan siber sebagai prinsip perancangan & Penetapan prinsip \textit{Security by Design} yang mengikat seluruh fase, dengan perancangan fondasi keamanan siber terpadu pada Fase D dan Fase E. & III.2.2; III.2.3.5; III.2.3.6\\
 \addlinespace
-KF-05 & Dukungan interoperabilitas lintas entitas & Penetapan prinsip \textit{Interoperabilitas} disertai penetapan standar integrasi lintas matra pada arsitektur data, aplikasi, dan C5ISR. & III.2.2; III.2.3.4; III.2.3.6\\
+KF-05 & Dukungan interoperabilitas lintas entitas & Penetapan prinsip \textit{Interoperabilitas} disertai penetapan standar integrasi lintas matra pada arsitektur data, aplikasi, dan C6ISR. & III.2.2; III.2.3.4; III.2.3.6\\
 \addlinespace
 KF-06 & Keterkaitan dengan doktrin dan strategi pertahanan & Doktrin dan strategi pertahanan nasional ditetapkan sebagai \textit{input} Fase \textit{Preliminary} dan \textit{Architecture Vision}, diperkuat prinsip \textit{Smart Defence Oriented}. & III.2.2; III.2.3.1; III.2.3.2\\
 \addlinespace
