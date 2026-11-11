@@ -1232,6 +1232,514 @@ Jangka Menengah (1–3 tahun) & Penerapan virtualisasi, kontainer, pembangunan l
 Jangka Panjang (3–5 tahun) & Interoperabilitas lintas matra penuh dan integrasi JADC2; otomasi keamanan; pencapaian tingkat kematangan level 3 Berdasarkan Permenhan Nomor 34 Tahun 2025; operasionalisasi Data Center Utama dan DRC dalam mode aktif-aktif & Infrastruktur teknologi terintegrasi, aman, dan andal\\
 \end{longtable}
 
-\section{Fase \textit{C6ISR}}
+% ===== IV.6: disinkronkan dari docx (Tahap 4) =====
+\section{Fase \textit{C6ISR Architecture}}
 
-Bagian ini masih dalam penyusunan.
+Fase \textit{C6ISR Architecture} merancang arsitektur kapabilitas \textit{Command, Control, Communications, Computers, Cyber Defense, Combat Systems, Intelligence, Surveillance, and Reconnaissance} sebagai inti operasional pertahanan cerdas. Perancangan mengikuti \textit{input}, \textit{step}, dan \textit{output} pada Tabel~\ref{tab:c6isr-architecture} serta berpedoman pada prinsip \textit{Integrated Command \& Control}, \textit{Interoperabilitas}, \textit{Security by Design}, \textit{Data as Strategic Asset}, dan \textit{Availability \& Reliability}. Fase ini dibangun di atas keluaran fase sebelumnya, yaitu model organisasi dan kapabilitas pada arsitektur bisnis, Portal Satu Data Pertahanan dan platform integrasi pada arsitektur data dan aplikasi, serta infrastruktur dan lapisan keamanan pada arsitektur teknologi.
+
+Fase C6ISR Architecture merupakan fase khusus dalam TOGAF Pertahanan Indonesia yang berfungsi menerjemahkan kebutuhan operasional pertahanan ke dalam rancangan kapabilitas C6ISR sebagai satu kesatuan arsitektur.
+
+Fase ini ditempatkan setelah \textit{Technology Architecture} karena rancangan C6ISR menggunakan fondasi data, aplikasi, jaringan, komputasi, dan keamanan yang telah disusun pada fase sebelumnya. Dengan posisi tersebut, C6ISR tidak menggantikan domain teknologi, tetapi menggunakan dan mengarahkan kapabilitas teknologi tersebut untuk mendukung proses operasional pertahanan.
+
+Pendekatan yang digunakan adalah \textit{Network Centric Warfare}, yaitu menghubungkan sumber informasi, kemampuan komunikasi dan komputasi, proses \textit{intelligence} dan \textit{data fusion}, \textit{command} and \textit{control}, serta \textit{combat systems} melalui jaringan informasi yang interoperabel. Dengan demikian, aliran informasi tidak berhenti pada penyediaan informasi bagi pengambil keputusan, tetapi dapat diteruskan menjadi tindakan operasional dan menghasilkan umpan balik untuk memperbarui situasi.
+
+Pemodelan Fase C6ISR dilakukan pada tingkat konseptual dengan menggunakan doktrin, kebijakan, dan sumber terbuka. Penelitian ini tidak mencakup spesifikasi teknis alutsista, konfigurasi persandian, atau informasi mengenai gelar kekuatan. Informasi yang belum dapat dipastikan berdasarkan sumber terbuka akan ditandai untuk kemudian divalidasi melalui \textit{expert judgement}, terutama oleh pakar praktisi Kemhan RI dan pakar mitra dari industri pertahanan.
+
+\subsection{Kebutuhan Operasional}
+
+Kebutuhan operasional C6ISR diturunkan dari doktrin dan dokumen kebijakan pertahanan. Hasil penurunan kebutuhan tersebut disajikan pada Tabel~\ref{tab:d4-27}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.097\textwidth}>{\raggedright\arraybackslash}p{0.358\textwidth}>{\raggedright\arraybackslash}p{0.243\textwidth}>{\raggedright\arraybackslash}p{0.205\textwidth}@{}}
+\caption{Kebutuhan Operasional C6ISR}
+\label{tab:d4-27}\\
+\toprule
+\textbf{Kode} & \textbf{Kebutuhan Operasional} & \textbf{Sumber} & \textbf{Elemen Terkait}\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Kode} & \textbf{Kebutuhan Operasional} & \textbf{Sumber} & \textbf{Elemen Terkait}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+KO-01 & Integrasi C6ISR ketiga matra dalam satu pusat komando dan pengendalian berbasis \textit{network centric warfare} & Kajian Ditjen Pothan Kemhan \parencite{Dwipratama2023} & \textit{Command}, \textit{Control}, \textit{Communications}\\
+KO-02 & Modernisasi alutsista yang terintegrasi dengan konsep \textit{network centric warfare} & Permenhan Nomor 12 Tahun 2021 \parencite{Permenhan12Tahun2021} & \textit{Combat Systems}\\
+KO-03 & Siklus \textit{sense}, \textit{make sense}, dan \textit{act} yang cepat lintas domain, dengan kemampuan bertindak mandiri saat komunikasi terganggu & Strategi JADC2 \parencite{USDoD2022} & \textit{Command}, \textit{Control}, \textit{Computers}\\
+KO-04 & Perlindungan terhadap ancaman perangkat keras (termasuk \textit{jamming}), perangkat lunak, serta data dan informasi & Pedoman Pertahanan Siber \parencite{KemhanRI2014} & \textit{Cyber Defense}, \textit{Communications}\\
+KO-05 & Jalur komunikasi satelit yang terjamin kerahasiaan dan kemandiriannya & Kajian Ditjen Pothan Kemhan \parencite{Dwipratama2023} & \textit{Communications}\\
+KO-06 & Pelindungan infrastruktur informasi vital dengan target kematangan keamanan siber level 3 pada tahun 2029 & Permenhan Nomor 34 Tahun 2025 \parencite{Permenhan34Tahun2025} & \textit{Cyber Defense}\\
+KO-07 & Pengamanan data sesuai klasifikasi Terbuka, Terbatas, dan Rahasia & Permenhan Nomor 1 Tahun 2023 \parencite{Permenhan1Tahun2023} & \textit{Computers}, \textit{Cyber Defense}\\
+\end{longtable}
+}
+
+\subsection{Arsitektur C6ISR \textit{Baseline}}
+
+Data rinci mengenai sistem komando dan kendali, sensor, serta alutsista dari ketiga matra bersifat terbatas dan tidak tersedia dalam penelitian ini. Oleh karena itu, arsitektur C6ISR \textit{baseline} disusun sebagai model logis berdasarkan hasil analisis pada fase sebelumnya dan informasi yang tersedia dari sumber terbuka. Arsitektur C6ISR \textit{baseline} dalam penelitian ini menggambarkan kondisi secara umum dan tidak dimaksudkan untuk merepresentasikan konfigurasi aktual setiap sistem pertahanan. Gambaran arsitektur C6ISR \textit{baseline} ditunjukkan pada Gambar~\ref{fig:d4-16}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.89\textwidth]{images/C6ISR Baseline.drawio.png}
+\caption{Arsitektur C6ISR \textit{Baseline}}
+\label{fig:d4-16}
+\end{figure}
+
+Gambar~\ref{fig:d4-16} menunjukkan bahwa pada kondisi \textit{baseline}, Kemhan berperan pada kebijakan dan sumber daya pertahanan, sedangkan Mabes TNI memegang komando penggunaan kekuatan atas ketiga matra. Namun, kapabilitas C6ISR masih terpisah berdasarkan masing-masing matra. Setiap matra memiliki sistem komando dan kendali, sensor, sistem tempur, serta sarana komunikasi sendiri. Sementara itu, pertukaran informasi dan integrasi antarmatra masih terbatas dan sebagian masih dilakukan secara manual. Kondisi setiap elemen C6ISR dirangkum pada Tabel~\ref{tab:d4-28}.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.057\textwidth}>{\raggedright\arraybackslash}p{0.209\textwidth}>{\raggedright\arraybackslash}p{0.667\textwidth}@{}}
+\caption{Kondisi \textit{Baseline} C6ISR}
+\label{tab:d4-28}\\
+\toprule
+\textbf{No.} & \textbf{Elemen} & \textbf{Kondisi Baseline}\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{No.} & \textbf{Elemen} & \textbf{Kondisi Baseline}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+1 & \textit{Command \& Control} & Sistem \textit{Command \& Control} dikembangkan per matra; belum terdapat aplikasi yang mendukung \textit{Command \& Control} lintas matra\\
+2 & \textit{Communications} & Kemhan belum memiliki satelit pertahanan dan hak slot orbit 123° BT tidak lagi dimiliki sejak Desember 2024; jaringan belum tersegmentasi dan belum lintas matra\\
+3 & \textit{Computers} & Satu Data Center tanpa DRC; aplikasi khusus bersifat silo; belum terdapat fusi data dan analitik operasional\\
+4 & \textit{Cyber Defense} & Keamanan siber parsial dengan tingkat kematangan level 1–2; belum terdapat pemisahan jaringan operasional terklasifikasi\\
+5 & \textit{Combat Systems} & Alutsista berasal dari berbagai negara produsen dengan standar antarmuka beragam, sehingga integrasi dengan \textit{Command \& Control} lintas matra terbatas\\
+6 & ISR & Sensor dikelola per matra dan datanya belum difusikan lintas matra; belum tersedia satelit ISR khusus pertahanan\\
+\end{longtable}
+
+Dari kondisi \textit{baseline} tersebut, terdapat tiga karakteristik utama. Pertama, kapabilitas C6ISR masih terpisah berdasarkan masing-masing matra, sehingga belum terbentuk gambaran situasi bersama yang diperlukan dalam penerapan \textit{Network Centric Warfare}. Kedua, sistem komunikasi belum memiliki akses satelit yang dikuasai sendiri, sementara komunikasi satelit menjadi salah satu kebutuhan penting untuk mendukung konektivitas di wilayah Indonesia yang luas dan berbentuk kepulauan. Ketiga, perbedaan standar dan sistem tempur antarmatra menyebabkan integrasi antara ISR, \textit{Command \& Control}, serta unsur penindak belum terbentuk secara utuh.
+
+\subsection{Peta Kapabilitas C6ISR}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.00\textwidth]{images/Kapabilitas C6ISR.drawio.png}
+\caption{Peta Kapabilitas C6ISR (\textit{C6ISR Capability Map})}
+\label{fig:d4-17}
+\end{figure}
+
+Peta kapabilitas C6ISR (\textit{C6ISR capability map}) menunjukkan kemampuan yang dibutuhkan untuk menjalankan seluruh proses C6ISR, tanpa bergantung pada unit atau sistem tertentu yang melaksanakannya. Peta kapabilitas C6ISR ditunjukkan pada Gambar~\ref{fig:d4-17}.
+
+Gambar~\ref{fig:d4-17} membagi kapabilitas C6ISR menjadi tiga lapis. Lapis operasional berisi kapabilitas utama yang mengikuti siklus \textit{sensing}, \textit{understanding, decide, acting,} dan \textit{evaluate.} Siklus tersebut dimulai dari \textit{surveillance} dan \textit{reconnaissance} pada tahap \textit{sensing}, dilanjutkan dengan \textit{intelligence} dan kesadaran situasi pada tahap \textit{understanding}, \textit{command} dan \textit{control} pada tahap \textit{decide}, serta \textit{combat system} dan penindakan pada tahap \textit{acting}. Siklus diakhiri dengan penilaian hasil dan umpan balik pada tahap \textit{evaluate} yang menghasilkan pembaruan Tampilan Pemantauan Terpusat (TPT) dan penyesuaian rencana operasi, sehingga siklus dapat dimulai kembali.
+
+Lapis \textit{shared} berisi kapabilitas \textit{computers}, yaitu pusat data pertahanan, \textit{edge computing}, analitik AI/ML, \textit{decision support}, dan tata kelola data operasional, yang digunakan bersama oleh seluruh kapabilitas operasional. Sementara itu, lapis \textit{enabling} terdiri atas kapabilitas \textit{communications} dan \textit{cyber defense} yang berfungsi sebagai pendukung utama konektivitas dan perlindungan dalam seluruh siklus C6ISR.
+
+\subsection{Arsitektur C6ISR Target}
+
+Arsitektur C6ISR \textit{target} dirancang untuk mengatasi kesenjangan yang ditemukan pada kondisi \textit{baseline} dengan menerapkan model C6ISR ke dalam konteks pertahanan Indonesia. Struktur arsitektur C6ISR \textit{target} ditunjukkan pada Gambar~\ref{fig:d4-18}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\textwidth]{images/C6ISR Target.drawio.png}
+\caption{Arsitektur C6ISR Target}
+\label{fig:d4-18}
+\end{figure}
+
+Gambar~\ref{fig:d4-18} menunjukkan bahwa seluruh lapisan C6ISR ditempatkan di dalam jaringan operasional terklasifikasi (Rahasia). Data dari \textit{ISR Layer} dikirimkan melalui \textit{Communications Layer} ke \textit{Computers Layer} untuk diolah dan ditampilkan pada Tampilan Pemantauan Terpusat (TPT) di \textit{Command \& Control Layer}. Perintah dan penugasan dari \textit{Command \& Control Layer} disalurkan kembali melalui \textit{Communications Layer} kepada \textit{Combat Systems Layer}, sedangkan hasil penindakan dikembalikan ke \textit{ISR Layer} sebagai umpan balik. Alur tersebut membentuk siklus tertutup dari pengindraan hingga penindakan, yang pada kondisi \textit{baseline} belum dapat terintegrasi secara utuh.
+
+Komponen utama arsitektur C6ISR target meliputi:
+
+\begin{enumerate}[label=\alph*.]
+  \item \textit{Command \& Control Layer}
+\end{enumerate}
+Lapisan ini menangani fungsi komando dan kendali pada tiga tingkatan, yaitu tingkat strategis yang melibatkan Kemhan, tingkat operasional yang melibatkan Mabes TNI, serta tingkat pelaksana yang melibatkan TNI AD, TNI AL, dan TNI AU. Ketiga tingkatan tersebut menggunakan Tampilan Pemantauan Terpusat (TPT) sehingga informasi situasi dapat dipahami secara bersama lintas matra.
+
+\begin{enumerate}[label=\alph*., start=2]
+  \item \textit{Computers Layer}
+\end{enumerate}
+Lapisan ini menyediakan kemampuan komputasi dan pengelolaan data untuk mendukung proses pengambilan keputusan. Komponennya meliputi pusat data dan analitik AI/ML, komputer sistem Tampilan Pemantauan Terpusat (TPT) yang menghasilkan gambaran situasi saat ini (\textit{real-time}), \textit{edge computing} taktis, serta Data Center Utama dan DRC dengan konfigurasi aktif-aktif.
+
+\begin{enumerate}[label=\alph*., start=3]
+  \item \textit{Communications Layer}
+\end{enumerate}
+Lapisan komunikasi menyediakan jalur pertukaran informasi antarunsur C6ISR. Komunikasi dirancang menggunakan konsep PACE (\textit{Primary, Alternate, Contingency, Emergency}), sehingga tersedia beberapa pilihan jalur komunikasi apabila jalur utama mengalami gangguan.
+
+\begin{enumerate}[label=\alph*., start=4]
+  \item \textit{Cyber Defense Layer}
+\end{enumerate}
+Lapisan ini melindungi seluruh komponen C6ISR dari berbagai ancaman siber dan gangguan terhadap komunikasi. Kemampuannya mencakup SOC Pertahanan, persandian, penerapan \textit{zero trust}, serta perlindungan terhadap \textit{jamming}, dengan sasaran tingkat kematangan siber level 3 sesuai dengan Permenhan Nomor 34 Tahun 2025 \parencite{Permenhan34Tahun2025}. Pada Gambar~\ref{fig:d4-17}, lapisan ini digambarkan secara vertikal di sisi kanan untuk menunjukkan bahwa keamanan tidak hanya diterapkan pada satu komponen, tetapi melekat pada seluruh lapisan C6ISR.
+
+\begin{enumerate}[label=\alph*., start=5]
+  \item \textit{Combat Systems Layer}
+\end{enumerate}
+Lapisan ini berisi unsur penindak yang melaksanakan tindakan berdasarkan perintah dan penugasan dari \textit{Command \& Control Layer} yang disalurkan melalui \textit{Communications Layer}. Unsur penindak mencakup ketiga matra, yaitu artileri, rudal, dan unit manuver pada matra darat; KRI dan \textit{combat management system} pada matra laut; serta pesawat tempur dan sistem hanud pada matra udara. Hasil penindakan dikirimkan kembali sebagai umpan balik kepada \textit{ISR Layer}. Dalam rancangan ini, keputusan untuk melakukan penindakan tetap berada pada komandan atau pimpinan yang memiliki kewenangan, sesuai dengan aturan yang berlaku.
+
+\begin{enumerate}[label=\alph*., start=6]
+  \item ISR Layer
+\end{enumerate}
+Lapisan ISR berfungsi sebagai sumber informasi dari berbagai sensor. Sensor tersebut mencakup unsur darat (radar dan satuan intai), laut (radar dan sonar KRI), udara (radar hanud dan UAV pengintai), serta antariksa (satelit ISR). Data sensor dikirimkan melalui \textit{Communications Layer} ke \textit{Computers Layer} untuk digabungkan menjadi TPT. Lapisan ini juga menerima umpan balik hasil penindakan dari \textit{Combat Systems Layer}, sehingga perubahan situasi setelah penindakan dapat dipantau kembali.
+
+\begin{enumerate}[label=\alph*., start=7]
+  \item Pemisahan Jaringan Operasional dan Jaringan Administrasi
+\end{enumerate}
+Jaringan operasional yang digunakan untuk kebutuhan C6ISR ditempatkan secara terpisah dari jaringan administrasi pertahanan. Jaringan operasional memiliki tingkat klasifikasi Rahasia, sedangkan jaringan administrasi digunakan untuk informasi Terbuka dan Terbatas. Pertukaran informasi antara kedua jaringan dilakukan melalui \textit{Cross-Domain Gateway}. Dengan mekanisme tersebut, data operasional yang akan digunakan pada jaringan administrasi harus terlebih dahulu melalui proses pengendalian.
+
+\subsubsection{\textit{Command \& Control Layer}}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.92\textwidth]{images/Tingkat_Command_Control_C6ISR.drawio.png}
+\caption{Tingkatan \textit{Command \& Control} C6ISR}
+\label{fig:d4-19}
+\end{figure}
+
+Command \& Control dirancang secara berjenjang dalam tiga tingkat, yaitu tingkat strategis, operasional, dan pelaksana. Setiap tingkat memiliki gambaran situasi yang sama, tetapi informasi yang diterimanya disesuaikan dengan kebutuhan dan kewenangan masing-masing. Hubungan antartingkat dan kedudukan Tampilan Pemantauan Terpusat (TPT) dalam struktur tersebut diilustrasikan pada Gambar~\ref{fig:d4-19}.
+
+Gambar~\ref{fig:d4-19} menunjukkan bahwa tingkat strategis diisi oleh Kementerian Pertahanan, tingkat operasional oleh Mabes TNI, dan tingkat pelaksana oleh TNI AD, TNI AL, dan TNI AU. Arahan mengalir dari atas ke bawah. Kemhan menyampaikan kebijakan dan kebutuhan sumber daya kepada Mabes TNI, kemudian Mabes TNI menjabarkannya menjadi rencana dan perintah operasi bagi ketiga matra. Sebaliknya, laporan mengalir dari bawah ke atas. Ketiga matra mengirimkan data sensor, laporan situasi, dan hasil misi kepada Mabes TNI, kemudian Mabes TNI menyampaikan laporan dan gambaran situasi operasional kepada Kemhan. Dengan alur dua arah tersebut, keputusan pada setiap tingkat didasarkan pada kondisi lapangan yang terbaru.
+
+Di sisi kanan gambar, TPT terhubung dengan ketiga tingkat melalui pertukaran informasi dua arah. Setiap tingkat mengirimkan informasi ke TPT sekaligus memanfaatkan tampilannya, sehingga ketiga tingkat bekerja dengan gambaran situasi yang sama. Namun, isi tampilan disesuaikan dengan peran, kebutuhan, dan hak akses setiap tingkat. Rincian peran dan produk informasi setiap tingkat disajikan pada Tabel~\ref{tab:d4-29}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.142\textwidth}>{\raggedright\arraybackslash}p{0.210\textwidth}>{\raggedright\arraybackslash}p{0.311\textwidth}>{\raggedright\arraybackslash}p{0.239\textwidth}@{}}
+\caption{Peran Setiap Tingkat \textit{Command \& Control} C6ISR}
+\label{tab:d4-29}\\
+\toprule
+\textbf{Tingkat} & \textbf{Entitas} & \textbf{Peran dalam C6ISR} & \textbf{Produk Informasi Utama}\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Tingkat} & \textbf{Entitas} & \textbf{Peran dalam C6ISR} & \textbf{Produk Informasi Utama}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Strategis & Kementerian Pertahanan & Kemhan menetapkan kebijakan dan kebutuhan sumber daya pertahanan. & Tampilan Pemantauan Terpusat (TPT) strategis dan informasi mengenai ancaman nasional\\
+Operasional & Mabes TNI & Mengatur, merencanakan, mengkoordinasikan, dan mengendalikan kekuatan pertahanan secara nasional. & Tampilan Pemantauan Terpusat (TPT), rencana operasi, dan perintah operasi\\
+Pelaksana & TNI AD TNI AL TNI AU & Melaksanakan misi, menggunakan sensor dan sistem tempur, serta melaporkan kondisi di lapangan. & Data sensor, laporan situasi, dan hasil pelaksanaan misi\\
+\end{longtable}
+}
+
+Tabel~\ref{tab:d4-29} menunjukkan bahwa setiap tingkat menghasilkan dan memerlukan produk informasi yang berbeda sesuai dengan perannya. Tingkat strategis memerlukan TPT strategis dan informasi mengenai ancaman nasional untuk menetapkan kebijakan. Tingkat operasional memerlukan TPT beserta rencana dan perintah operasi untuk mengendalikan kekuatan. Sementara itu, tingkat pelaksana menghasilkan data sensor, laporan situasi, dan hasil pelaksanaan misi yang menjadi bahan bagi tingkat di atasnya. Seluruh produk informasi tersebut dipadukan dalam TPT, yang ilustrasi konseptualnya disajikan paada Gambar~\ref{fig:d4-19}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.00\textwidth]{images/Tampilan Pemantauan Terpusat.drawio.png}
+\caption{Tampilan Pemantauan Terpusat}
+\label{fig:d4-20}
+\end{figure}
+
+Gambar~\ref{fig:d4-20} merupakan ilustrasi konseptual TPT. Bagian peta menampilkan posisi unsur dan titik yang dipantau, sedangkan panel di sisi kanan menampilkan informasi titik terpilih beserta satuan setiap matra yang terkait dengan wilayah tersebut. Pada contoh titik simulasi di Zona Ekonomi Eksklusif (ZEE) Indonesia sekitar Kabupaten Natuna, TNI AD ditandai tidak berlaku karena titik berada di laut, sedangkan TNI AL dan TNI AU menampilkan satuan terkait yang bertugas mengamankan wilayah tersebut. Bagian bawah TPT menunjukkan data sumber ISR dari unsur darat, laut, udara, siber, dan antariksa, serta data pendukung dari intelijen dan mitra. Tampilan yang sama dapat digunakan pada ketiga tingkat komando, dengan rincian informasi yang dibatasi sesuai dengan hak akses masing-masing.
+
+Sesuai dengan Permenhan Nomor 1 Tahun 2023 \parencite{Permenhan1Tahun2023}, informasi yang berklasifikasi Rahasia hanya dapat diakses oleh pejabat yang memiliki kewenangan. Oleh karena itu, TPT yang digunakan untuk kebutuhan operasional ditempatkan pada jaringan terklasifikasi. Selain itu, penerapan prinsip \textit{mission command} memungkinkan satuan pada tingkat pelaksana tetap menjalankan tugas sesuai dengan maksud dan tujuan komandan ketika hubungan komunikasi dengan tingkat yang lebih tinggi mengalami gangguan. Dengan demikian, arsitektur C6ISR tidak bergantung sepenuhnya pada satu pusat komando dan tetap dapat mendukung pelaksanaan tugas pada setiap tingkat.
+
+\subsubsection{\textit{Computers Layer}}
+
+\textit{Computers layer} pada C6ISR dirancang untuk mengolah data dari berbagai sumber menjadi informasi yang dapat digunakan komandan dalam pengambilan keputusan. Arsitektur ini menggunakan komputasi terdistribusi yang terdiri atas tiga tingkat, yaitu pusat, \textit{edge} dan \textit{platform}.
+
+Tingkat pusat berada pada Data Center Utama dan \textit{Disaster Recovery Center} (DRC) dalam konfigurasi aktif-aktif. Pada tingkat ini dijalankan penggabungan data (fusi data), mesin Tampilan Pemantauan Terpusat (TPT), penyimpanan data, dan analitik AI/ML. Tingkat \textit{edge} ditempatkan dekat dengan sumber data, seperti pada pangkalan atau pusat komando operasional, untuk mengolah data secara lokal ketika latensi harus rendah atau koneksi ke pusat terganggu. Tingkat \textit{platform} berada pada kapal, pesawat, kendaraan tempur dan unit satuan di lapangan yang menjalankan pengolahan data sesuai kebutuhan misinya.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.00\textwidth]{images/Computers.drawio.png}
+\caption{\textit{Computers Layer}}
+\label{fig:d4-21}
+\end{figure}
+
+Di atas ketiga tingkat tersebut terdapat fungsi \textit{decision support} yang memanfaatkan hasil penggabungan data dan analitik AI/ML untuk menghasilkan rekomendasi. Rekomendasi tersebut menjadi bahan pertimbangan komandan dan ditampilkan melalui TPT, sedangkan keputusan akhir tetap berada pada komandan. Struktur \textit{computers} \textit{layer} ditunjukkan pada Gambar~\ref{fig:d4-20}.
+
+Gambar~\ref{fig:d4-21} menunjukkan bahwa data mengalir dari tingkat \textit{platform} ke tingkat \textit{edge}, kemudian ke tingkat pusat, hingga dimanfaatkan oleh fungsi \textit{decision support}. Dengan susunan tersebut, pengolahan awal dilakukan sedekat mungkin dengan sumber data, sedangkan penggabungan data seluruh matra dan analitik dilakukan di tingkat pusat. Lokasi, fungsi utama, dan data yang dihasilkan pada setiap tingkat dirinci pada Tabel~\ref{tab:d4-30}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.128\textwidth}>{\raggedright\arraybackslash}p{0.226\textwidth}>{\raggedright\arraybackslash}p{0.271\textwidth}>{\raggedright\arraybackslash}p{0.277\textwidth}@{}}
+\caption{Tingkat Komputasi pada \textit{Computers Layer} C6ISR}
+\label{tab:d4-30}\\
+\toprule
+\textbf{Tingkat} & \textbf{Lokasi Utama} & \textbf{Fungsi Utama} & \textbf{Data yang Dihasilkan}\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Tingkat} & \textbf{Lokasi Utama} & \textbf{Fungsi Utama} & \textbf{Data yang Dihasilkan}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Pusat & Data Center Utama dan \textit{Disaster Recovery Center} (DRC) & \textbullet~Pusat penggabungan data\newline \textbullet~Mesin Tampilan Pemantauan Terpusat (TPT)\newline \textbullet~Penyimpanan Data Terpusat\newline \textbullet~Analitik AI/ML\newline \textbullet~Penyediaan layanan aplikasi & \textbullet~Hasil penggabungan data\newline \textbullet~Data intelijen\newline \textbullet~Data operasi seluruh matra\newline \textbullet~Data historis\\
+\textit{Edge} & Pangkalan, Pusat Komando Operasional & \textbullet~Pengelolaan data sensor lokal\newline \textbullet~Penyaringan dan penggabungan data awal\newline \textbullet~Menyediakan Tampilan Pemantauan Terpusat (TPT) wilayah\newline \textbullet~Tetap beroperasi saat koneksi ke pusat terganggu & \textbullet~Data sensor wilayah\newline \textbullet~Laporan operasi\newline \textbullet~Data situasi lokal\newline \textbullet~Data dari platform di wilayah\\
+\textit{Platform} & Kapal, Pesawat, Kendaraan tempur dan satuan di lapangan & \textbullet~Pengolahan data sesuai kebutuhan misi\newline \textbullet~Ekstraksi dan penyaringan data\newline \textbullet~Pertukaran data taktis\newline \textbullet~Dapat beroperasi mandiri untuk waktu terbatas & \textbullet~Data sensor platform\newline \textbullet~Data misi\newline \textbullet~Data taktis \textit{real-time}\\
+\end{longtable}
+}
+
+\subsubsection{\textit{Communications Layer}}
+
+Indonesia merupakan negara kepulauan dengan wilayah yang luas, sehingga komunikasi C6ISR perlu memiliki lebih dari satu jalur komunikasi dan tidak boleh bergantung pada satu media saja. Oleh karena itu, c\textit{ommunications layer} C6ISR menggunakan skema PACE (\textit{Primary, Alternate, Contingency, Emergency}) yang terdiri atas jalur utama, jalur alternatif, jalur cadangan, dan jalur darurat.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.00\textwidth]{images/Communication.drawio.png}
+\caption{\textit{Communications Layer} dengan skema PACE}
+\label{fig:d4-22}
+\end{figure}
+
+Setiap lapis PACE menggunakan media komunikasi yang berbeda. Tujuannya adalah agar ketika salah satu jalur mengalami gangguan, jalur lainnya masih dapat digunakan untuk menjaga komunikasi dan pertukaran informasi C6ISR. \textit{Communications layer} berdasarkan skema PACE ditunjukkan pada Gambar~\ref{fig:d4-22}.
+
+Gambar~\ref{fig:d4-22} membedakan setiap lapis PACE berdasarkan warna jalur. Jalur \textit{primary} (hijau) menghubungkan simpul tetap, yaitu pusat komando, Data Center, DRC, pangkalan daerah, dan terminal SATCOM. Jalur \textit{alternate} (biru) menghubungkan terminal SATCOM dengan unsur yang bergerak atau berada di wilayah terpencil melalui satelit GEO. Jalur \textit{contingency} (oranye) menghubungkan \textit{platform} taktis secara langsung, seperti pesawat tempur, KRI, kendaraan tempur, sistem pertahanan udara bergerak, dan satuan di darat. Adapun jalur \textit{emergency} (merah) memanfaatkan radio HF dan \textit{airborne relay} HAPS/UAV untuk tetap menjangkau \textit{platform} ketika jalur lainnya terganggu. Sarana dan peran setiap lapis dirangkum pada Tabel~\ref{tab:d4-31}.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.159\textwidth}>{\raggedright\arraybackslash}p{0.364\textwidth}>{\raggedright\arraybackslash}p{0.410\textwidth}@{}}
+\caption{Skema PACE Komunikasi C6ISR}
+\label{tab:d4-31}\\
+\toprule
+\textbf{Lapis} & \textbf{Sarana} & \textbf{Peran}\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Lapis} & \textbf{Sarana} & \textbf{Peran}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\textit{Primary} & Jaringan serat optik dan terestrial pertahanan & Menjadi jalur komunikasi utama antara pusat komando, Data Center, pangkalan, dan lainnya.\\
+\textit{Alternate} & SATCOM melalui sewa kapasitas atau satelit \textit{dual-use} nasional yang dilengkapi persandian & Menyediakan komunikasi untuk wilayah terpencil, wilayah perbatasan, dan \textit{platform} yang bergerak.\\
+\textit{Contingency} & \textit{Tactical data link} dan radio taktis V/UHF & Menyediakan pertukaran data dan komunikasi taktis antar-\textit{platform} ketika jalur utama tidak dapat digunakan.\\
+\textit{Emergency} & Radio HF jarak jauh dan \textit{airborne relay} seperti UAV/HAPS & Menjaga komunikasi dasar ketika jalur komunikasi lainnya mengalami gangguan atau tidak dapat digunakan.\\
+\end{longtable}
+
+Penjelasan masing-masing lapis:
+
+\begin{enumerate}
+  \item \textit{Primary}
+\end{enumerate}
+Jaringan serat optik dan jaringan terestrial pertahanan menjadi jalur komunikasi utama. Jalur ini digunakan untuk menghubungkan pusat komando, Data Center, pangkalan, dan berbagai simpul tetap yang memiliki koneksi jaringan.
+
+\begin{enumerate}[start=2]
+  \item \textit{Alternate}
+\end{enumerate}
+SATCOM digunakan sebagai jalur alternatif, terutama untuk menghubungkan wilayah yang sulit dijangkau jaringan terestrial, wilayah perbatasan, dan \textit{platform} yang bergerak. Dalam kondisi saat ini, kebutuhan SATCOM dapat dipenuhi melalui sewa kapasitas satelit atau pemanfaatan satelit \textit{dual-use} nasional dengan perlindungan persandian.
+
+\begin{enumerate}[start=3]
+  \item \textit{Contingency}
+\end{enumerate}
+\textit{Tactical data link} dan radio taktis V/UHF digunakan sebagai jalur cadangan untuk komunikasi di tingkat taktis. Jalur ini dapat mendukung pertukaran informasi antar-\textit{platform} ketika jaringan utama tidak tersedia.
+
+\begin{enumerate}[start=4]
+  \item \textit{Emergency}
+\end{enumerate}
+Radio HF jarak jauh dan \textit{airborne relay}, seperti UAV atau HAPS, digunakan sebagai jalur darurat. Fungsinya adalah menjaga komunikasi minimum ketika jalur komunikasi lainnya mengalami gangguan atau tidak dapat digunakan.
+
+Pada lapis \textit{alternate}, kebutuhan komunikasi satelit masih menghadapi keterbatasan karena Kemhan belum memiliki satelit pertahanan sendiri. Informasi mengenai hak penggunaan slot orbit 123° BT juga menjadi salah satu pertimbangan dalam perencanaan kemampuan satelit nasional \parencite{SuaraMerdeka2026}. Selain itu, penggunaan slot orbit satelit memiliki ketentuan internasional yang perlu diperhatikan, termasuk ketentuan mengenai penggunaan dan pengelolaan slot tersebut \parencite{KemhanAvanti2018}.
+
+Berdasarkan kondisi tersebut, penelitian ini menempatkan sewa kapasitas satelit atau pemanfaatan satelit \textit{dual-use} nasional sebagai solusi jangka pendek untuk memenuhi kebutuhan komunikasi C6ISR. Penggunaan tersebut perlu dilengkapi dengan mekanisme persandian dan pengamanan yang sesuai dengan kebutuhan informasi pertahanan.
+
+Dalam jangka panjang, kepemilikan dan pengembangan kemampuan satelit pertahanan nasional dapat ditempatkan sebagai salah satu sasaran pengembangan arsitektur C6ISR.
+
+\subsubsection{\textit{Cyber Defense Layer}}
+
+\textit{Cyber defense} \textit{layer} berfungsi untuk melindungi seluruh komponen dan aliran informasi yang digunakan dalam operasi C6ISR. Pada fase C6ISR, pembahasan difokuskan pada bagaimana keamanan siber diterapkan untuk melindungi operasi, data, komunikasi, dan sistem C6ISR.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.00\textwidth]{images/Cyber Defense.drawio.png}
+\caption{\textit{Cyber Defense} C6ISR}
+\label{fig:d4-23}
+\end{figure}
+
+\textit{Cyber defense} \textit{layer} menggunakan empat tahap utama, yaitu identifikasi, proteksi, deteksi, serta penanggulangan dan pemulihan, sesuai dengan Permenhan Nomor 34 Tahun 2025. Selain itu, arsitektur menerapkan prinsip \textit{zero trust}, yaitu setiap pengguna, perangkat, dan koneksi harus diverifikasi sebelum diberikan akses dan tidak langsung dipercaya hanya karena berada di dalam jaringan pertahanan. Kerangka \textit{cyber defense} C6ISR ditunjukkan pada Gambar~\ref{fig:d4-23}.
+
+Gambar~\ref{fig:d4-23} menunjukkan bahwa keempat tahap tersebut disusun untuk menghadapi ancaman terhadap C6ISR, yaitu serangan siber, \textit{malware}, \textit{jamming}, \textit{insider threat}, gangguan sinyal, \textit{phishing}, dan DDoS. Setiap tahap memiliki objek perlindungan dan kapabilitas utama yang berbeda, mulai dari inventarisasi aset dan pemetaan kerentanan pada tahap identifikasi hingga evaluasi dan pembelajaran insiden pada tahap penanggulangan dan pemulihan. Objek dan kapabilitas pada setiap tahap dirinci pada Tabel~\ref{tab:d4-32}.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.212\textwidth}>{\raggedright\arraybackslash}p{0.341\textwidth}>{\raggedright\arraybackslash}p{0.381\textwidth}@{}}
+\caption{\textit{Cyber Defense} C6ISR}
+\label{tab:d4-32}\\
+\toprule
+\textbf{Domain Pelindungan} & \textbf{Objek pada C6ISR} & \textbf{Kapabilitas}\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Domain Pelindungan} & \textbf{Objek pada C6ISR} & \textbf{Kapabilitas}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Identifikasi & Sensor, \textit{platform}, pusat komando, dan jaringan komunikasi & Mendata aset penting, menentukan klasifikasi data, dan menilai risiko keamanan\\
+Proteksi & Pengguna, perangkat, jaringan terklasifikasi, dan data Tampilan Pemantauan Terpusat (TPT) & Mengatur identitas dan hak akses, menggunakan persandian, membagi jaringan berdasarkan fungsi, menerapkan \textit{cross-domain gateway}, dan \textit{zero trust}\\
+Deteksi & Lalu lintas jaringan, aplikasi \textit{Command \& Control}, dan spektrum komunikasi & SOC Pertahanan, SIEM, CTI, serta kemampuan mendeteksi \textit{jamming} dan gangguan sinyal\\
+Penanggulangan dan Pemulihan & Layanan dan sistem C6ISR yang kritis & Menangani insiden, mengalihkan komunikasi menggunakan skema PACE, dan memulihkan layanan melalui DRC\\
+\end{longtable}
+
+Tabel~\ref{tab:d4-32} menunjukkan bahwa \textit{cyber defense} dalam C6ISR tidak hanya berfungsi untuk melindungi komputer dan jaringan, tetapi juga melindungi sensor, sistem komando dan kendali, komunikasi, data, serta \textit{platform} operasional.
+
+Pada tahap identifikasi, seluruh aset yang digunakan dalam C6ISR perlu diketahui dan diklasifikasikan berdasarkan tingkat kepentingannya. Data yang digunakan juga perlu memiliki klasifikasi yang jelas sehingga mekanisme perlindungannya dapat disesuaikan dengan tingkat sensitivitasnya. Selain itu, risiko keamanan dan kerentanan setiap aset perlu dinilai dan dipetakan agar prioritas perlindungan dapat ditentukan.
+
+Pada tahap proteksi, akses terhadap sistem dan data dikendalikan melalui manajemen identitas, persandian, segmentasi jaringan, \textit{cross-domain gateway}, dan prinsip \textit{zero trust}. Dengan pendekatan ini, pengguna atau perangkat tidak secara otomatis dipercaya hanya karena berada di dalam jaringan pertahanan.
+
+Pada tahap deteksi, sistem memantau aktivitas jaringan, aplikasi \textit{Command \& Control}, dan spektrum komunikasi untuk menemukan aktivitas yang tidak normal dan memberikan peringatan dini. Pemantauan dilakukan melalui SOC Pertahanan, SIEM, CTI, serta mekanisme untuk mendeteksi \textit{jamming} dan gangguan sinyal.
+
+Pada tahap penanggulangan dan pemulihan, sistem harus mampu merespons ketika terjadi gangguan atau serangan. Salah satu mekanismenya adalah mengalihkan komunikasi ke jalur lain sesuai dengan skema PACE, sehingga operasi tetap dapat berlangsung. Apabila layanan pusat mengalami gangguan, pemulihan dapat dilakukan melalui \textit{Disaster Recovery Center} (DRC). Setelah insiden ditangani, evaluasi dilakukan agar pembelajaran dari insiden tersebut dapat digunakan untuk memperkuat perlindungan berikutnya.
+
+Dengan demikian, \textit{cyber defense} menjadi lapisan perlindungan yang melekat pada seluruh arsitektur C6ISR, bukan hanya komponen tambahan di sisi jaringan.
+
+\subsubsection{\textit{Combat Systems Layer}}
+
+Integrasi \textit{combat systems} menjadi salah satu perbedaan utama antara C6ISR dan C5ISR. Pada tingkat arsitektur, integrasi tidak berarti semua sistem tempur harus menggunakan teknologi atau perangkat yang sama. Yang lebih penting adalah setiap sistem dapat bertukar informasi dengan sistem komando dan kendali melalui antarmuka dan standar yang telah ditentukan.
+
+Dengan pendekatan ini, sistem tempur dari berbagai matra atau produsen tetap dapat berkomunikasi dan bekerja dalam satu arsitektur tanpa harus menggunakan teknologi yang sama. Pendekatan arsitektur terbuka juga dapat mengurangi ketergantungan terhadap satu produsen dan memudahkan integrasi sistem yang berbeda.
+
+Dalam arsitektur C6ISR, hubungan antara \textit{Command \& Control}, \textit{Combat Systems}, dan ISR membentuk alur dari pemberian tugas hingga penilaian hasil tindakan. Hubungan tersebut ditunjukkan pada Gambar~\ref{fig:d4-24}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.92\textwidth]{images/Combat Systems.drawio.png}
+\caption{\textit{Combat Systems} C6ISR}
+\label{fig:d4-24}
+\end{figure}
+
+Gambar~\ref{fig:d4-24} menunjukkan tiga bagian yang saling terhubung. Bagian atas adalah \textit{Command \& Control} yang menggunakan TPT lintas matra untuk memberikan tugas dan prioritas, mengotorisasi penggunaan kekuatan, memantau status dan pelaksanaan, menganalisis hasil tindakan, serta mengambil keputusan lanjutan. Bagian tengah adalah \textit{combat systems} yang terdiri atas unit dan sistem tempur matra darat, laut, dan udara. Bagian bawah adalah ISR yang memberikan data target, situasi, dan informasi operasi kepada \textit{combat systems}, serta menerima data hasil serangan dan situasi terkini untuk mendukung penilaian hasil tindakan. Di antara \textit{Command \& Control} dan \textit{combat system} terdapat lima aliran informasi yang dirinci pada Tabel~\ref{tab:d4-33}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.170\textwidth}>{\raggedright\arraybackslash}p{0.216\textwidth}>{\raggedright\arraybackslash}p{0.216\textwidth}>{\raggedright\arraybackslash}p{0.300\textwidth}@{}}
+\caption{Aliran Informasi \textit{Combat System}}
+\label{tab:d4-33}\\
+\toprule
+\textbf{Aliran} & \textbf{Dari} & \textbf{Ke} & \textbf{Isi Informasi}\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Aliran} & \textbf{Dari} & \textbf{Ke} & \textbf{Isi Informasi}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Penugasan & \textit{Command \& Control} & \textit{Combat Systems} & Tugas yang harus dilaksanakan, prioritas, wilayah, dan batas waktu\\
+Otorisasi & Komandan berwenang & \textit{Combat Systems} & Persetujuan untuk melakukan tindakan sesuai aturan pelibatan\\
+Status kesiapan & \textit{Combat Systems} & \textit{Command \& Control} & Status kesiapan, posisi, dan kemampuan \textit{platform}\\
+Pelaksanaan & \textit{Combat Systems} & \textit{Command \& Control} & Konfirmasi bahwa tugas telah diterima dan dilaksanakan\\
+Hasil tindakan & \textit{Combat Systems} dan ISR & \textit{Intelligence} dan \textit{Command \& Control} & Informasi hasil tindakan untuk menilai dampak operasi\\
+\end{longtable}
+}
+
+Penjelasan aliran informasi:
+
+\begin{enumerate}
+  \item Penugasan
+\end{enumerate}
+\textit{Command \& Control} memberikan tugas kepada \textit{combat systems}. Informasi yang diberikan mencakup tugas, prioritas, wilayah operasi, dan batas waktu pelaksanaan.
+
+\begin{enumerate}[start=2]
+  \item Otorisasi
+\end{enumerate}
+Sebelum tindakan dilakukan, diperlukan persetujuan dari komandan yang memiliki kewenangan. Otorisasi ini memastikan bahwa tindakan dilakukan sesuai dengan aturan yang berlaku.
+
+\begin{enumerate}[start=3]
+  \item Status kesiapan
+\end{enumerate}
+\textit{Combat systems} mengirimkan informasi kepada \textit{Command \& Control} mengenai kesiapan, posisi, dan kemampuan \textit{platform}. Informasi ini membantu komandan mengetahui apakah sistem siap melaksanakan tugas.
+
+\begin{enumerate}[start=4]
+  \item Pelaksanaan
+\end{enumerate}
+Setelah tugas diterima dan memperoleh otorisasi, \textit{combat systems} melaksanakan tugas yang diberikan. Sistem kemudian mengirimkan konfirmasi mengenai penerimaan dan pelaksanaan tugas.
+
+\begin{enumerate}[start=5]
+  \item Hasil tindakan
+\end{enumerate}
+Informasi dari \textit{combat systems} dan ISR digunakan untuk mengetahui hasil tindakan. Informasi tersebut kemudian dianalisis oleh fungsi \textit{intelligence} dan \textit{Command \& Control} untuk melakukan penilaian hasil tindakan (\textit{battle damage assessment}) dan menentukan langkah berikutnya.
+
+Dengan demikian, integrasi \textit{combat systems} dalam C6ISR tidak menghilangkan peran manusia dalam pengambilan keputusan. Sistem dapat membantu menyampaikan informasi, memberikan status, dan menjalankan tugas yang telah diberikan, tetapi keputusan mengenai penggunaan kekuatan tetap berada pada komandan atau operator yang memiliki kewenangan. Prinsip ini sejalan dengan dibutuhkannya pertimbangan manusia dalam penggunaan kekuatan.
+
+\subsubsection{\textit{ISR Layer}}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.00\textwidth]{images/ISR.drawio.png}
+\caption{\textit{ISR Layer}}
+\label{fig:d4-25}
+\end{figure}
+
+ISR layer dirancang untuk menggabungkan data dari berbagai sensor menjadi informasi yang lebih lengkap dan dapat digunakan untuk memahami kondisi di lapangan. Alur integrasi ISR dari sumber data hingga pemanfaatannya ditunjukkan pada Gambar~\ref{fig:d4-25}.
+
+Gambar~\ref{fig:d4-25} menunjukkan bahwa \textit{ISR layer} terdiri atas tiga bagian, yaitu sumber data ISR, proses pengolahan, dan pemanfaatan. Sumber data berasal dari lima domain, yaitu darat, laut, udara, antariksa, dan siber. Data tersebut diolah melalui empat tahap, yaitu pengumpulan data dari berbagai sensor, penyaringan dan praproses (\textit{filtering}, koreksi, dan normalisasi), analisis dan korelasi untuk deteksi, identifikasi, dan klasifikasi awal, serta penggabungan data lintas domain. Data yang telah diolah akan dimanfaatkan menjadi Tampilan Pemantauan Terpusat (TPT) untuk menampilkan situasi dan kondisi di lapangan secara \textit{real-time}. Selain untuk menampilkan kondisi \textit{real-time}, data yang telah diolah juga dapat digunakan sebagai bahan dokumen intelijen untuk mendukung proses \textit{command \& control}. Rincian sumber sensor, data yang dihasilkan, dan pengolahan pada setiap domain disajikan pada Tabel~\ref{tab:d4-34}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.142\textwidth}>{\raggedright\arraybackslash}p{0.244\textwidth}>{\raggedright\arraybackslash}p{0.239\textwidth}>{\raggedright\arraybackslash}p{0.277\textwidth}@{}}
+\caption{Sumber dan Aliran Data ISR}
+\label{tab:d4-34}\\
+\toprule
+\textbf{Domain} & \textbf{Sumber Sensor} & \textbf{Data yang Dihasilkan} & \textbf{Pengolahan}\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Domain} & \textbf{Sumber Sensor} & \textbf{Data yang Dihasilkan} & \textbf{Pengolahan}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Udara & Radar pertahanan udara dan pesawat intai & Jejak (\textit{track}) sasaran udara & Data digabungkan dan dibandingkan dengan data penerbangan sipil\\
+Laut & Radar dan sonar KRI serta radar pantai & Jejak kapal dan kontak bawah air & Data digabungkan dan dibandingkan dengan informasi identitas kapal\\
+Darat & Satuan intai dan sensor perbatasan & Laporan pengamatan dan citra & Data diperiksa dan dianalisis oleh analis intelijen\\
+Antariksa & Satelit penginderaan jauh & Citra wilayah & Citra dianalisis untuk memperoleh informasi mengenai kondisi wilayah\\
+Siber dan spektrum & Sensor SOC dan pemantauan spektrum & Peringatan serangan siber dan gangguan sinyal & Data dianalisis dan dikorelasikan di SOC Pertahanan\\
+\end{longtable}
+}
+
+Setiap data yang telah digabungkan (\textit{fused data}) dilengkapi dengan informasi pendukung (metadata), seperti sumber data, waktu pengambilan, tingkat keyakinan, dan klasifikasi informasi. Dengan cara ini, data ISR dapat digunakan dan dipertukarkan antar-matra dengan tetap mempertahankan konteks dan makna datanya.
+
+Hasil penggabungan data tersebut kemudian digunakan sebagai salah satu sumber utama Tampilan Pemantauan Terpusat (TPT) dan sebagai bahan penyusunan produk intelijen untuk mendukung proses komando dan kendali.
+
+\subsection{Analisis Kesenjangan C6ISR}
+
+Analisis kesenjangan membandingkan kondisi C6ISR \textit{baseline} dengan arsitektur C6ISR target untuk mengidentifikasi kesenjangan yang harus ditutup beserta tindak lanjutnya. Analisis dilakukan per layer C6ISR, setiap kesenjangan ditautkan dengan kode kebutuhan operasional pada Tabel~\ref{tab:d4-27} agar tindak lanjut yang dirumuskan tetap berpijak pada kebutuhan operasional pertahanan. Hasil analisis kesenjangan disajikan pada Tabel~\ref{tab:d4-35}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.057\textwidth}>{\raggedright\arraybackslash}p{0.193\textwidth}>{\raggedright\arraybackslash}p{0.200\textwidth}>{\raggedright\arraybackslash}p{0.206\textwidth}>{\raggedright\arraybackslash}p{0.215\textwidth}@{}}
+\caption{Analisis Kesenjangan Arsitektur C6ISR}
+\label{tab:d4-35}\\
+\toprule
+\textbf{No.} & \textbf{Layer} & \textbf{Baseline (As-Is)} & \textbf{Target (To-Be)} & \textbf{Kesenjangan dan Tindak Lanjut}\\
+\midrule
+\endfirsthead
+\multicolumn{5}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{No.} & \textbf{Layer} & \textbf{Baseline (As-Is)} & \textbf{Target (To-Be)} & \textbf{Kesenjangan dan Tindak Lanjut}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+1 & \textit{Command \& Control} & Sistem \textit{Command \& Control} dikembangkan per matra; belum ada aplikasi \textit{Command \& Control} lintas matra dan gambaran situasi bersama & \textit{Command \& Control} berjenjang (strategis, operasional, pelaksana) dengan TPT lintas matra dan prinsip \textit{mission command} & Pengembangan TPT dan aplikasi \textit{Command \& Control} lintas matra; penetapan prosedur \textit{Command \& Control} berjenjang serta hak akses informasi per tingkat\\
+2 & \textit{Computers} & Satu Data Center tanpa DRC; aplikasi bersifat silo; belum ada fusi data dan analitik operasional & Komputasi terdistribusi tingkat pusat, \textit{edge}, dan \textit{platform} dengan fusi data, mesin TPT, analitik AI/ML, dan \textit{decision support} & Pembangunan pusat fusi data dan mesin TPT di atas DC–DRC; penyediaan \textit{edge computing} di pangkalan dan pusat komando operasional; pengembangan analitik AI/ML dan \textit{decision support}\\
+3 & \textit{Communications} & Belum memiliki satelit pertahanan; hak slot orbit 123° BT tidak lagi dimiliki sejak Desember 2024; jaringan belum lintas matra & Skema PACE: terestrial, SATCOM berpersandian, \textit{tactical data link} dan radio V/UHF, serta radio HF dan \textit{airborne relay} & Penerapan skema PACE; pemenuhan SATCOM melalui sewa kapasitas atau satelit \textit{dual-use} nasional berpersandian; kajian satelit pertahanan nasional\\
+4 & \textit{Cyber Defense} & Keamanan siber parsial dengan tingkat kematangan level 1–2 & SOC Pertahanan, persandian, \textit{zero trust}, dan deteksi \textit{jamming} pada empat domain pelindungan; kematangan level 3 pada 2029 & Pembangunan SOC Pertahanan; penerapan \textit{zero trust} dan persandian; penguatan deteksi \textit{jamming} dan gangguan sinyal\\
+5 & \textit{Combat Systems} & Alutsista berasal dari berbagai negara produsen dengan standar antarmuka beragam; integrasi dengan \textit{Command \& Control} lintas matra terbatas & Integrasi melalui antarmuka dan standar terbuka dengan lima aliran informasi; keputusan penindakan tetap pada komandan & Penetapan standar antarmuka dan format data terbuka; integrasi alutsista eksisting ke \textit{Command \& Control} melalui antarmuka atau adaptor; standar interoperabilitas sebagai persyaratan pengadaan alutsista baru\\
+6 & ISR & Sensor dikelola per matra dan datanya belum difusikan lintas matra; belum ada satelit ISR khusus pertahanan & Integrasi ISR lima domain melalui pengumpulan, praproses, analisis dan korelasi, serta penggabungan; data yang sudah tergabung bermetadata menjadi sumber TPT & Integrasi aliran data sensor lintas matra ke pusat pengolahan; penetapan standar metadata ISR; pemanfaatan citra satelit penginderaan jauh dan pengembangan satelit ISR\\
+\end{longtable}
+}
+
+Tabel~\ref{tab:d4-35} menunjukkan bahwa kesenjangan C6ISR mengerucut pada tiga persoalan yang sejalan dengan karakteristik \textit{baseline}. Pertama, belum terbentuknya gambaran situasi bersama lintas matra, yang tecermin pada kesenjangan \textit{Command \& Control}, \textit{Computers}, dan ISR. Ketiga kesenjangan tersebut ditutup melalui pembangunan pusat pengolahan data dan TPT lintas matra. Kedua, ketergantungan komunikasi satelit pada pihak lain, yang ditutup secara bertahap melalui skema PACE, pemenuhan SATCOM berpersandian dalam jangka pendek, dan pengembangan satelit pertahanan nasional dalam jangka panjang. Ketiga, keragaman antarmuka \textit{combat systems} yang menyebabkan integrasi antara ISR, \textit{Command \&Control}, serta unsur penindak belum terbentuk secara utuh. Kesenjangan ini ditutup melalui penetapan standar antarmuka terbuka, bukan melalui penyeragaman perangkat.
+
+\subsection{\textit{Roadmap} Implementasi C6ISR}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.00\textwidth]{images/Roadmap implementasi fase C6ISR Architecture.drawio.png}
+\caption{\textit{Roadmap} Implementasi Fase \textit{C6ISR Architecture}}
+\label{fig:d4-26}
+\end{figure}
+
+Kesenjangan pada Tabel~\ref{tab:d4-35} diterjemahkan menjadi \textit{roadmap} implementasi C6ISR yang dibagi ke dalam tiga horizon waktu, sebagaimana \textit{roadmap} pada fase-fase sebelumnya. Urutan inisiatif mengikuti ketergantungan antarkesenjangan, yaitu penetapan standar dan fondasi pada jangka pendek, pembentukan gambaran situasi bersama lintas matra pada jangka menengah, serta integrasi penuh ISR, \textit{Command \& Control}, \textit{Combat System} dan kemandirian komunikasi satelit pada jangka panjang. \textit{Roadmap} implementasi C6ISR disajikan pada Gambar~\ref{fig:d4-26} dan dirinci pada Tabel~\ref{tab:d4-36}.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.170\textwidth}>{\raggedright\arraybackslash}p{0.480\textwidth}>{\raggedright\arraybackslash}p{0.282\textwidth}@{}}
+\caption{Rincian \textit{Roadmap} Implementasi Fase \textit{C6ISR Architecture}}
+\label{tab:d4-36}\\
+\toprule
+\textbf{Horizon Waktu} & \textbf{Inisiatif C6ISR} & \textbf{Keluaran}\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Horizon Waktu} & \textbf{Inisiatif C6ISR} & \textbf{Keluaran}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Jangka Pendek (0–12 bulan) & \textbullet~Penetapan standar interoperabilitas, meliputi antarmuka dan format data terbuka \textit{combat systems} serta standar metadata ISR\newline \textbullet~Penetapan standar interoperabilitas sebagai persyaratan pengadaan alutsista baru\newline \textbullet~Penetapan prosedur \textit{Command \& Control} berjenjang dan hak akses TPT per tingkat komando\newline \textbullet~Perancangan jaringan operasional terklasifikasi dan kebijakan \textit{Cross-Domain Gateway}\newline \textbullet~Penetapan rencana PACE serta pemenuhan SATCOM melalui sewa kapasitas atau satelit \textit{dual-use} nasional berpersandian\newline \textbullet~Inventarisasi aset dan penilaian risiko C6ISR & Standar, prosedur, dan rancangan C6ISR ditetapkan; jalur komunikasi satelit alternatif tersedia\\
+Jangka Menengah (1–3 tahun) & \textbullet~Pembangunan jaringan operasional terklasifikasi dan \textit{Cross-Domain Gateway}\newline \textbullet~Pembangunan pusat pengolahan data dan mesin TPT pada DC–DRC, serta \textit{edge computing} di pangkalan dan pusat komando operasional\newline \textbullet~Integrasi data sensor lintas matra ke pusat pengolahan data dan pemanfaatan citra satelit penginderaan jauh\newline \textbullet~Operasionalisasi SOC Pertahanan, \textit{zero trust}, persandian, dan deteksi \textit{jamming}\newline \textbullet~Implementasi skema PACE\newline \textbullet~Integrasi \textit{combat systems} prioritas ke \textit{Command \& Control} untuk aliran penugasan, status kesiapan, dan pelaksanaan\newline \textbullet~Kajian kelayakan satelit pertahanan nasional & TPT lintas matra beroperasi sebagai gambaran situasi bersama\\
+Jangka Panjang (3–5 tahun) & \textbullet~Integrasi penuh ISR, \textit{Command \& Control}, dan \textit{Combat System} lintas matra, termasuk aliran otorisasi dan penilaian hasil tindakan\newline \textbullet~Pemanfaatan analitik AI/ML dan \textit{decision support} dalam proses \textit{Command \& Control}\newline \textbullet~Pencapaian kematangan keamanan siber level 3 sesuai target 2029\newline \textbullet~Penerapan skema PACE secara penuh\newline \textbullet~Uji interoperabilitas melalui latihan gabungan dan penyempurnaan arsitektur C6ISR\newline \textbullet~Pengembangan satelit pertahanan nasional sesuai hasil kajian & Kapabilitas C6ISR terintegrasi sebagai inti pertahanan cerdas\\
+\end{longtable}
+
+Pada jangka pendek, inisiatif berfokus pada penetapan standar, prosedur, dan rancangan yang belum memerlukan pembangunan infrastruktur besar, sekaligus memenuhi kebutuhan komunikasi satelit melalui sewa kapasitas atau satelit \textit{dual-use} nasional. Pada jangka menengah, fondasi tersebut diwujudkan menjadi jaringan operasional terklasifikasi, pusat pengolahan data, dan TPT lintas matra, sehingga gambaran situasi bersama mulai terbentuk. Pada jangka panjang, seluruh lapisan dipadukan menjadi satu siklus terpadu dari unsur pengindraan hingga unsur penindak, dengan keputusan penggunaan kekuatan tetap berada pada komandan yang berwenang.
