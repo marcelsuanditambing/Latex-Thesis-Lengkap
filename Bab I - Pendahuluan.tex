@@ -106,7 +106,7 @@ Kondisi tersebut menunjukkan perlunya suatu \textit{framework} arsitektur yang m
 \textbf{Premis 3:} TOGAF ADM standar dirancang sebagai kerangka \textit{Enterprise Architecture} yang bersifat umum dan belum secara eksplisit mengakomodasi kebutuhan operasional pertahanan seperti C6ISR, operasi multi-domain, interoperabilitas lintas matra, dan prinsip \textit{security-by-design}.
 Oleh karena itu diperlukan modifikasi \textit{framework} agar lebih sesuai dengan karakteristik dan kebutuhan transformasi digital sektor pertahanan Indonesia.
 
-Berdasarkan premis 1 dan 2 tersebut, diusulkan hipotesis dari penelitian ini, yaitu:
+Berdasarkan ketiga premis tersebut, diusulkan dua hipotesis penelitian. Premis 1 dan 2 melandasi Hipotesis 1, sedangkan Premis 3 melandasi Hipotesis 2.
 \begin{enumerate}
     \item \textbf{Hipotesis 1:} \textit{Framework} TOGAF Pertahanan Indonesia yang dirancang berdasarkan pendekatan TOGAF ADM mampu menyediakan arsitektur transformasi digital yang lebih terintegrasi, selaras dengan kebutuhan organisasi, serta layak digunakan sebagai \textit{blueprint} transformasi digital Kementerian Pertahanan Republik Indonesia.
     \item \textbf{Hipotesis 2:} Penambahan fase C6ISR \textit{Architecture} pada TOGAF Pertahanan Indonesia akan menghasilkan arsitektur yang lebih relevan dalam mendukung interoperabilitas lintas unit dan matra, keamanan siber, integrasi data pertahanan, serta kebutuhan operasi pertahanan modern dibandingkan TOGAF ADM standar.
@@ -218,11 +218,17 @@ Ringkasan perancangan arsitektur, mencakup tujuan utama, aktivitas kunci, dan ha
 & Mendesain arsitektur teknologi target (jaringan, server, \textit{cloud}, keamanan siber); menentukan standar teknologi dan protokol keamanan.
 & Arsitektur teknologi pertahanan (\textit{technology architecture model}). \\
 \hline
-6 & \textit{C6ISR Architecture} & & & \\
+6 & \textit{C6ISR Architecture} & Merancang arsitektur C6ISR yang mengintegrasikan fungsi komando, kendali, komunikasi, komputer, siber, sistem tempur, intelijen, pengamatan, dan pengintaian untuk mendukung operasi pertahanan lintas matra.
+& Identifikasi kebutuhan operasional dan kapabilitas C6ISR; perancangan model konseptual dan lapisan C6ISR (ISR, \textit{Communications}, \textit{Computers}, \textit{Command \& Control}, \textit{Combat Systems}, \textit{Cyber Defense}); penetapan skema komunikasi PACE dan jaringan operasional terklasifikasi; analisis kesenjangan C6ISR (\textit{as-is} vs. \textit{to-be}).
+& Arsitektur C6ISR pertahanan (\textit{C6ISR architecture model}). \\
 \hline
-7 & \textit{Opportunities \& Solutions} & & & \\
+7 & \textit{Opportunities \& Solutions} & Mengonsolidasikan kesenjangan seluruh domain menjadi paket pekerjaan yang siap diimplementasikan.
+& Konsolidasi kesenjangan lintas domain; perumusan paket pekerjaan dan analisis ketergantungannya; penilaian kesiapan dan risiko implementasi; penyusunan arsitektur transisi.
+& Daftar paket pekerjaan dan arsitektur transisi. \\
 \hline
-8 & \textit{Migration Planning} & & & \\
+8 & \textit{Migration Planning} & Menyusun rencana migrasi dan \textit{roadmap} implementasi transformasi digital secara bertahap.
+& Penetapan prioritas paket pekerjaan berdasarkan manfaat, biaya, risiko, dan ketergantungan; penyusunan jadwal implementasi dan migrasi 2026--2030; penetapan model tata kelola implementasi dan indikator keberhasilan setiap tahap.
+& \textit{Roadmap} implementasi dan rencana migrasi. \\
 \hline
 \end{longtable}
 
