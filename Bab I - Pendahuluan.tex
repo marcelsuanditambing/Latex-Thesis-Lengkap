@@ -40,7 +40,7 @@ Selain itu, kemajuan teknologi dan meningkatnya ancaman siber menuntut Kemhan un
 
 Untuk menjawab tantangan tersebut, penelitian ini merumuskan beberapa pertanyaan pokok sebagai berikut:
 \begin{enumerate}
-\item	Bagaimana kondisi saat ini (as-is) proses bisnis, data, aplikasi dan teknologi di lingkungan Kementerian Pertahanan yang berkaitan dengan transformasi digital?
+\item	Bagaimana kondisi saat ini (\textit{as-is}) teknologi, proses bisnis, data, dan sumber daya manusia di lingkungan Kementerian Pertahanan yang berkaitan dengan transformasi digital?
 \item	Bagaimana merancang arsitektur transformasi digital Kemhan RI yang relevan dengan kebutuhan pertahanan modern?
 \end{enumerate}
 Rumusan masalah tersebut menjadi dasar bagi penelitian ini dalam menghasilkan arsitektur transformasi digital yang dapat digunakan Kemhan RI sebagai pedoman strategis dalam membangun ekosistem digital pertahanan yang modern, aman, dan berkelanjutan.
@@ -51,11 +51,10 @@ Penelitian ini bertujuan untuk merancang suatu arsitektur transformasi digital y
 Upaya ini dilakukan untuk menjawab tantangan fragmentasi sistem, lemahnya integrasi data pertahanan, meningkatnya ancaman siber, serta tuntutan regulatif nasional yang mewajibkan Kemhan memiliki arsitektur dan peta rencana SPBE yang terstruktur dan terintegrasi.
 Secara khusus, penelitian ini memiliki tujuan sebagai berikut:
 \begin{enumerate}
-    \item Mengidentifikasi kondisi saat ini (as-is) ekosistem digital di lingkungan Kementerian Pertahanan, mencakup proses bisnis, aliran data, aplikasi, infrastruktur teknologi 
-    terhadap transformasi digital.
+    \item Mengidentifikasi kondisi saat ini (\textit{as-is}) ekosistem digital di lingkungan Kementerian Pertahanan, mencakup proses bisnis, aliran data, aplikasi, infrastruktur teknologi, serta tingkat kesiapan sumber daya manusia terhadap transformasi digital.
     \item Merancang arsitektur transformasi digital Kementerian Pertahanan berdasarkan kerangka TOGAF yang mencakup empat domain inti,
-    yaitu: arsitektur bisnis, data, aplikasi, dan teknologi.
-    \item Memberikan rekomendasi strategis berupa roadmap implementasi transformasi digital Kemhan RI yang berfungsi sebagai
+    yaitu: arsitektur bisnis, data \& aplikasi, teknologi, dan C6ISR.
+    \item Memberikan rekomendasi strategis berupa \textit{roadmap} implementasi transformasi digital Kemhan RI yang berfungsi sebagai
     panduan jangka menengah bagi organisasi dalam mengembangkan dan mengimplementasikan berbagai inisiatif digital secara bertahap, terarah, dan berkelanjutan.
 \end{enumerate}
 Melalui pencapaian tujuan-tujuan tersebut, penelitian ini diharapkan dapat memberikan kontribusi nyata dalam mendukung modernisasi pertahanan nasional
@@ -86,10 +85,12 @@ pada upaya transformasi digital di lingkungan Kementerian Pertahanan RI.
 Ruang lingkup penelitian ini ditetapkan untuk memastikan fokus analisis yang jelas dan sesuai dengan tujuan penelitian.
 Adapun batasan dan cakupan penelitian ini meliputi:
 \begin{enumerate}
-    \item Lingkup organisasi: Kementerian Pertahanan Republik Indonesia, khususnya unit-unit kerja yang terkait dengan perencanaan,
-    pengelolaan dan implementasi transformasi digital, seperti Ditjen Pothan, Pusdatin Kemhan dan Bainstrahan Kemhan.
-    \item Lingkup Teknis: Arsitektur bisnis, data, aplikasi, dan teknologi berdasarkan kerangka kerja TOGAF ADM.
+    \item Lingkup Organisasi: Kementerian Pertahanan Republik Indonesia, khususnya unit-unit kerja yang terkait dengan perencanaan,
+    pengelolaan dan implementasi transformasi digital, seperti Direktorat Jenderal Potensi Pertahanan, Pusat Data dan Informasi Kemhan dan Badan Informasi dan Komunikasi Intelijen Pertahanan.
+    \item Lingkup Teknis: Arsitektur bisnis, data, aplikasi, teknologi, dan C6ISR berdasarkan kerangka kerja TOGAF Pertahanan Indonesia yang dikembangkan dari TOGAF ADM.
     \item Batasan: Penelitian ini tidak mencakup aspek rahasia militer dan operasi tempur, namun fokus pada integrasi sistem informasi, keamanan data, dan tata kelola digital.
+    Batasan tersebut dikecualikan pada perancangan Fase \textit{C6ISR Architecture}, yang memodelkan keterhubungan antara komando dan kendali dengan sistem tempur secara konseptual agar model mendekati kondisi operasional nyata.
+    Pemodelan pada fase tersebut disusun berdasarkan doktrin, dokumen kebijakan, dan sumber terbuka, serta tidak memuat spesifikasi teknis maupun informasi yang bersifat rahasia.
 \end{enumerate}
 
 % --- Hipotesis ---
@@ -105,7 +106,7 @@ Kondisi tersebut menunjukkan perlunya suatu \textit{framework} arsitektur yang m
 \textbf{Premis 3:} TOGAF ADM standar dirancang sebagai kerangka \textit{Enterprise Architecture} yang bersifat umum dan belum secara eksplisit mengakomodasi kebutuhan operasional pertahanan seperti C6ISR, operasi multi-domain, interoperabilitas lintas matra, dan prinsip \textit{security-by-design}.
 Oleh karena itu diperlukan modifikasi \textit{framework} agar lebih sesuai dengan karakteristik dan kebutuhan transformasi digital sektor pertahanan Indonesia.
 
-Berdasarkan premis-premis tersebut, diusulkan hipotesis penelitian ini sebagai berikut:
+Berdasarkan premis 1 dan 2 tersebut, diusulkan hipotesis dari penelitian ini, yaitu:
 \begin{enumerate}
     \item \textbf{Hipotesis 1:} \textit{Framework} TOGAF Pertahanan Indonesia yang dirancang berdasarkan pendekatan TOGAF ADM mampu menyediakan arsitektur transformasi digital yang lebih terintegrasi, selaras dengan kebutuhan organisasi, serta layak digunakan sebagai \textit{blueprint} transformasi digital Kementerian Pertahanan Republik Indonesia.
     \item \textbf{Hipotesis 2:} Penambahan fase C6ISR \textit{Architecture} pada TOGAF Pertahanan Indonesia akan menghasilkan arsitektur yang lebih relevan dalam mendukung interoperabilitas lintas unit dan matra, keamanan siber, integrasi data pertahanan, serta kebutuhan operasi pertahanan modern dibandingkan TOGAF ADM standar.
@@ -138,17 +139,17 @@ Keenam tahap ini memberikan alur kerja sistematis yang memandu peneliti sejak pe
 
 Pendekatan DSRM dipilih karena beberapa alasan utama:
 \begin{enumerate}
-  \item Penelitian ini berfokus pada pengembangan arsitektur transformasi digital pada Kementerian Pertahanan yang merupakan artefak desain.
+  \item Penelitian ini berfokus pada pengembangan arsitektur transformasi digital pada Kementerian Pertahanan yang merupakan \textit{artefak desain}.
   DSRM menyediakan kerangka yang tepat untuk merancang artefak dengan mempertimbangkan kebutuhan organisasi dan teori yang mendukung.
   \item Transformasi digital Kemhan RI membutuhkan pendekatan yang tidak hanya teoritis, tetapi juga aplikatif.
   DSRM memastikan bahwa artefak yang dihasilkan dapat diterapkan pada konteks nyata organisasi pertahanan.
-  \item Melalui tahapan evaluasi, artefak yang dikembangkan dapat dinilai kesesuaiannya oleh para pakar, unit terkait, dan pemangku kepentingan di Kemhan RI.
+  \item Melalui tahapan evaluasi, artefak yang dikembangkan dapat dinilai kesesuaiannya oleh pakar akademisi, pakar praktisi Kemhan RI, dan pakar mitra.
   Dengan demikian, model yang dihasilkan memiliki validitas yang kuat untuk digunakan dalam desain arsitektur transformasi digital Kementerian Pertahanan.
 \end{enumerate}
 Dengan demikian, penggunaan DSRM sebagai pendekatan penelitian memberikan landasan metodologis yang kuat dan sesuai untuk menghasilkan arsitektur transformasi digital Kementerian Pertahanan yang sistematis dan komprehensif.
 
 \subsection{Tahapan Penelitian}
-Penelitian ini menggunakan \textit{Design Science Research Methodology} (DSRM) yang terdiri dari enam tahapan utama sebagaimana dikemukakan oleh Peffers dkk. (2007).
+Penelitian ini menggunakan \textit{Design Science Research Methodology} (DSRM) yang terdiri dari enam tahapan utama sebagaimana dikemukakan oleh \textcite{Peffers2007}.
 Setiap tahapan dalam DSRM memberikan struktur penelitian yang sistematis dan berorientasi pada pengembangan artefak yang dapat menyelesaikan permasalahan nyata, dalam hal ini arsitektur transformasi digital Kemhan RI.
 Adapun tahapan penelitian tersebut dijelaskan sebagai berikut:
 
@@ -161,11 +162,11 @@ Berdasarkan analisis dokumen dan kebijakan, permasalahan utama yang ditemukan ad
   \item Belum adanya \textit{blueprint} arsitektur digital Kemhan.
   Kemhan belum memiliki arsitektur SPBE dan arsitektur pertahanan yang terstruktur untuk mendukung modernisasi digital.
   \item Ancaman siber yang meningkat.
-  \textcite{KemhanRI2014} menunjukkan bahwa ancaman siber menjadi tantangan strategis yang belum diimbangi dengan kesiapan sistem dan SDM dalam pertahanan siber.
+  Permenhan No.~82 Tahun 2014 \parencite{KemhanRI2014} menunjukkan bahwa ancaman siber menjadi tantangan strategis yang belum diimbangi dengan kesiapan sistem dan SDM dalam pertahanan siber.
   \item Keterbatasan SDM digital dan tata kelola TI.
   Kompetensi digital belum merata, dan belum ada mekanisme tata kelola arsitektur yang menyeluruh.
   \item Tuntutan regulasi nasional.
-  \textcite{KementerianKomunikasidanInformatika2018}, \textcite{RepublikIndonesia2023}, \textcite{RI2019}, dan \textcite{RPJPN2025} mewajibkan Kemhan membangun ekosistem digital pertahanan yang terintegrasi.
+  Perpres No.~95 Tahun 2018 \parencite{KementerianKomunikasidanInformatika2018}, Perpres No.~82 Tahun 2023 \parencite{RepublikIndonesia2023}, UU No.~23 Tahun 2019 \parencite{RI2019}, dan RPJPN 2025--2045 \parencite{RPJPN2025} mewajibkan Kemhan membangun ekosistem digital pertahanan yang terintegrasi.
 \end{enumerate}
 
 \subsubsection{Tahap 2 – Defining the Objectives for a Solution}
@@ -217,12 +218,19 @@ Ringkasan perancangan arsitektur, mencakup tujuan utama, aktivitas kunci, dan ha
 & Mendesain arsitektur teknologi target (jaringan, server, \textit{cloud}, keamanan siber); menentukan standar teknologi dan protokol keamanan.
 & Arsitektur teknologi pertahanan (\textit{technology architecture model}). \\
 \hline
+6 & \textit{C6ISR Architecture} & & & \\
+\hline
+7 & \textit{Opportunities \& Solutions} & & & \\
+\hline
+8 & \textit{Migration Planning} & & & \\
+\hline
 \end{longtable}
 
 \subsubsection{Tahap 4 – Demonstration}
 Pada tahap ini, artefak yang telah dikembangkan diuji melalui proses demonstrasi untuk menunjukkan bagaimana artefak tersebut menyelesaikan permasalahan yang telah diidentifikasi. Demonstrasi dilakukan melalui:
 \begin{enumerate}
-  \item Diskusi kelompok terarah (FGD) dengan pakar dan pejabat Kemhan untuk melihat sejauh mana arsitektur yang dirancang dapat diimplementasikan secara praktis.
+  \item Diskusi kelompok terarah (FGD) dengan pakar akademisi, pakar praktisi Kemhan RI, dan pakar mitra untuk melihat sejauh mana arsitektur yang dirancang dapat diimplementasikan secara praktis.
+  FGD dilaksanakan secara terpisah untuk setiap kategori pakar dengan materi dan urutan pemaparan yang sama.
 \end{enumerate}
 Demonstrasi bertujuan memastikan bahwa artefak dapat berfungsi secara logis dalam konteks operasional Kemhan RI dan memberikan gambaran implementasi awal sebelum dilakukan evaluasi mendalam.
 
@@ -233,12 +241,18 @@ Tahapan ini bertujuan untuk menilai efektivitas artefak arsitektur transformasi 
   \begin{enumerate}
     \item Menilai kelayakan teknis dan konseptual dari arsitektur transformasi digital yang dirancang, termasuk konsistensi dengan prinsip-prinsip arsitektur \textit{enterprise} (EA) dan keselarasan dengan kerangka kerja TOGAF ADM.
     \item Menilai kesesuaian artefak dengan standar dan kebijakan nasional, seperti arsitektur SPBE Nasional dan regulasi transformasi digital pemerintahan.
-    \item Memastikan validitas ilmiah melalui peninjauan oleh pakar akademik dalam bidang sistem informasi, \textit{enterprise architecture}, dan transformasi digital.
+    \item Memastikan validitas ilmiah melalui penilaian \textit{Enterprise Architecture Scorecard} oleh pakar akademisi di bidang sistem informasi, \textit{enterprise architecture}, dan transformasi digital.
   \end{enumerate}
   \item Evaluasi Praktis:
   \begin{enumerate}
-    \item Melibatkan pakar dan praktisi dari lingkungan pertahanan, seperti STEI ITB, Ditjen Potensi Pertahanan, Pusdatin Kemhan dan Bainstrahan Kemhan yang relevan untuk memberikan penilaian aplikatif terhadap artefak.
-    \item Penilaian dilakukan pada aspek-aspek implementatif, termasuk: efisiensi proses; interoperabilitas sistem pendukung; keamanan dan kesiapan pengelolaan data; serta kelayakan adopsi dalam struktur organisasi Kemhan.
+    \item Melibatkan tiga kategori pakar untuk memberikan penilaian aplikatif terhadap artefak, yaitu pakar akademisi dari perguruan tinggi seperti STEI ITB, pakar praktisi dari lingkungan Kementerian Pertahanan RI, dan pakar mitra dari industri pertahanan atau lembaga mitra Kemhan RI.
+    \item Penilaian dilakukan pada aspek-aspek implementatif, termasuk:
+    \begin{enumerate}
+      \item Efisiensi proses;
+      \item Interoperabilitas sistem pendukung;
+      \item Keamanan dan kesiapan pengelolaan data; dan
+      \item Kelayakan adopsi dalam struktur organisasi Kemhan.
+    \end{enumerate}
     \item Mengidentifikasi area perbaikan agar arsitektur dapat disesuaikan dengan kondisi operasional Kemhan RI dan kebutuhan transformasi pertahanan.
   \end{enumerate}
 \end{enumerate}
@@ -259,7 +273,7 @@ Penggunaan kedua jenis data ini diperlukan agar perancangan arsitektur transform
   Data ini diperlukan untuk memahami secara mendalam kondisi aktual sistem informasi, proses bisnis, kebutuhan organisasi, serta tantangan transformasi digital di lingkungan Kemhan. Data primer meliputi:
   \begin{enumerate}
     \item Hasil wawancara dengan pejabat atau staf Kemhan yang memahami sistem informasi, teknologi pertahanan, atau kebijakan SPBE.
-    \item Validasi pakar (\textit{expert judgement}) melalui akademisi atau ahli di bidang \textit{enterprise architecture} dan transformasi digital pertahanan.
+    \item Penilaian pakar (\textit{expert judgement}) dari pakar akademisi, pakar praktisi Kemhan RI, dan pakar mitra terhadap artefak yang dirancang.
   \end{enumerate}
   Data primer ini sangat penting untuk mengidentifikasi kesenjangan (\textit{gap}) antara kondisi saat ini dan kebutuhan arsitektur target.
   \item Data Sekunder.
@@ -286,7 +300,7 @@ Metode pengumpulan data dilakukan melalui beberapa tahapan:
   \item Analisis Dokumen Internal.
   Analisis dokumen dilakukan terhadap data dan kebijakan yang dikeluarkan oleh Kemhan RI.
   \item Wawancara Terarah.
-  Wawancara dilakukan dengan pejabat atau personel dari unit-unit Kemhan yang relevan, seperti Ditjen Potensi Pertahanan, Pusdatin Kemhan dan Bainstrahan Kemhan. Wawancara ini bertujuan untuk:
+  Wawancara dilakukan dengan pejabat atau personel dari unit-unit Kemhan yang relevan, seperti Direktorat Jenderal Potensi Pertahanan, Pusat Data dan Informasi Kemhan dan Badan Informasi dan Komunikasi Intelijen Pertahanan. Wawancara ini bertujuan untuk:
   \begin{enumerate}
     \item Menggali informasi mengenai tantangan implementasi transformasi digital.
     \item Mendapatkan perspektif mengenai arah transformasi digital Kemhan RI.
@@ -294,25 +308,33 @@ Metode pengumpulan data dilakukan melalui beberapa tahapan:
   \end{enumerate}
   Metode wawancara semi-terstruktur memungkinkan penggalian informasi yang fleksibel namun tetap terfokus pada isu penelitian.
   \item \textit{Focus Group Discussion} (FGD).
-  FGD digunakan pada tahap evaluasi artefak, sebagai bagian dari pendekatan evaluasi praktis pada DSRM. FGD dilakukan dengan melibatkan akademisi, Ditjen Pothan, Pusdatin Kemhan, dan Bainstrahan Kemhan.
+  FGD digunakan pada tahap evaluasi artefak, sebagai bagian dari pendekatan evaluasi praktis pada DSRM. FGD dilakukan dengan melibatkan tiga kategori pakar:
+  \begin{enumerate}
+    \item Pakar Akademisi, yaitu dosen atau peneliti perguruan tinggi, seperti STEI ITB;
+    \item Pakar Praktisi, yaitu pejabat atau staf Kementerian Pertahanan RI;
+    \item Pakar Mitra, yaitu praktisi industri pertahanan atau lembaga mitra Kemhan RI.
+  \end{enumerate}
+  FGD dilaksanakan secara terpisah untuk setiap kategori pakar dengan materi dan instrumen yang sama.
   FGD bertujuan menilai kelayakan arsitektur transformasi digital dari aspek teknis, organisasi, keamanan, dan kesiapan implementasi.
 \end{enumerate}
 
 
 % --- Sistematika Penulisan ---
 \section{Sistematika Penulisan}
-Sistematika penulisan dalam proposal penelitian ini disusun untuk memberikan alur pembahasan yang runtut, logis, dan mudah dipahami.
-Setiap bab dirancang untuk saling mendukung satu sama lain, mulai dari pengenalan masalah hingga penyusunan metodologi penelitian yang digunakan dalam merancang arsitektur transformasi digital pada Kementerian Pertahanan RI.
-Adapun sistematika penulisan proposal ini adalah sebagai berikut:
+Sistematika penulisan tesis ini disusun agar pembahasan runtut, mulai dari perumusan masalah, perancangan \textit{framework}, penerapannya pada Kemhan RI, hingga evaluasi artefak.
+Susunan bab dalam tesis ini adalah sebagai berikut.
 \begin{enumerate}
-\item	Bab I Pendahuluan: Bab ini menjelaskan landasan awal penelitian, meliputi latar belakang permasalahan, rumusan masalah, tujuan penelitian, manfaat penelitian, ruang lingkup penelitian, metodologi penelitian, serta sistematika penulisan.
-Bab ini juga menguraikan pendekatan \textit{Design Science Research Methodology} (DSRM) beserta tahapan-tahapannya, jenis dan sumber data, serta metode pengumpulan data yang digunakan.
-\item	Bab II Tinjauan Pustaka: Bab ini menyajikan kajian teoretis dan konseptual yang menjadi dasar penelitian.
-Pembahasan mencakup konsep transformasi digital, transformasi digital di sektor pertahanan, arah dan tantangan transformasi digital Kementerian Pertahanan RI,
-serta konsep pertahanan cerdas (\textit{smart defence}). Selain itu, bab ini juga mengulas \textit{framework} TOGAF sebagai kerangka kerja arsitektur \textit{enterprise} yang digunakan dalam perancangan arsitektur transformasi digital.
-Tinjauan pustaka ini berfungsi sebagai pijakan teoritis dan konseptual dalam pengembangan artefak penelitian.
-\item	Bab III Analisis dan Desain: Bab ini menyajikan analisis kondisi saat ini Kemhan RI, mencakup analisis organisasi dan tata kelola, regulasi dan kebijakan, permasalahan transformasi digital, serta kebutuhan \textit{smart defense}.
-Berdasarkan analisis tersebut, bab ini merancang kerangka TOGAF Pertahanan Indonesia beserta prinsip arsitektur dan keseluruhan fase pengembangannya sebagai artefak utama penelitian.
-\item	Bab IV Rencana Evaluasi: Bab ini menjelaskan metode evaluasi artefak arsitektur yang dirancang, meliputi penilaian menggunakan \textit{Enterprise Architecture Scorecard}\texttrademark{} dan \textit{expert judgement} melalui FGD, beserta kriteria keberhasilan evaluasi.
-\item   Daftar Pustaka: Berisi daftar referensi yang digunakan dalam penyusunan laporan tesis.
+\item \textbf{Bab I Pendahuluan}\\
+Bab ini menjelaskan latar belakang, rumusan masalah, tujuan, manfaat, ruang lingkup, hipotesis, dan metodologi penelitian, termasuk tahapan \textit{Design Science Research Methodology} (DSRM), jenis dan sumber data, serta metode pengumpulan data.
+\item \textbf{Bab II Tinjauan Pustaka}\\
+Bab ini menyajikan tinjauan penelitian terdahulu serta konsep transformasi digital, transformasi digital di sektor pertahanan dan di Kemhan RI, pertahanan cerdas (\textit{smart defence}) hingga evolusi C6ISR, dan perbandingan \textit{framework enterprise architecture}.
+\item \textbf{Bab III Analisis dan Desain}\\
+Bab ini menganalisis kebutuhan \textit{framework} arsitektur pertahanan, merancang TOGAF Pertahanan Indonesia beserta prinsip arsitektur dan masukan, langkah, serta keluaran setiap fase, dan mengevaluasi pemenuhan kebutuhan \textit{framework} tersebut.
+\item \textbf{Bab IV Implementasi}\\
+Bab ini menerapkan TOGAF Pertahanan Indonesia pada Kemhan RI mulai dari fase \textit{Preliminary} hingga fase \textit{Migration Planning}.
+Keluarannya meliputi arsitektur bisnis, data, aplikasi, teknologi, dan C6ISR, serta paket pekerjaan, \textit{roadmap}, dan rencana migrasi 2026--2030.
+\item \textbf{Bab V Evaluasi}\\
+Bab ini mengevaluasi artefak penelitian melalui \textit{Enterprise Architecture Scorecard} dan \textit{expert judgement} oleh pakar akademisi, praktisi, dan mitra, kemudian membahas pengujian hipotesis, ketercapaian tujuan penelitian, dan keterbatasan evaluasi.
+\item \textbf{Bab VI Kesimpulan}\\
+Bab ini menyajikan kesimpulan penelitian sebagai jawaban atas rumusan masalah serta saran bagi Kemhan RI dan penelitian selanjutnya.
 \end{enumerate}
