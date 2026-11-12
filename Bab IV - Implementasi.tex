@@ -1743,3 +1743,388 @@ Jangka Panjang (3–5 tahun) & \textbullet~Integrasi penuh ISR, \textit{Command 
 \end{longtable}
 
 Pada jangka pendek, inisiatif berfokus pada penetapan standar, prosedur, dan rancangan yang belum memerlukan pembangunan infrastruktur besar, sekaligus memenuhi kebutuhan komunikasi satelit melalui sewa kapasitas atau satelit \textit{dual-use} nasional. Pada jangka menengah, fondasi tersebut diwujudkan menjadi jaringan operasional terklasifikasi, pusat pengolahan data, dan TPT lintas matra, sehingga gambaran situasi bersama mulai terbentuk. Pada jangka panjang, seluruh lapisan dipadukan menjadi satu siklus terpadu dari unsur pengindraan hingga unsur penindak, dengan keputusan penggunaan kekuatan tetap berada pada komandan yang berwenang.
+
+% ===== IV.7–IV.8: disinkronkan dari docx (Tahap 5) =====
+\section{Fase \textit{Opportunities \& Solutions}}
+
+Fase \textit{Opportunities \& Solutions} menerjemahkan hasil perancangan Fase \textit{Business}, \textit{Information System}, \textit{Technology}, dan \textit{C6ISR Architecture} menjadi rencana pelaksanaan. Perancangan mengikuti \textit{input}, \textit{step}, dan \textit{output} pada Tabel~\ref{tab:opportunities-solutions}. Fase ini mengelompokkan kesenjangan pada fase sebelumnya ke dalam paket pekerjaan (\textit{work packages}), menetapkan urutan pelaksanaan berdasarkan ketergantungan, serta merumuskan arsitektur transisi dan \textit{roadmap} arsitektur yang menjadi masukan bagi fase \textit{Migration Planning}.
+
+\subsection{Atribut Perubahan dan Kendala Implementasi}
+
+Langkah pertama fase ini adalah mengonfirmasi atribut perubahan utama, yaitu pergeseran kondisi organisasi yang ingin dicapai melalui transformasi. Atribut perubahan dirangkum dari kondisi \textit{baseline} dan target pada setiap fase, sebagaimana disajikan pada Tabel~\ref{tab:d4-37}.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.235\textwidth}>{\raggedright\arraybackslash}p{0.341\textwidth}>{\raggedright\arraybackslash}p{0.357\textwidth}@{}}
+\caption{Atribut Perubahan Utama}
+\label{tab:d4-37}\\
+\toprule
+\textbf{Atribut} & \textbf{Kondisi Saat Ini} & \textbf{Arah Perubahan}\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Atribut} & \textbf{Kondisi Saat Ini} & \textbf{Arah Perubahan}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Bisnis (Tata kelola transformasi) & Berjalan parsial tanpa mandat lintas organisasi & Terorkestrasi oleh DTO dan \textit{Architecture Board}\\
+Data & Terkotak per aplikasi dan satuan kerja & Satu Data Pertahanan yang terstandar dan terklasifikasi\\
+Aplikasi & 71 aplikasi khusus bersifat silo dan sebagian berfungsi serupa & Konsolidasi dan integrasi aplikasi\\
+Infrastruktur & Satu Data Center tanpa DRC & Data Center Utama dan DRC dalam konfigurasi aktif-aktif\\
+Keamanan siber & Parsial dengan tingkat kematangan level 1–2 & Menyeluruh dengan tingkat kematangan level 3 pada tahun 2029 (Permenhan 34 Tahun 2025)\\
+C6ISR & \textit{Command \& Control} dikembangkan per matra & C6ISR terintegrasi lintas matra melalui TPT\\
+\end{longtable}
+
+Tabel~\ref{tab:d4-37} menunjukkan bahwa perubahan terjadi serentak pada keenam atribut, mulai dari tata kelola hingga operasi pertahanan. Dengan cakupan tersebut, transformasi tidak dapat dilaksanakan sekaligus, tetapi perlu ditahapkan dengan memperhatikan kendala implementasi. Kendala dan implikasinya terhadap rencana disajikan pada Tabel~\ref{tab:d4-38}.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.316\textwidth}>{\raggedright\arraybackslash}p{0.648\textwidth}@{}}
+\caption{Kendala Implementasi dan Implikasinya}
+\label{tab:d4-38}\\
+\toprule
+\textbf{Kendala} & \textbf{Implikasi}\\
+\midrule
+\endfirsthead
+\multicolumn{2}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Kendala} & \textbf{Implikasi}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Keterbatasan SDM digital & Pengembangan talenta digital berjalan paralel dengan paket teknis; pelaksanaan awal memanfaatkan unit yang telah ada\\
+Keberadaan sistem lama (\textit{legacy}) & Integrasi dilakukan bertahap melalui API dan standar terbuka, bukan penggantian sistem sekaligus\\
+Kerahasiaan dan keamanan pertahanan & Data berklasifikasi Rahasia baru dialirkan setelah jaringan operasional terklasifikasi tersedia\\
+Keterbatasan anggaran dan waktu & Jangka pendek difokuskan pada inisiatif fondasi berbiaya rendah, seperti standar dan regulasi; investasi besar ditempatkan pada jangka menengah dan panjang\\
+\end{longtable}
+
+Setiap kendala diterjemahkan menjadi implikasi yang membatasi penyusunan paket pekerjaan dan urutan pelaksanaannya.
+
+\subsection{Konsolidasi Kesenjangan}
+
+Seluruh kesenjangan dari fase sebelumnya disatukan agar inisiatif yang beririsan tidak dilaksanakan berulang. Hasil konsolidasi disajikan pada Tabel~\ref{tab:d4-39}.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.068\textwidth}>{\raggedright\arraybackslash}p{0.281\textwidth}>{\raggedright\arraybackslash}p{0.583\textwidth}@{}}
+\caption{Konsolidasi Kesenjangan Fase B–E}
+\label{tab:d4-39}\\
+\toprule
+\textbf{No.} & \textbf{Kelompok Kesenjangan} & \textbf{Inti Persoalan}\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{No.} & \textbf{Kelompok Kesenjangan} & \textbf{Inti Persoalan}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+1 & Tata kelola dan mandat transformasi & Belum ada fungsi yang mengorkestrasi transformasi serta tata kelola arsitektur, data, dan portofolio aplikasi\\
+2 & Proses bisnis, manajemen perubahan, dan talenta & Transformasi tanpa manajemen perubahan, proses terfragmentasi, koordinasi lintas matra \textit{ad hoc}, dan kompetensi digital terbatas\\
+3 & Standar dan berbagi-pakai data & Data terkotak tanpa standar, klasifikasi, dan kanal berbagi-pakai\\
+4 & Integrasi dan portofolio aplikasi & Aplikasi berdisi sendiri dan sebagian berfungsi serupa, akun terpisah, serta belum ada lapisan integrasi\\
+5 & Infrastruktur pusat data dan jaringan & Satu Data Center tanpa DRC, server fisik, dan jaringan belum tersegmentasi serta belum lintas matra\\
+6 & Keamanan siber & Perlindungan parsial (level 1–2) dan belum ada jaringan operasional terklasifikasi\\
+7 & \textit{Command \& Control}, ISR, dan \textit{Combat Systems} & \textit{Command \& Control} per matra, belum ada pengolahan dan penggabungan data dan TPT, serta antarmuka alutsista beragam\\
+8 & Komunikasi pertahanan & Belum memiliki satelit pertahanan dan belum ada jalur komunikasi berlapis\\
+\end{longtable}
+
+Tabel~\ref{tab:d4-39} menunjukkan kesenjangan mengerucut menjadi delapan kelompok. Penggabungan kesenjangan yang beririsan mencegah inisiatif yang sama dianggarkan dan dilaksanakan lebih dari satu kali.
+
+\subsection{Paket Pekerjaan dan Ketergantungan}
+
+Kedelapan kelompok kesenjangan pada Tabel~\ref{tab:d4-39} ditetapkan menjadi delapan paket pekerjaan. Setiap paket memuat inisiatif utama yang dihimpun dari \textit{roadmap} fase sebelumnya beserta usulan penanggung jawabnya, sebagaimana disajikan pada Tabel~\ref{tab:d4-40}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.098\textwidth}>{\raggedright\arraybackslash}p{0.157\textwidth}>{\raggedright\arraybackslash}p{0.406\textwidth}>{\raggedright\arraybackslash}p{0.242\textwidth}@{}}
+\caption{Paket Pekerjaan Transformasi Digital Pertahanan}
+\label{tab:d4-40}\\
+\toprule
+\textbf{Kode} & \textbf{Paket Pekerjaan} & \textbf{Inisiatif Utama} & \textbf{Penanggung Jawab}\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Kode} & \textbf{Paket Pekerjaan} & \textbf{Inisiatif Utama} & \textbf{Penanggung Jawab}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+WP-01 & Tata Kelola dan Organisasi Transformasi & \textbullet~Pembentukan DTO dan \textit{Architecture Board}\newline \textbullet~Penetapan mandat dan kewenangan lintas organisasi\newline \textbullet~Penetapan penyelenggara Satu Data Pertahanan\newline \textbullet~Penetapan dan pelembagaan tata kelola portofolio data dan aplikasi\newline \textbullet~Evaluasi dan penyempurnaan tata kelola arsitektur & Biro Organisasi dan Tata Laksana; DTO\\
+WP-02 & Proses Bisnis, Manajemen Perubahan, dan Talenta Digital & \textbullet~Standardisasi dan integrasi proses bisnis lintas unit\newline \textbullet~Mekanisme koordinasi transformasi lintas matra\newline \textbullet~Pembangunan kapabilitas manajemen perubahan\newline \textbullet~Pengembangan dan rekrutmen talenta digital\newline \textbullet~Pembentukan budaya transformasi berkelanjutan & DTO; Biro Organisasi dan Tata Laksana; Biro Kepegawaian; Badan Pengembangan Sumber Daya Manusia Pertahanan\\
+WP-03 & Satu Data Pertahanan & \textbullet~Penetapan klasifikasi data, kamus data, dan standar penamaan\newline \textbullet~Pembangunan Portal Satu Data Pertahanan\newline \textbullet~Penetapan kode referensi dan data induk serta interoperabilitas dengan Portal Satu Data Indonesia & Pusat Data dan Informasi (Walidata Pertahanan); DTO (Bidang Tata Kelola Data)\\
+WP-04 & Platform Integrasi dan Rasionalisasi Aplikasi & \textbullet~Rasionalisasi dan konsolidasi aplikasi berfungsi serupa\newline \textbullet~Platform integrasi (\textit{API Gateway} dan \textit{Data Exchange})\newline \textbullet~SSO/IAM \textit{enterprise}\newline \textbullet~Lapisan penyajian dan pengembangan aplikasi baru & Pusat Data dan Informasi; satuan kerja pemilik aplikasi\\
+WP-05 & Infrastruktur Pusat Data dan Jaringan & \textbullet~Pembangunan DRC serta mekanisme cadangan dan replikasi\newline \textbullet~Virtualisasi dan kontainer\newline \textbullet~Jaringan tersegmentasi dan terenkripsi lintas matra\newline \textbullet~Operasionalisasi Data Center Utama dan DRC aktif-aktif & Pusat Data dan Informasi\\
+WP-06 & Keamanan Siber Pertahanan & \textbullet~Keamanan dasar (\textit{firewall}, \textit{endpoint protection}, IDPS) dan VAPT\newline \textbullet~SOC Pertahanan, SIEM, CTI, dan SOAR\newline \textbullet~\textit{Zero trust}, persandian, dan deteksi \textit{jamming}\newline \textbullet~Jaringan operasional terklasifikasi dan \textit{Cross-Domain Gateway}\newline \textbullet~Pencapaian kematangan keamanan siber level 3 & Pusat Siber dan Intelijen Teknologi Pertahanan; Pusat Data dan Informasi\\
+WP-07 & Integrasi \textit{Command \& Control}, ISR, dan \textit{Combat Systems} & \textbullet~Standar antarmuka \textit{combat systems} dan metadata ISR, termasuk persyaratan pengadaan alutsista\newline \textbullet~Prosedur \textit{Command \& Control} berjenjang dan TPT lintas matra\newline \textbullet~Pusat pengolahan data, \textit{edge computing}, serta analitik AI/ML dan \textit{decision support}\newline \textbullet~Integrasi sensor dan \textit{combat systems} ketiga matra\newline \textbullet~Uji interoperabilitas melalui latihan gabungan & Mabes TNI dan ketiga matra; Badan Informasi dan Komunikasi Intelijen Pertahanan; Direktorat Jenderal Kekuatan Pertahanan\\
+WP-08 & Komunikasi Pertahanan & \textbullet~Rencana dan penerapan skema PACE\newline \textbullet~SATCOM melalui sewa kapasitas atau satelit \textit{dual-use} berpersandian\newline \textbullet~Kajian dan pengembangan satelit pertahanan nasional & Direktorat Jenderal Kekuatan Pertahanan; Mabes TNI; Pusat Data dan Informasi\\
+\end{longtable}
+}
+
+Penanggung jawab pada Tabel~\ref{tab:d4-40} mengikuti pembagian peran pada arsitektur bisnis. DTO bertindak sebagai pengarah dan pengendali seluruh paket pekerjaan melalui \textit{Architecture Board}, sedangkan Pusat Data dan Informasi menjadi pelaksana utama paket data, aplikasi, dan infrastruktur. WP-07 dan WP-08 melibatkan Mabes TNI karena berkaitan dengan penggunaan kekuatan, sementara Kemhan menyiapkan kebijakan, standar, dan sumber daya.
+
+Paket pekerjaan tidak dapat dilaksanakan secara bebas karena sebagian paket menjadi prasyarat bagi paket lainnya. Ketergantungan antarpaket pekerjaan disajikan pada Gambar~\ref{fig:d4-27}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.91\textwidth]{images/Ketergantungan Work Packages.drawio.png}
+\caption{Ketergantungan \textit{Work Packages}}
+\label{fig:d4-27}
+\end{figure}
+
+Gambar~\ref{fig:d4-27} menyusun paket pekerjaan dalam empat lapis. Lapis paling bawah, yaitu WP-01 dan WP-02, menjadi fondasi karena tanpa mandat dan tata kelola transformasi, inisiatif teknis berisiko berjalan parsial. WP-03 dan WP-05 menyediakan data yang terstandar serta infrastruktur pusat data dan jaringan. Keduanya menjadi prasyarat bagi WP-04, sedangkan WP-05 juga menjadi prasyarat bagi WP-08. Lapis teratas, yaitu WP-07, baru dapat diwujudkan setelah data dapat dipertukarkan melalui WP-04 dan jalur komunikasi tersedia melalui WP-08. WP-06 digambarkan secara vertikal karena keamanan siber melindungi seluruh paket pekerjaan dan dilaksanakan sejak jangka pendek.
+
+\subsection{Kesiapan dan Risiko Implementasi}
+
+Kesiapan organisasi dan risiko transformasi yang telah diidentifikasi pada fase \textit{Architecture Vision} (Tabel~\ref{tab:d4-7} dan Tabel~\ref{tab:d4-8}) dipetakan ke setiap paket pekerjaan untuk memastikan rencana pelaksanaan realistis, sebagaimana disajikan pada Tabel~\ref{tab:d4-41}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.142\textwidth}>{\raggedright\arraybackslash}p{0.216\textwidth}>{\raggedright\arraybackslash}p{0.216\textwidth}>{\raggedright\arraybackslash}p{0.328\textwidth}@{}}
+\caption{Kesiapan dan Risiko per \textit{Work Packages}}
+\label{tab:d4-41}\\
+\toprule
+\textbf{Paket} & \textbf{Kesiapan (Tingkat)} & \textbf{Risiko Utama} & \textbf{Mitigasi dalam Rencana}\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Paket} & \textbf{Kesiapan (Tingkat)} & \textbf{Risiko Utama} & \textbf{Mitigasi dalam Rencana}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+WP-01 & Kepemimpinan dan tata kelola (Sedang); regulasi (Tinggi) & Resistensi perubahan organisasi & Mandat DTO ditetapkan sejak jangka pendek dengan dukungan pimpinan\\
+WP-02 & SDM digital (Rendah–Sedang) & Keterbatasan SDM digital & Pelatihan, rekrutmen, dan kerja sama kelembagaan berjalan paralel dengan paket teknis\\
+WP-03 & Data dan interoperabilitas (Rendah); regulasi (Tinggi) & Kompleksitas integrasi sistem lama (\textit{legacy}) & Standar data ditetapkan sebelum Portal Satu Data Pertahanan dibangun\\
+WP-04 & Data dan interoperabilitas (Rendah) & Kompleksitas integrasi sistem lama (\textit{legacy}) & Integrasi bertahap melalui \textit{middleware}/API dan standar terbuka\\
+WP-05 & Infrastruktur teknologi (Sedang) & Keterbatasan anggaran dan waktu & Investasi infrastruktur ditahapkan berdasarkan prioritas nilai\\
+WP-06 & Keamanan siber (Sedang) & Ancaman siber selama transisi & Keamanan dasar didahulukan dan \textit{security by design} diterapkan pada setiap paket\\
+WP-07 & Data dan interoperabilitas (Rendah) & Ketergantungan pada teknologi asing & Standar antarmuka terbuka dan persyaratan interoperabilitas dalam pengadaan alutsista\\
+WP-08 & Infrastruktur teknologi (Sedang) & Ketergantungan pada teknologi asing; keterbatasan anggaran & SATCOM sewa atau \textit{dual-use} berpersandian; kepemilikan satelit melalui kajian\\
+\end{longtable}
+}
+
+Tabel~\ref{tab:d4-41} menunjukkan bahwa paket dengan tingkat kesiapan terendah adalah WP-03, WP-04, dan WP-07, yang seluruhnya bergantung pada faktor data dan interoperabilitas. Oleh karena itu, inisiatif jangka pendek pada ketiga paket tersebut difokuskan pada penetapan standar, yang memiliki biaya relatif rendah tetapi menurunkan risiko integrasi pada tahap berikutnya. Sebaliknya, dukungan regulasi yang tinggi menjadi peluang untuk mempercepat WP-01 dan WP-03.
+
+\subsection{Strategi Implementasi dan Arsitektur Transisi}
+
+Berdasarkan ketergantungan dan tingkat kesiapan tersebut, strategi implementasi yang dipilih adalah pendekatan bertahap dengan prinsip fondasi terlebih dahulu. Pendekatan ini dipilih karena transformasi mencakup seluruh domain sekaligus, sedangkan kesiapan data dan interoperabilitas masih rendah. Pelaksanaan bertahap menghasilkan dua arsitektur transisi sebelum arsitektur target tercapai, sebagaimana disajikan pada Tabel~\ref{tab:d4-42}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.136\textwidth}>{\raggedright\arraybackslash}p{0.255\textwidth}>{\raggedright\arraybackslash}p{0.255\textwidth}>{\raggedright\arraybackslash}p{0.255\textwidth}@{}}
+\caption{Arsitektur Transisi per Domain}
+\label{tab:d4-42}\\
+\toprule
+\textbf{Domain} & \textbf{Arsitektur Transisi Tahap 1} & \textbf{Arsitektur Transisi Tahap 2} & \textbf{Arsitektur Target}\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Domain} & \textbf{Arsitektur Transisi Tahap 1} & \textbf{Arsitektur Transisi Tahap 2} & \textbf{Arsitektur Target}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Bisnis & DTO dan \textit{Architecture Board} berjalan & Proses bisnis terstandar; koordinasi lintas matra terlembaga & Budaya transformasi berkelanjutan\\
+Data & Penyelenggara Satu Data, klasifikasi, dan kamus data ditetapkan & Portal Satu Data Pertahanan beroperasi & Interoperabilitas dengan Portal Satu Data Indonesia\\
+Aplikasi & Peta rasionalisasi aplikasi tersedia & Platform integrasi dan SSO/IAM beroperasi; aplikasi berfungsi serupa terkonsolidasi & Aplikasi terintegrasi penuh; tata kelola portofolio terlembaga\\
+Teknologi & DRC dan keamanan dasar tersedia & Virtualisasi, kontainer, jaringan tersegmentasi, dan SOC beroperasi & Data Center Utama dan DRC aktif-aktif; kematangan keamanan siber level 3\\
+C6ISR & Standar interoperabilitas, prosedur \textit{Command \& Control}, rencana PACE, dan SATCOM sewa ditetapkan & Jaringan terklasifikasi dan TPT lintas matra beroperasi; PACE diimplementasikan & Integrasi penuh ISR, \textit{Command \& Control}, dan \textit{Combat Systems}; satelit pertahanan; Penerapan PACE penuh\\
+\end{longtable}
+}
+
+Arsitektur Transisi Tahap 1 berfokus pada fondasi tata kelola dan standar, sehingga sebagian besar keluarannya berupa keputusan, regulasi, dan rancangan. Arsitektur Transisi Tahap 2 berfokus pada integrasi data dan platform, yang menghasilkan gambaran situasi bersama lintas matra. Arsitektur Target mewujudkan pertahanan cerdas yang terintegrasi pada seluruh domain.
+
+\subsection{\textit{Roadmap} Arsitektur}
+
+Paket pekerjaan, ketergantungan, dan arsitektur transisi dirangkum menjadi \textit{roadmap} arsitektur terkonsolidasi yang ditunjukkan pada Gambar~\ref{fig:d4-28}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.00\textwidth]{images/Roadmap arsitektur terkonsolidasi.drawio.png}
+\caption{\textit{Roadmap} Arsitektur}
+\label{fig:d4-28}
+\end{figure}
+
+Gambar~\ref{fig:d4-28} menempatkan setiap paket pekerjaan pada tiga horizon waktu, sehingga \textit{roadmap} setiap fase kini tergabung dalam satu gambar. Penanda di bagian bawah menunjukkan saat tercapainya Arsitektur Transisi Tahap 1, Arsitektur Transisi Tahap 2, dan Arsitektur Target. WP-02 baru dimulai pada jangka menengah karena bergantung pada terbentuknya DTO pada jangka pendek, sedangkan WP-06 berjalan pada seluruh horizon sebagai pelindung paket lainnya.
+
+\section{Fase \textit{Migration Planning}}
+
+Fase \textit{Migration Planning} menyusun rencana implementasi dan migrasi berdasarkan paket pekerjaan (\textit{work packages}), arsitektur transisi, dan \textit{roadmap} arsitektur yang dihasilkan fase \textit{Opportunities \& Solutions}. Perancangan mengikuti \textit{input}, \textit{step}, dan \textit{output} pada Tabel~\ref{tab:migration-planning}. Fase ini menetapkan tata kelola implementasi, menilai nilai manfaat dan kebutuhan sumber daya setiap paket pekerjaan, memprioritaskan paket pekerjaan, serta menyusun jadwal implementasi bertahap tahun 2026–2030 sesuai tujuan penelitian.
+
+\subsection{Tata Kelola Implementasi}
+
+Langkah pertama fase ini adalah memastikan rencana implementasi terhubung dengan kerangka manajemen organisasi, yaitu tata kelola arsitektur, perencanaan dan penganggaran, serta pengawasan. Peran setiap pihak dalam tata kelola implementasi disajikan pada Tabel~\ref{tab:d4-43}.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.200\textwidth}>{\raggedright\arraybackslash}p{0.306\textwidth}>{\raggedright\arraybackslash}p{0.428\textwidth}@{}}
+\caption{Model Tata Kelola Implementasi}
+\label{tab:d4-43}\\
+\toprule
+\textbf{Peran} & \textbf{Pihak} & \textbf{Tanggung Jawab}\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Peran} & \textbf{Pihak} & \textbf{Tanggung Jawab}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Pengarah & Menteri Pertahanan; Sekretaris Jenderal & Menetapkan arah kebijakan serta menyetujui prioritas dan anggaran transformasi\\
+Pengendali arsitektur & DTO dan \textit{Architecture Board} & Menetapkan standar, menilai kepatuhan setiap proyek terhadap arsitektur, dan menetapkan kontrak arsitektur\\
+Pengelola program & DTO (Bidang Strategi dan \textit{Roadmap} Transformasi Digital) & Mengoordinasikan jadwal, ketergantungan, dan pelaporan kemajuan paket pekerjaan\\
+Perencana dan penganggar & Direktorat Jenderal Perencanaan Pertahanan; Biro Perencanaan dan Keuangan & Menyelaraskan paket pekerjaan dengan dokumen perencanaan dan penganggaran pertahanan\\
+Pelaksana & Pusat Data dan Informasi; Pusat Siber dan Intelijen Teknologi Pertahanan; satuan kerja terkait & Melaksanakan paket pekerjaan sesuai kontrak arsitektur\\
+Mitra operasional & Mabes TNI dan ketiga matra & Melaksanakan dan memvalidasi paket pekerjaan C6ISR (WP-07 dan WP-08)\\
+Pengawas & Inspektorat Jenderal & Mengawasi kepatuhan pelaksanaan terhadap ketentuan peraturan perundang-undangan\\
+\end{longtable}
+
+Pada model ini, setiap proyek dalam paket pekerjaan dilaksanakan berdasarkan kontrak arsitektur (\textit{architecture contract}) antara \textit{Architecture Board} dan pelaksana. Kontrak tersebut memuat lingkup proyek, standar yang wajib dipenuhi, dan kriteria penerimaan. \textit{Architecture Board} juga melakukan tinjauan pada setiap akhir tahap untuk memutuskan apakah arsitektur transisi telah tercapai sebelum tahap berikutnya dimulai.
+
+\subsection{Nilai Manfaat dan Kebutuhan Sumber Daya}
+
+Nilai manfaat setiap paket pekerjaan ditentukan berdasarkan kontribusinya terhadap tujuan strategis arsitektur pada Tabel~\ref{tab:d4-5}, sedangkan kebutuhan sumber daya diperkirakan dari sarana penyampaian setiap paket. Data anggaran secara rinci belum tersedia dalam penelitian ini. Oleh karena itu, kebutuhan biaya tidak dinyatakan dalam nominal, tetapi dikelompokkan berdasarkan tingkat kebutuhan investasi. Kategori biaya rendah mencakup kegiatan yang terutama membutuhkan penetapan regulasi dan penataan organisasi. Kategori sedang mencakup pengembangan sistem dan perangkat lunak, sedangkan kategori tinggi mencakup pembangunan infrastruktur fisik atau pengadaan dalam skala besar. Hasilnya disajikan pada Tabel~\ref{tab:d4-44}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.099\textwidth}>{\raggedright\arraybackslash}p{0.159\textwidth}>{\raggedright\arraybackslash}p{0.339\textwidth}>{\raggedright\arraybackslash}p{0.121\textwidth}>{\raggedright\arraybackslash}p{0.154\textwidth}@{}}
+\caption{Nilai Manfaat dan Kebutuhan Sumber Daya Paket Pekerjaan}
+\label{tab:d4-44}\\
+\toprule
+\textbf{Paket} & \textbf{Tujuan Strategis (Tabel~\ref{tab:d4-5})} & \textbf{Sarana Penyampaian} & \textbf{Kelas Biaya} & \textbf{Horizon}\\
+\midrule
+\endfirsthead
+\multicolumn{5}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Paket} & \textbf{Tujuan Strategis (Tabel~\ref{tab:d4-5})} & \textbf{Sarana Penyampaian} & \textbf{Kelas Biaya} & \textbf{Horizon}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+WP-01 & 3, 6 & Penetapan regulasi dan penataan organisasi & Rendah & Pendek–Panjang\\
+WP-02 & 1, 5 & Standardisasi proses, pelatihan, dan rekrutmen & Sedang & Menengah–Panjang\\
+WP-03 & 1, 3, 6 & Penetapan regulasi data dan pengembangan sistem & Sedang & Pendek–Panjang\\
+WP-04 & 1, 3, 5 & Pengembangan sistem dan konsolidasi aplikasi & Sedang & Pendek–Panjang\\
+WP-05 & 1, 4 & Pengadaan dan pembangunan infrastruktur & Tinggi & Pendek–Panjang\\
+WP-06 & 2, 6 & Pengadaan perangkat keamanan dan pembentukan SOC & Sedang & Pendek–Panjang\\
+WP-07 & 1, 3, 4 & Standardisasi, pengembangan sistem, dan integrasi alutsista bersama Mabes TNI & Tinggi & Pendek–Panjang\\
+WP-08 & 1, 2, 4 & Sewa kapasitas, pengadaan perangkat komunikasi, dan pengembangan satelit & Tinggi & Pendek–Panjang\\
+\end{longtable}
+}
+
+Tabel~\ref{tab:d4-44} menunjukkan bahwa WP-03, WP-04, WP-07, dan WP-08 mendukung tiga tujuan strategis sekaligus, sehingga memiliki nilai manfaat tertinggi. Namun, WP-05, WP-07, dan WP-08 juga membutuhkan biaya tertinggi karena melibatkan infrastruktur fisik, integrasi alutsista, dan satelit. Perbedaan antara manfaat dan biaya inilah yang menjadi dasar penentuan prioritas.
+
+\subsection{Prioritas Paket Pekerjaan}
+
+Prioritas setiap paket pekerjaan ditentukan berdasarkan empat kriteria, yaitu manfaat strategis, biaya, risiko, dan ketergantungan. Masing-masing kriteria diberi skor 1 sampai 3. Semakin tinggi skor, semakin tinggi prioritas paket pekerjaan tersebut. Penilaian dilakukan dengan ketentuan sebagai berikut:
+
+\begin{enumerate}[label=\alph*.]
+  \item \textbf{Manfaat strategis} dinilai berdasarkan jumlah tujuan strategis yang didukung pada Tabel~\ref{tab:d4-44}. Paket yang mendukung satu tujuan mendapat skor 1, dua tujuan mendapat skor 2, dan tiga tujuan mendapat skor 3.
+  \item \textbf{Biaya} dinilai berdasarkan kelas biaya pada Tabel~\ref{tab:d4-44}. Biaya tinggi mendapat skor 1, biaya sedang mendapat skor 2, dan biaya rendah mendapat skor 3. Dengan demikian, paket dengan biaya lebih rendah memperoleh skor yang lebih tinggi.
+  \item \textbf{Risiko} dinilai berdasarkan tingkat kesiapan pada Tabel~\ref{tab:d4-41}. Tingkat kesiapan rendah atau rendah–sedang mendapat skor 1, sedang mendapat skor 2, dan tinggi mendapat skor 3. Apabila suatu paket memiliki lebih dari satu faktor yang memengaruhi kesiapan, digunakan tingkat kesiapan terendah sebagai dasar penilaian.
+  \item \textbf{Ketergantungan} dinilai berdasarkan jumlah paket pekerjaan lain yang bergantung pada paket tersebut, sebagaimana ditunjukkan pada Gambar~\ref{fig:d4-27}. Paket yang tidak menjadi ketergantungan bagi paket lain mendapat skor 1, menjadi ketergantungan bagi satu paket mendapat skor 2, dan menjadi ketergantungan bagi dua paket atau lebih mendapat skor 3.
+\end{enumerate}
+Skor keempat kriteria dijumlahkan sehingga total skor berada pada rentang 4–12. Paket dengan skor total 9–12 ditetapkan sebagai Prioritas I, skor total 7–8 sebagai Prioritas II, dan skor total 4–6 sebagai Prioritas III, sebagaimana disajikan pada Tabel~\ref{tab:d4-45} dan Gambar~\ref{fig:d4-29}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.097\textwidth}>{\raggedright\arraybackslash}p{0.122\textwidth}>{\raggedright\arraybackslash}p{0.092\textwidth}>{\raggedright\arraybackslash}p{0.092\textwidth}>{\raggedright\arraybackslash}p{0.189\textwidth}>{\raggedright\arraybackslash}p{0.087\textwidth}>{\raggedright\arraybackslash}p{0.131\textwidth}@{}}
+\caption{Skor Prioritas Paket Pekerjaan}
+\label{tab:d4-45}\\
+\toprule
+\textbf{Paket} & \textbf{Manfaat Strategis} & \textbf{Biaya} & \textbf{Risiko} & \textbf{Ketergantungan} & \textbf{Total} & \textbf{Prioritas}\\
+\midrule
+\endfirsthead
+\multicolumn{7}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Paket} & \textbf{Manfaat Strategis} & \textbf{Biaya} & \textbf{Risiko} & \textbf{Ketergantungan} & \textbf{Total} & \textbf{Prioritas}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+WP-01 & 2 & 3 & 2 & 3 & 10 & I\\
+WP-06 & 2 & 2 & 2 & 3 & 9 & I\\
+WP-03 & 3 & 2 & 1 & 2 & 8 & II\\
+WP-05 & 2 & 1 & 2 & 3 & 8 & II\\
+WP-04 & 3 & 2 & 1 & 2 & 8 & II\\
+WP-08 & 3 & 1 & 2 & 2 & 8 & II\\
+WP-02 & 2 & 2 & 1 & 1 & 6 & III\\
+WP-07 & 3 & 1 & 1 & 1 & 6 & III\\
+\end{longtable}
+}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{images/Skor_Prioritas_Paket_Pekerjaan.drawio.png}
+\caption{Skor Prioritas Paket Pekerjaan}
+\label{fig:d4-29}
+\end{figure}
+
+Tabel~\ref{tab:d4-45} dan Gambar~\ref{fig:d4-29} menghasilkan tiga tingkat prioritas. Prioritas I, yaitu WP-01 dan WP-06, memperoleh skor tertinggi karena menjadi prasyarat atau pelindung bagi paket lainnya dengan biaya yang relatif terjangkau. Prioritas II terdiri atas WP-03, WP-05, WP-04, dan WP-08 yang membangun fondasi data, infrastruktur, integrasi, dan komunikasi. Urutan di dalam kelompok ini mengikuti ketergantungan pada Gambar~\ref{fig:d4-27}, sehingga WP-03 dan WP-05 didahulukan sebelum WP-04 dan WP-08. Prioritas III terdiri atas WP-02 dan WP-07.
+
+Prioritas menunjukkan urutan pemusatan sumber daya, bukan tingkat kepentingan. WP-07 memiliki manfaat strategis tertinggi sebagai inti C6ISR, tetapi berada pada prioritas III karena biayanya tinggi, kesiapannya rendah, dan bergantung pada hampir seluruh paket lainnya. Oleh karena itu, inisiatif WP-07 yang berbiaya rendah, yaitu penetapan standar interoperabilitas dan prosedur \textit{Command \& Control}, tetap dilaksanakan sejak jangka pendek, sedangkan integrasi penuhnya dilaksanakan setelah fondasi tersedia.
+
+\subsection{Rencana Implementasi dan Migrasi}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.00\textwidth]{images/Jadwal_Implementasi_dan_Migrasi.drawio.png}
+\caption{Jadwal Implementasi dan Migrasi 2026–2030}
+\label{fig:d4-30}
+\end{figure}
+
+Berdasarkan prioritas tersebut, paket pekerjaan dijadwalkan dalam rencana implementasi tahun 2026–2030 sesuai tujuan penelitian. Horizon jangka pendek ditempatkan pada tahun 2026, jangka menengah pada 2027–2028, dan jangka panjang pada 2029–2030, sehingga target kematangan keamanan siber level 3 pada tahun 2029 berada dalam horizon jangka panjang. Jadwal implementasi per semester disajikan pada Gambar~\ref{fig:d4-30}.
+
+Gambar~\ref{fig:d4-30} menunjukkan bahwa inisiatif dalam satu horizon tidak selalu dimulai bersamaan. Platform integrasi (WP-04) dimulai pada semester kedua 2027 setelah pembangunan Portal Satu Data Pertahanan dan virtualisasi berjalan, sedangkan pusat pengolahan data dan TPT (WP-07) dimulai pada 2028 setelah jaringan terklasifikasi (WP-06) mulai dibangun. Pengembangan satelit pertahanan ditandai dapat berlanjut setelah 2030 karena bergantung pada hasil kajian dan ketersediaan slot orbit.
+
+Pelaksanaan jadwal tersebut dibagi ke dalam tiga tahap migrasi. Setiap tahap diakhiri dengan tinjauan \textit{Architecture Board} berdasarkan indikator keberhasilan, sebagaimana disajikan pada Tabel~\ref{tab:d4-46}.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.143\textwidth}>{\raggedright\arraybackslash}p{0.115\textwidth}>{\raggedright\arraybackslash}p{0.170\textwidth}>{\raggedright\arraybackslash}p{0.289\textwidth}>{\raggedright\arraybackslash}p{0.154\textwidth}@{}}
+\caption{Tahapan Migrasi dan Indikator Keberhasilan}
+\label{tab:d4-46}\\
+\toprule
+\textbf{Tahap} & \textbf{Periode} & \textbf{Fokus Paket Pekerjaan} & \textbf{Indikator Keberhasilan} & \textbf{Titik Keputusan}\\
+\midrule
+\endfirsthead
+\multicolumn{5}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{Tahap} & \textbf{Periode} & \textbf{Fokus Paket Pekerjaan} & \textbf{Indikator Keberhasilan} & \textbf{Titik Keputusan}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Tahap 1: Fondasi Tata Kelola dan Standar & 2026 & WP-01 dan WP-06 (Prioritas I); inisiatif jangka pendek pada paket lainnya & \textbullet~DTO dan \textit{Architecture Board} ditetapkan\newline \textbullet~Klasifikasi, kamus data, dan standar interoperabilitas ditetapkan\newline \textbullet~Peta rasionalisasi aplikasi tersedia\newline \textbullet~DRC dan keamanan dasar tersedia\newline \textbullet~Standar interoperabilitas, prosedur \textit{Command \& Control}, rencana PACE, dan SATCOM sewa ditetapkan & Tinjauan Arsitektur Transisi Tahap 1\\
+Tahap 2: Integrasi Data dan Platform & 2027–2028 & WP-03, WP-05, WP-04, dan WP-08 (Prioritas II); WP-02 dimulai & \textbullet~Proses bisnis terstandar dengan koordinasi lintas matra yang terstruktur\newline \textbullet~Portal Satu Data Pertahanan, platform integrasi, dan SSO/IAM beroperasi\newline \textbullet~Virtualisasi, kontainer, jaringan tersegmentasi, dan SOC beroperasi\newline \textbullet~Jaringan terklasifikasi dan TPT lintas matra beroperasi\newline \textbullet~Skema PACE diimplementasikan & Tinjauan Arsitektur Transisi Tahap 2\\
+Tahap 3: Pertahanan Cerdas Terintegrasi & 2029–2030 & WP-07 dan WP-02 (Prioritas III); penyelesaian seluruh paket & \textbullet~Budaya transformasi berkelanjutan\newline \textbullet~Integrasi penuh ISR, \textit{Command \& Control}, dan \textit{Combat Systems}\newline \textbullet~Data Center Utama dan DRC aktif-aktif\newline \textbullet~Kematangan keamanan siber level 3 (2029)\newline \textbullet~Interoperabilitas dengan Portal Satu Data Indonesia\newline \textbullet~PACE diterapkan penuh & Evaluasi arsitektur target dan \textit{Request for Architecture Work} siklus berikutnya\\
+\end{longtable}
+}
+
+Indikator keberhasilan pada Tabel~\ref{tab:d4-46} diturunkan dari kondisi arsitektur transisi pada Tabel~\ref{tab:d4-42}, sehingga setiap tahap memiliki ukuran yang jelas sebelum tahap berikutnya dimulai. Apabila indikator suatu tahap belum tercapai, \textit{Architecture Board} dapat menyesuaikan jadwal tahap berikutnya tanpa mengubah arsitektur target.
+
+\subsection{Keluaran Fase Migration Planning}
+
+Keluaran fase \textit{Migration Planning} yang ditetapkan pada Tabel~\ref{tab:migration-planning} dipenuhi oleh artefak yang telah disusun pada Bab IV, sebagaimana disajikan pada Tabel~\ref{tab:d4-47}.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.063\textwidth}>{\raggedright\arraybackslash}p{0.388\textwidth}>{\raggedright\arraybackslash}p{0.482\textwidth}@{}}
+\caption{Keluaran Fase \textit{Migration Planning}}
+\label{tab:d4-47}\\
+\toprule
+\textbf{No.} & \textbf{Keluaran} & \textbf{Perwujudan dalam Penelitian}\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\small\itshape \tablename\ \thetable{} (lanjutan)}\\
+\toprule
+\textbf{No.} & \textbf{Keluaran} & \textbf{Perwujudan dalam Penelitian}\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+1 & Rencana implementasi dan migrasi yang terperinci & Gambar~\ref{fig:d4-30} dan Tabel~\ref{tab:d4-46}\\
+2 & \textit{Architecture Definition Document} final & Rangkaian arsitektur pada Subbab IV.1 hingga IV.8\\
+3 & \textit{Architecture Requirements Specification} final & Prinsip arsitektur (Tabel~\ref{tab:d4-1}), kebutuhan operasional C6ISR (Tabel~\ref{tab:d4-27}), serta prinsip dan standar teknologi (Tabel~\ref{tab:d4-23})\\
+4 & \textit{Roadmap} arsitektur final & Gambar~\ref{fig:d4-28} dan Gambar~\ref{fig:d4-30}\\
+5 & \textit{Architecture Building Block} yang dapat digunakan ulang & Portal Satu Data Pertahanan, platform integrasi, TPT, skema PACE, dan kerangka \textit{cyber defense} C6ISR\\
+6 & \textit{Request for Architecture Work} untuk siklus berikutnya & Diajukan setelah evaluasi arsitektur target pada akhir Tahap 3\\
+7 & Kontrak arsitektur & Ditetapkan per proyek oleh \textit{Architecture Board}\\
+8 & Model tata kelola implementasi & Tabel~\ref{tab:d4-43}\\
+9 & \textit{Roadmap} jangka pendek, menengah, dan panjang & Gambar~\ref{fig:d4-30} (2026, 2027–2028, dan 2029–2030)\\
+\end{longtable}
+
+Dengan tersusunnya rencana implementasi dan migrasi, rangkaian perancangan arsitektur pada penelitian ini selesai. Fase \textit{Implementation Governance} dan \textit{Architecture Change Management} dilaksanakan ketika implementasi berjalan, sehingga berada di luar cakupan perancangan penelitian ini. Rancangan arsitektur yang dihasilkan selanjutnya dievaluasi pada Bab V.
